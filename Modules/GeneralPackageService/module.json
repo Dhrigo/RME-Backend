@@ -1,0 +1,13 @@
+{
+    "name": "GeneralPackageService",
+    "alias": "generalpackageservice",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPackageService\\Providers\\GeneralPackageServiceServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

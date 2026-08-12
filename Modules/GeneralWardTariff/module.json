@@ -1,0 +1,13 @@
+{
+    "name": "GeneralWardTariff",
+    "alias": "generalwardtariff",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralWardTariff\\Providers\\GeneralWardTariffServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

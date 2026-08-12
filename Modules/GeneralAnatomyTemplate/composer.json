@@ -1,0 +1,17 @@
+{
+    "name": "nwidart/generalanatomytemplate",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralAnatomyTemplate\\": "app/",
+            "Modules\\GeneralAnatomyTemplate\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralAnatomyTemplate\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}

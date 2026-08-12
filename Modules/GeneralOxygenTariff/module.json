@@ -1,0 +1,13 @@
+{
+    "name": "GeneralOxygenTariff",
+    "alias": "generaloxygentariff",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralOxygenTariff\\Providers\\GeneralOxygenTariffServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

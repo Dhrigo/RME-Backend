@@ -1,0 +1,17 @@
+{
+    "name": "nwidart/generalpackageservice",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPackageService\\": "app/",
+            "Modules\\GeneralPackageService\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPackageService\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}

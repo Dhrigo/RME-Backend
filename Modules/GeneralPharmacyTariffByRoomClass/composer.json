@@ -1,0 +1,17 @@
+{
+    "name": "nwidart/generalpharmacytariffbyroomclass",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPharmacyTariffByRoomClass\\": "app/",
+            "Modules\\GeneralPharmacyTariffByRoomClass\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPharmacyTariffByRoomClass\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}

@@ -50,5 +50,14 @@
     "InventorySupplier": true,
     "InventoryGoodsReceipt": true,
     "InventoryStockRequest": true,
-    "PembayaranDeposit": true
+    "PembayaranDeposit": true,
+    "GeneralAdministrationTariff": true,
+    "GeneralAnatomyTemplate": true,
+    "GeneralOxygenTariff": true,
+    "GeneralPackageItem": true,
+    "GeneralPackageService": true,
+    "GeneralPharmacyTariffByRoomClass": true,
+    "GeneralProcedure": true,
+    "GeneralServiceTariffDistribution": true,
+    "GeneralWardTariff": true
 }

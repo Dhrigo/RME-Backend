@@ -1,0 +1,17 @@
+{
+    "name": "nwidart/generalwardtariff",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralWardTariff\\": "app/",
+            "Modules\\GeneralWardTariff\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralWardTariff\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}

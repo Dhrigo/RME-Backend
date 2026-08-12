@@ -1,0 +1,17 @@
+{
+    "name": "nwidart/generalservicetariffdistribution",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralServiceTariffDistribution\\": "app/",
+            "Modules\\GeneralServiceTariffDistribution\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralServiceTariffDistribution\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}

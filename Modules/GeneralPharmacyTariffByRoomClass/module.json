@@ -1,0 +1,13 @@
+{
+    "name": "GeneralPharmacyTariffByRoomClass",
+    "alias": "generalpharmacytariffbyroomclass",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPharmacyTariffByRoomClass\\Providers\\GeneralPharmacyTariffByRoomClassServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

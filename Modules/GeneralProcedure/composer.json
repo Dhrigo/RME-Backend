@@ -1,0 +1,17 @@
+{
+    "name": "nwidart/generalprocedure",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralProcedure\\": "app/",
+            "Modules\\GeneralProcedure\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralProcedure\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}
