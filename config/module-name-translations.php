@@ -7,6 +7,7 @@ return array (
     'Bahasa' => 'Language',
     'Diagnosa' => 'DiagnosisCode',
     'GroupLab' => 'LabGroup',
+    'GroupTindakanLab' => 'LabServiceGroup',
     'JenisKelamin' => 'Gender',
     'JenisKunjunganRuangan' => 'WardVisitType',
     'JenisRuangan' => 'WardType',

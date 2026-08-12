@@ -51,5 +51,6 @@
     "InventoryGoodsReceipt": true,
     "InventoryStockRequest": true,
     "PembayaranDeposit": true,
-    "GeneralLabGroup": true
+    "GeneralLabGroup": true,
+    "GeneralLabServiceGroup": true
 }
