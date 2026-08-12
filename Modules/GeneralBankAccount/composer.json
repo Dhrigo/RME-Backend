@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalbankaccount",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralBankAccount\\": "app/",
+            "Modules\\GeneralBankAccount\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralBankAccount\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralBankAccount\\Tests\\": "tests/"
+        }
+    }
+}

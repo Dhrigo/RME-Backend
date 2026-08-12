@@ -22,6 +22,7 @@ return array (
     'Pekerjaan' => 'Occupation',
     'Pendidikan' => 'Education',
     'Profesi' => 'Profession',
+    'Rekening' => 'BankAccount',
     'RuangKamar' => 'Room',
     'RuangKamarTidur' => 'Bed',
     'Ruangan' => 'Ward',

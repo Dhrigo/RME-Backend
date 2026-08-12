@@ -54,5 +54,6 @@
     "GeneralInstitution": true,
     "GeneralRegionType": true,
     "GeneralReferenceType": true,
-    "GeneralReportType": true
+    "GeneralReportType": true,
+    "GeneralBankAccount": true
 }
