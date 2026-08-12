@@ -44,5 +44,6 @@
     "MedicalRecordSurgery": true,
     "MedicalRecordTriage": true,
     "GeneralServiceType": true,
-    "GeneralWardType": true
+    "GeneralWardType": true,
+    "MedicalRecordBloodTransfusion": true
 }

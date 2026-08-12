@@ -51,6 +51,7 @@ return array (
     'Operasi' => 'Surgery',
     'RiwayatAlergi' => 'Allergy',
     'TandaVital' => 'VitalSign',
+    'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
   'Pembayaran' => 

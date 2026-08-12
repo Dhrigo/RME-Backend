@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbloodtransfusion",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBloodTransfusion\\": "app/",
+            "Modules\\MedicalRecordBloodTransfusion\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBloodTransfusion\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBloodTransfusion\\Tests\\": "tests/"
+        }
+    }
+}
