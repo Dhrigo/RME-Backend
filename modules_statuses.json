@@ -1,5 +1,8 @@
 {
     "Auth": true,
     "Authorization": true,
-    "GeneralEmployee": true
+    "GeneralEmployee": true,
+    "GeneralReligion": true,
+    "GeneralGender": true,
+    "GeneralProfession": true
 }

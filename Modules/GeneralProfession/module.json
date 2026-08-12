@@ -1,0 +1,11 @@
+{
+    "name": "GeneralProfession",
+    "alias": "generalprofession",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralProfession\\Providers\\GeneralProfessionServiceProvider"
+    ],
+    "files": []
+}

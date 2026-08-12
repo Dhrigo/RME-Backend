@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalprofession",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralProfession\\": "app/",
+            "Modules\\GeneralProfession\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralProfession\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralProfession\\Tests\\": "tests/"
+        }
+    }
+}

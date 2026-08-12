@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalgender",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralGender\\": "app/",
+            "Modules\\GeneralGender\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralGender\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralGender\\Tests\\": "tests/"
+        }
+    }
+}

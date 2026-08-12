@@ -1,0 +1,11 @@
+{
+    "name": "GeneralReligion",
+    "alias": "generalreligion",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralReligion\\Providers\\GeneralReligionServiceProvider"
+    ],
+    "files": []
+}
