@@ -56,5 +56,6 @@
     "GeneralExaminationGroup": true,
     "GeneralRoomClassReferenceGroup": true,
     "GeneralLabServiceParameter": true,
-    "GeneralLabReferenceValue": true
+    "GeneralLabReferenceValue": true,
+    "GeneralIcdSnomedCtMapping": true
 }

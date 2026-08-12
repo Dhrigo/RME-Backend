@@ -10,6 +10,7 @@ return array (
     'GroupPemeriksaan' => 'ExaminationGroup',
     'GroupReferensiKelas' => 'RoomClassReferenceGroup',
     'GroupTindakanLab' => 'LabServiceGroup',
+    'IcdSnomedCt' => 'IcdSnomedCtMapping',
     'JenisKelamin' => 'Gender',
     'JenisKunjunganRuangan' => 'WardVisitType',
     'JenisRuangan' => 'WardType',
