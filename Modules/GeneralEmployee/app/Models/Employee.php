@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Auth\Models\User;
 use Modules\GeneralEmployee\Database\Factories\EmployeeFactory;
 use Modules\GeneralGender\Models\Gender;
+use Modules\GeneralMedicalDepartment\Models\MedicalDepartment;
 use Modules\GeneralProfession\Models\Profession;
 use Modules\GeneralReligion\Models\Religion;
 use Laravolt\Indonesia\Models\Village;
@@ -70,6 +71,11 @@ class Employee extends Model
     public function village(): BelongsTo
     {
         return $this->belongsTo(Village::class);
+    }
+
+    public function medicalDepartment(): BelongsTo
+    {
+        return $this->belongsTo(MedicalDepartment::class, 'smf_id');
     }
 
     protected static function newFactory(): EmployeeFactory

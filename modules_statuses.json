@@ -38,5 +38,6 @@
     "MedicalRecordAllergy": true,
     "LayananMedicalProcedure": true,
     "PendaftaranReferral": true,
-    "GeneralPackage": true
+    "GeneralPackage": true,
+    "GeneralMedicalDepartment": true
 }

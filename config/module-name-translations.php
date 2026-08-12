@@ -18,6 +18,7 @@ return array (
     'RuangKamar' => 'Room',
     'RuangKamarTidur' => 'Bed',
     'Ruangan' => 'Ward',
+    'Smf' => 'MedicalDepartment',
     'StatusPerkawinan' => 'MaritalStatus',
     'Suku' => 'Ethnicity',
     'TarifTindakan' => 'ServiceTariff',
