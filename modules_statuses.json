@@ -36,5 +36,6 @@
     "LayananLabResult": true,
     "MedicalRecordVitalSign": true,
     "MedicalRecordAllergy": true,
-    "LayananMedicalProcedure": true
+    "LayananMedicalProcedure": true,
+    "PendaftaranReferral": true
 }

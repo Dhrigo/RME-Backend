@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranReferral",
+    "alias": "pendaftaranreferral",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranReferral\\Providers\\PendaftaranReferralServiceProvider"
+    ],
+    "files": []
+}

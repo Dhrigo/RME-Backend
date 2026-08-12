@@ -57,5 +57,6 @@ return array (
     'Kunjungan' => 'Visit',
     'Pendaftaran' => 'Registration',
     'Penjamin' => 'Guarantor',
+    'RujukanKeluar' => 'Referral',
   ),
 );

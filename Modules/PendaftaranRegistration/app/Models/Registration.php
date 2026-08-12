@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Auth\Models\User;
 use Modules\GeneralDiagnosisCode\Models\DiagnosisCode;
 use Modules\GeneralPatient\Models\Patient;
+use Modules\PendaftaranReferral\Models\Referral;
 use Modules\PendaftaranRegistration\Database\Factories\RegistrationFactory;
 
 class Registration extends Model
@@ -57,6 +58,11 @@ class Registration extends Model
     public function admissionDiagnosis(): BelongsTo
     {
         return $this->belongsTo(DiagnosisCode::class, 'admission_diagnosis_id');
+    }
+
+    public function referral(): BelongsTo
+    {
+        return $this->belongsTo(Referral::class);
     }
 
     /**
