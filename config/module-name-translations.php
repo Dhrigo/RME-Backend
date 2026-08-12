@@ -22,6 +22,10 @@ return array (
     'Tindakan' => 'Service',
     'Wilayah' => 'Region',
   ),
+  'Inventory' => 
+  array (
+    'Barang' => 'Item',
+  ),
   'Kemkes' => 
   array (
     'GolonganDarah' => 'BloodType',

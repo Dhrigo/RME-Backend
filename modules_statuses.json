@@ -28,5 +28,6 @@
     "GeneralDiagnosisCode": true,
     "MedicalRecordDiagnosis": true,
     "LayananPrescription": true,
-    "LayananPrescriptionItem": true
+    "LayananPrescriptionItem": true,
+    "InventoryItem": true
 }

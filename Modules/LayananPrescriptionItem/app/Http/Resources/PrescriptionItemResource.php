@@ -12,6 +12,7 @@ class PrescriptionItemResource extends JsonResource
         return [
             'id' => $this->id,
             'prescription_id' => $this->prescription_id,
+            'item_id' => $this->item_id,
             'drug_name' => $this->drug_name,
             'dosage' => $this->dosage,
             'frequency' => $this->frequency,

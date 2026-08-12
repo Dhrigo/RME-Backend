@@ -15,6 +15,7 @@ class StorePrescriptionItemRequest extends FormRequest
     {
         return [
             'prescription_id' => ['required', 'integer', 'exists:prescriptions,id'],
+            'item_id' => ['nullable', 'integer', 'exists:items,id'],
             'drug_name' => ['required', 'string', 'max:255'],
             'dosage' => ['required', 'string', 'max:255'],
             'frequency' => ['required', 'string', 'max:255'],
