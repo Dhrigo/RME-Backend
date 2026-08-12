@@ -35,19 +35,18 @@ return [
     |
     */
     'stubs' => [
-        'enabled' => false,
-        'path' => base_path('vendor/nwidart/laravel-modules/src/Commands/stubs'),
+        'enabled' => true,
+        'path' => base_path('stubs'),
+        // routes/web, scaffold/config (config/config.php), views/*, assets/*,
+        // vite, package intentionally omitted - this is an API-only backend
+        // with no per-module custom config, so those files are dead weight
+        // that costs a directory scan / file merge / route group on every
+        // boot for nothing (see ModuleServiceProvider::registerConfig()).
+        // MakeCatalogSubmodule also deletes any of these nwidart writes
+        // anyway via its non-stub-driven default generation paths.
         'files' => [
-            'routes/web' => 'routes/web.php',
             'routes/api' => 'routes/api.php',
-            'views/index' => 'resources/views/index.blade.php',
-            'views/master' => 'resources/views/components/layouts/master.blade.php',
-            'scaffold/config' => 'config/config.php',
             'composer' => 'composer.json',
-            'assets/js/app' => 'resources/assets/js/app.js',
-            'assets/sass/app' => 'resources/assets/sass/app.scss',
-            'vite' => 'vite.config.js',
-            'package' => 'package.json',
         ],
         'replacements' => [
             /**

@@ -113,16 +113,19 @@ class MakeCatalogSubmodule extends Command
     }
 
     /**
-     * `module:make --api` still generates resources/views, resources/assets, vite.config.js
-     * and package.json regardless of config/modules.php's generator.*.generate=false toggles
-     * (that config only governs individual `module:make-*` sub-generators, not this one). This
-     * app is API-only, so drop the dead weight immediately.
+     * `module:make --api` still generates resources/views, resources/assets, vite.config.js,
+     * package.json, routes/web.php and config/config.php regardless of config/modules.php's
+     * generator.*.generate=false toggles (that config only governs individual `module:make-*`
+     * sub-generators, not this one). This app is API-only with no per-module custom config, so
+     * drop the dead weight immediately - an empty config/config.php in particular is a real,
+     * multiplying-with-module-count cost: ModuleServiceProvider::registerConfig() walks it with
+     * a RecursiveDirectoryIterator and merges it into config() on every single boot.
      */
     private function stripUnusedScaffold(string $name): void
     {
         $path = base_path("Modules/{$name}");
 
-        foreach (['resources', 'vite.config.js', 'package.json'] as $item) {
+        foreach (['resources', 'vite.config.js', 'package.json', 'config', 'routes/web.php'] as $item) {
             $target = "{$path}/{$item}";
             is_dir($target) ? File::deleteDirectory($target) : @unlink($target);
         }

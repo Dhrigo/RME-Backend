@@ -21,6 +21,29 @@ use Nwidart\Modules\ModuleManifest;
 class CachedLaravelModulesServiceProvider extends LaravelModulesServiceProvider
 {
     /**
+     * nwidart's own register() calls registerProviders(), which registers its
+     * Nwidart\Modules\Providers\ContractsServiceProvider - and THAT does a plain
+     * `$this->app->bind(RepositoryInterface::class, LaravelFileRepository::class)`,
+     * silently overwriting our cached singleton binding from registerServices() below.
+     * The result: every module_path() call for the rest of the request/test (there are
+     * several per module - registerTranslations, registerConfig, registerViews,
+     * loadMigrationsFrom) resolves the plain uncached repository and does a full
+     * glob-scan of every module.json, every single call. That's O(n) module_path()
+     * calls each doing an O(n) scan - O(n^2) real filesystem I/O per boot, the actual
+     * cause of this app's growing per-module test-suite cost (confirmed by
+     * instrumentation: at 52 modules this silent bug alone cost ~30-40ms/module and
+     * would have gotten quadratically worse toward the 675-module catalog target).
+     * Re-asserting the binding here, after parent::register() has already run (and
+     * been clobbered), guarantees it's correct again before boot() - and therefore
+     * every module_path() call - runs.
+     */
+    public function register()
+    {
+        parent::register();
+        $this->registerServices();
+    }
+
+    /**
      * {@inheritdoc}
      */
     protected function registerServices()
