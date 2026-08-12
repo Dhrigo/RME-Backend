@@ -34,5 +34,6 @@
     "PendaftaranGuarantor": true,
     "LayananLabOrder": true,
     "LayananLabResult": true,
-    "MedicalRecordVitalSign": true
+    "MedicalRecordVitalSign": true,
+    "MedicalRecordAllergy": true
 }

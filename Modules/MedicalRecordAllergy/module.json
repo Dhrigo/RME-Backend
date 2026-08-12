@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordAllergy",
+    "alias": "medicalrecordallergy",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordAllergy\\Providers\\MedicalRecordAllergyServiceProvider"
+    ],
+    "files": []
+}

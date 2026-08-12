@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordallergy",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordAllergy\\": "app/",
+            "Modules\\MedicalRecordAllergy\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordAllergy\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordAllergy\\Tests\\": "tests/"
+        }
+    }
+}
