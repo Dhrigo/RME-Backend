@@ -52,5 +52,6 @@
     "InventoryStockRequest": true,
     "PembayaranDeposit": true,
     "GeneralInstitution": true,
-    "GeneralRegionType": true
+    "GeneralRegionType": true,
+    "GeneralReferenceType": true
 }
