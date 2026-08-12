@@ -1,0 +1,11 @@
+{
+    "name": "GeneralKip",
+    "alias": "generalkip",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralKip\\Providers\\GeneralKipServiceProvider"
+    ],
+    "files": []
+}

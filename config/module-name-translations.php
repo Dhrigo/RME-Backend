@@ -15,6 +15,7 @@ return array (
     'JenisTindakan' => 'ServiceType',
     'JenisWilayah' => 'RegionType',
     'KAP' => 'Kap',
+    'KIP' => 'Kip',
     'Kelas' => 'RoomClass',
     'Negara' => 'Country',
     'PPK' => 'Ppk',
