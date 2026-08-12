@@ -34,6 +34,7 @@ return array (
     'Suku' => 'Ethnicity',
     'TarifTindakan' => 'ServiceTariff',
     'Tindakan' => 'Service',
+    'TopographyIcdO' => 'IcdOTopography',
     'Wilayah' => 'Region',
   ),
   'Inventory' => 

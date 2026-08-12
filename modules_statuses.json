@@ -58,5 +58,6 @@
     "GeneralLabServiceParameter": true,
     "GeneralLabReferenceValue": true,
     "GeneralIcdSnomedCtMapping": true,
-    "GeneralIcdOMorphology": true
+    "GeneralIcdOMorphology": true,
+    "GeneralIcdOTopography": true
 }
