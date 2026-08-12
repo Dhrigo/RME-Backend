@@ -46,5 +46,6 @@
     "GeneralServiceType": true,
     "GeneralWardType": true,
     "MedicalRecordBloodTransfusion": true,
-    "MedicalRecordDischargeSummary": true
+    "MedicalRecordDischargeSummary": true,
+    "InventorySupplier": true
 }
