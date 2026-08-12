@@ -37,5 +37,6 @@
     "MedicalRecordVitalSign": true,
     "MedicalRecordAllergy": true,
     "LayananMedicalProcedure": true,
-    "PendaftaranReferral": true
+    "PendaftaranReferral": true,
+    "GeneralPackage": true
 }

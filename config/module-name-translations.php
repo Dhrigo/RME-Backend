@@ -9,6 +9,7 @@ return array (
     'JenisKelamin' => 'Gender',
     'Kelas' => 'RoomClass',
     'Negara' => 'Country',
+    'Paket' => 'Package',
     'Pasien' => 'Patient',
     'Pegawai' => 'Employee',
     'Pekerjaan' => 'Occupation',
