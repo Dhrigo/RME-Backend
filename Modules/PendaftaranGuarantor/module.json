@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranGuarantor",
+    "alias": "pendaftaranguarantor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranGuarantor\\Providers\\PendaftaranGuarantorServiceProvider"
+    ],
+    "files": []
+}
