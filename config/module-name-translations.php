@@ -49,6 +49,7 @@ return array (
     'CPPT' => 'ClinicalNote',
     'Diagnosa' => 'Diagnosis',
     'Operasi' => 'Surgery',
+    'Resume' => 'DischargeSummary',
     'RiwayatAlergi' => 'Allergy',
     'TandaVital' => 'VitalSign',
     'TransfusiDarah' => 'BloodTransfusion',

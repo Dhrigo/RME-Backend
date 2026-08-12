@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordDischargeSummary",
+    "alias": "medicalrecorddischargesummary",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordDischargeSummary\\Providers\\MedicalRecordDischargeSummaryServiceProvider"
+    ],
+    "files": []
+}
