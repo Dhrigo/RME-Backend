@@ -1,0 +1,11 @@
+{
+    "name": "GeneralIcdOMorphology",
+    "alias": "generalicdomorphology",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralIcdOMorphology\\Providers\\GeneralIcdOMorphologyServiceProvider"
+    ],
+    "files": []
+}

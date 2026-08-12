@@ -16,6 +16,7 @@ return array (
     'JenisRuangan' => 'WardType',
     'JenisTindakan' => 'ServiceType',
     'Kelas' => 'RoomClass',
+    'MorphologyIcdO' => 'IcdOMorphology',
     'Negara' => 'Country',
     'NilaiRujukanLab' => 'LabReferenceValue',
     'Paket' => 'Package',

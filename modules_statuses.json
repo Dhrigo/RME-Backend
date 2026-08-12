@@ -57,5 +57,6 @@
     "GeneralRoomClassReferenceGroup": true,
     "GeneralLabServiceParameter": true,
     "GeneralLabReferenceValue": true,
-    "GeneralIcdSnomedCtMapping": true
+    "GeneralIcdSnomedCtMapping": true,
+    "GeneralIcdOMorphology": true
 }
