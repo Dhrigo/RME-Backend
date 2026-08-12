@@ -14,7 +14,7 @@ class VisitResource extends JsonResource
             'visit_number' => $this->visit_number,
             'registration_id' => $this->registration_id,
             'attending_physician_id' => $this->attending_physician_id,
-            'room_id' => $this->room_id,
+            'ward_id' => $this->ward_id,
             'bed_id' => $this->bed_id,
             'admitted_at' => $this->admitted_at?->toIso8601String(),
             'discharged_at' => $this->discharged_at?->toIso8601String(),

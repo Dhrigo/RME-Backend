@@ -16,7 +16,7 @@ class VisitFactory extends Factory
             'visit_number' => fake()->unique()->numerify('KJ-##########'),
             'registration_id' => Registration::factory(),
             'attending_physician_id' => null,
-            'room_id' => null,
+            'ward_id' => null,
             'bed_id' => null,
             'admitted_at' => now(),
             'discharged_at' => null,

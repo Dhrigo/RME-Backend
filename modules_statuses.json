@@ -8,5 +8,8 @@
     "GeneralRegion": true,
     "GeneralPatient": true,
     "PendaftaranRegistration": true,
-    "PendaftaranVisit": true
+    "PendaftaranVisit": true,
+    "GeneralWard": true,
+    "GeneralRoom": true,
+    "GeneralBed": true
 }

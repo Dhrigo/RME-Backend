@@ -6,7 +6,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Auth\Models\User;
+use Modules\GeneralBed\Models\Bed;
 use Modules\GeneralEmployee\Models\Employee;
+use Modules\GeneralWard\Models\Ward;
 use Modules\PendaftaranRegistration\Models\Registration;
 use Modules\PendaftaranVisit\Database\Factories\VisitFactory;
 
@@ -18,7 +20,7 @@ class Visit extends Model
         'visit_number',
         'registration_id',
         'attending_physician_id',
-        'room_id',
+        'ward_id',
         'bed_id',
         'admitted_at',
         'discharged_at',
@@ -51,6 +53,16 @@ class Visit extends Model
     public function attendingPhysician(): BelongsTo
     {
         return $this->belongsTo(Employee::class, 'attending_physician_id');
+    }
+
+    public function ward(): BelongsTo
+    {
+        return $this->belongsTo(Ward::class);
+    }
+
+    public function bed(): BelongsTo
+    {
+        return $this->belongsTo(Bed::class);
     }
 
     public function receivedBy(): BelongsTo

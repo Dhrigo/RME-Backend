@@ -1,0 +1,11 @@
+{
+    "name": "GeneralRoom",
+    "alias": "generalroom",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralRoom\\Providers\\GeneralRoomServiceProvider"
+    ],
+    "files": []
+}

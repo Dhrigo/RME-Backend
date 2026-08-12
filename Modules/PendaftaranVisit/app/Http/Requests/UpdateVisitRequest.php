@@ -19,8 +19,8 @@ class UpdateVisitRequest extends FormRequest
         return [
             'visit_number' => ['nullable', 'string', 'max:255', Rule::unique('visits', 'visit_number')->ignore($id)],
             'attending_physician_id' => ['nullable', 'integer', 'exists:employees,id'],
-            'room_id' => ['nullable', 'integer'],
-            'bed_id' => ['nullable', 'integer'],
+            'ward_id' => ['nullable', 'integer', 'exists:wards,id'],
+            'bed_id' => ['nullable', 'integer', 'exists:beds,id'],
             'discharged_at' => ['nullable', 'date'],
             'is_deposit' => ['sometimes', 'boolean'],
             'deposit_class_id' => ['nullable', 'integer'],

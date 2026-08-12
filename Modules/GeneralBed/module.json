@@ -1,0 +1,11 @@
+{
+    "name": "GeneralBed",
+    "alias": "generalbed",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralBed\\Providers\\GeneralBedServiceProvider"
+    ],
+    "files": []
+}

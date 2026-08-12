@@ -8,6 +8,9 @@ return array (
     'Pasien' => 'Patient',
     'Pegawai' => 'Employee',
     'Profesi' => 'Profession',
+    'RuangKamar' => 'Room',
+    'RuangKamarTidur' => 'Bed',
+    'Ruangan' => 'Ward',
     'Wilayah' => 'Region',
   ),
   'Pendaftaran' => 
