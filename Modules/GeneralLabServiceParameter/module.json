@@ -1,0 +1,11 @@
+{
+    "name": "GeneralLabServiceParameter",
+    "alias": "generallabserviceparameter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralLabServiceParameter\\Providers\\GeneralLabServiceParameterServiceProvider"
+    ],
+    "files": []
+}

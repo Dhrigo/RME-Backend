@@ -17,6 +17,7 @@ return array (
     'Kelas' => 'RoomClass',
     'Negara' => 'Country',
     'Paket' => 'Package',
+    'ParameterTindakanLab' => 'LabServiceParameter',
     'Pasien' => 'Patient',
     'Pegawai' => 'Employee',
     'Pekerjaan' => 'Occupation',

@@ -54,5 +54,6 @@
     "GeneralLabGroup": true,
     "GeneralLabServiceGroup": true,
     "GeneralExaminationGroup": true,
-    "GeneralRoomClassReferenceGroup": true
+    "GeneralRoomClassReferenceGroup": true,
+    "GeneralLabServiceParameter": true
 }
