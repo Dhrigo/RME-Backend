@@ -39,5 +39,6 @@
     "LayananMedicalProcedure": true,
     "PendaftaranReferral": true,
     "GeneralPackage": true,
-    "GeneralMedicalDepartment": true
+    "GeneralMedicalDepartment": true,
+    "GeneralWardVisitType": true
 }

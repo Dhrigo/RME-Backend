@@ -1,0 +1,11 @@
+{
+    "name": "GeneralWardVisitType",
+    "alias": "generalwardvisittype",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralWardVisitType\\Providers\\GeneralWardVisitTypeServiceProvider"
+    ],
+    "files": []
+}

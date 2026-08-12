@@ -7,6 +7,7 @@ return array (
     'Bahasa' => 'Language',
     'Diagnosa' => 'DiagnosisCode',
     'JenisKelamin' => 'Gender',
+    'JenisKunjunganRuangan' => 'WardVisitType',
     'Kelas' => 'RoomClass',
     'Negara' => 'Country',
     'Paket' => 'Package',

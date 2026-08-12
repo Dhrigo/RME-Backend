@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalwardvisittype",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralWardVisitType\\": "app/",
+            "Modules\\GeneralWardVisitType\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralWardVisitType\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralWardVisitType\\Tests\\": "tests/"
+        }
+    }
+}
