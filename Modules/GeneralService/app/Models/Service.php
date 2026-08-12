@@ -4,9 +4,11 @@ namespace Modules\GeneralService\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Modules\GeneralService\Database\Factories\ServiceFactory;
 use Modules\GeneralServiceTariff\Models\ServiceTariff;
+use Modules\GeneralServiceType\Models\ServiceType;
 
 class Service extends Model
 {
@@ -22,6 +24,11 @@ class Service extends Model
     public function tariffs(): HasMany
     {
         return $this->hasMany(ServiceTariff::class);
+    }
+
+    public function type(): BelongsTo
+    {
+        return $this->belongsTo(ServiceType::class, 'type_id');
     }
 
     /**

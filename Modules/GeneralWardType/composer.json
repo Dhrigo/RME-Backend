@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalwardtype",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralWardType\\": "app/",
+            "Modules\\GeneralWardType\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralWardType\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralWardType\\Tests\\": "tests/"
+        }
+    }
+}

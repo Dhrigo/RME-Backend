@@ -8,6 +8,8 @@ return array (
     'Diagnosa' => 'DiagnosisCode',
     'JenisKelamin' => 'Gender',
     'JenisKunjunganRuangan' => 'WardVisitType',
+    'JenisRuangan' => 'WardType',
+    'JenisTindakan' => 'ServiceType',
     'Kelas' => 'RoomClass',
     'Negara' => 'Country',
     'Paket' => 'Package',

@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Auth\Models\User;
 use Modules\GeneralWard\Database\Factories\WardFactory;
+use Modules\GeneralWardType\Models\WardType;
 use Modules\GeneralWardVisitType\Models\WardVisitType;
 
 class Ward extends Model
@@ -38,6 +39,11 @@ class Ward extends Model
     public function visitType(): BelongsTo
     {
         return $this->belongsTo(WardVisitType::class, 'visit_type_id');
+    }
+
+    public function type(): BelongsTo
+    {
+        return $this->belongsTo(WardType::class, 'type_id');
     }
 
     protected static function newFactory(): WardFactory

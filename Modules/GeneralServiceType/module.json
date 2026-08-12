@@ -1,0 +1,11 @@
+{
+    "name": "GeneralServiceType",
+    "alias": "generalservicetype",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralServiceType\\Providers\\GeneralServiceTypeServiceProvider"
+    ],
+    "files": []
+}

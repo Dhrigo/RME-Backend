@@ -42,5 +42,7 @@
     "GeneralMedicalDepartment": true,
     "GeneralWardVisitType": true,
     "MedicalRecordSurgery": true,
-    "MedicalRecordTriage": true
+    "MedicalRecordTriage": true,
+    "GeneralServiceType": true,
+    "GeneralWardType": true
 }
