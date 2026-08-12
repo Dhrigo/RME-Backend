@@ -35,5 +35,6 @@
     "LayananLabOrder": true,
     "LayananLabResult": true,
     "MedicalRecordVitalSign": true,
-    "MedicalRecordAllergy": true
+    "MedicalRecordAllergy": true,
+    "LayananMedicalProcedure": true
 }

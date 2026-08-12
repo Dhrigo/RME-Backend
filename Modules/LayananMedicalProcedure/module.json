@@ -1,0 +1,11 @@
+{
+    "name": "LayananMedicalProcedure",
+    "alias": "layananmedicalprocedure",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananMedicalProcedure\\Providers\\LayananMedicalProcedureServiceProvider"
+    ],
+    "files": []
+}

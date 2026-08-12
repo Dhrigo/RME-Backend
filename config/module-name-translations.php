@@ -37,6 +37,7 @@ return array (
     'OrderDetilResep' => 'PrescriptionItem',
     'OrderLab' => 'LabOrder',
     'OrderResep' => 'Prescription',
+    'TindakanMedis' => 'MedicalProcedure',
   ),
   'MedicalRecord' => 
   array (
