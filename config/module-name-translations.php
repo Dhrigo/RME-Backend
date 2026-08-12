@@ -23,6 +23,12 @@ return array (
   array (
     'GolonganDarah' => 'BloodType',
   ),
+  'Pembayaran' => 
+  array (
+    'PembayaranTagihan' => 'Payment',
+    'RincianTagihan' => 'InvoiceItem',
+    'Tagihan' => 'Invoice',
+  ),
   'Pendaftaran' => 
   array (
     'Kunjungan' => 'Visit',

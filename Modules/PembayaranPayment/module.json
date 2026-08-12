@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranPayment",
+    "alias": "pembayaranpayment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranPayment\\Providers\\PembayaranPaymentServiceProvider"
+    ],
+    "files": []
+}

@@ -18,5 +18,8 @@
     "GeneralOccupation": true,
     "GeneralMaritalStatus": true,
     "GeneralEthnicity": true,
-    "GeneralLanguage": true
+    "GeneralLanguage": true,
+    "PembayaranInvoice": true,
+    "PembayaranInvoiceItem": true,
+    "PembayaranPayment": true
 }

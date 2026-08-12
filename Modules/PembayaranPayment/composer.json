@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayaranpayment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranPayment\\": "app/",
+            "Modules\\PembayaranPayment\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranPayment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranPayment\\Tests\\": "tests/"
+        }
+    }
+}
