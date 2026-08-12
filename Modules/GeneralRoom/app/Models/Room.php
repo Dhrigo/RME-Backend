@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\GeneralRoom\Database\Factories\RoomFactory;
+use Modules\GeneralRoomClass\Models\RoomClass;
 use Modules\GeneralWard\Models\Ward;
 
 class Room extends Model
@@ -22,6 +23,11 @@ class Room extends Model
     public function ward(): BelongsTo
     {
         return $this->belongsTo(Ward::class);
+    }
+
+    public function roomClass(): BelongsTo
+    {
+        return $this->belongsTo(RoomClass::class, 'class_id');
     }
 
     protected static function newFactory(): RoomFactory

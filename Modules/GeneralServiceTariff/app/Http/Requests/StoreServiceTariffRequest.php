@@ -15,7 +15,7 @@ class StoreServiceTariffRequest extends FormRequest
     {
         return [
             'service_id' => ['required', 'integer', 'exists:services,id'],
-            'room_class_id' => ['nullable', 'integer'],
+            'room_class_id' => ['nullable', 'integer', 'exists:room_classes,id'],
             'price' => ['required', 'numeric', 'min:0'],
             'effective_date' => ['required', 'date'],
             'decree_number' => ['nullable', 'string', 'max:255'],

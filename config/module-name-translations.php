@@ -7,6 +7,7 @@ return array (
     'Bahasa' => 'Language',
     'Diagnosa' => 'DiagnosisCode',
     'JenisKelamin' => 'Gender',
+    'Kelas' => 'RoomClass',
     'Negara' => 'Country',
     'Pasien' => 'Patient',
     'Pegawai' => 'Employee',

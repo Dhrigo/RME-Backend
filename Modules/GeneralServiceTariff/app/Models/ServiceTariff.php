@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Auth\Models\User;
+use Modules\GeneralRoomClass\Models\RoomClass;
 use Modules\GeneralService\Models\Service;
 use Modules\GeneralServiceTariff\Database\Factories\ServiceTariffFactory;
 
@@ -37,6 +38,11 @@ class ServiceTariff extends Model
     public function service(): BelongsTo
     {
         return $this->belongsTo(Service::class);
+    }
+
+    public function roomClass(): BelongsTo
+    {
+        return $this->belongsTo(RoomClass::class, 'room_class_id');
     }
 
     public function createdBy(): BelongsTo

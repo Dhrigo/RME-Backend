@@ -24,7 +24,7 @@ class RoomController extends Controller
         $data = $request->validate([
             'ward_id' => ['required', 'integer', 'exists:wards,id'],
             'room_number' => ['required', 'string', 'max:255'],
-            'class_id' => ['nullable', 'integer'],
+            'class_id' => ['nullable', 'integer', 'exists:room_classes,id'],
             'is_active' => ['sometimes', 'boolean'],
         ]);
 
@@ -40,7 +40,7 @@ class RoomController extends Controller
     {
         $data = $request->validate([
             'room_number' => ['sometimes', 'string', 'max:255'],
-            'class_id' => ['nullable', 'integer'],
+            'class_id' => ['nullable', 'integer', 'exists:room_classes,id'],
             'is_active' => ['sometimes', 'boolean'],
         ]);
 

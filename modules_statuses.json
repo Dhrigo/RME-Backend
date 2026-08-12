@@ -29,5 +29,6 @@
     "MedicalRecordDiagnosis": true,
     "LayananPrescription": true,
     "LayananPrescriptionItem": true,
-    "InventoryItem": true
+    "InventoryItem": true,
+    "GeneralRoomClass": true
 }
