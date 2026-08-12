@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/authorization",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Authorization\\": "app/",
+            "Modules\\Authorization\\Database\\Factories\\": "database/factories/",
+            "Modules\\Authorization\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Authorization\\Tests\\": "tests/"
+        }
+    }
+}

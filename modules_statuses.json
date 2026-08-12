@@ -1,3 +1,4 @@
 {
-    "PegawaiStrSip": true
+    "Auth": true,
+    "Authorization": true
 }

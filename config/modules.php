@@ -274,10 +274,10 @@ return [
     |
     */
     'composer' => [
-        'vendor' => env('MODULE_VENDOR', 'nwidart'),
+        'vendor' => env('MODULE_VENDOR', 'dhrigos'),
         'author' => [
-            'name' => env('MODULE_AUTHOR_NAME', 'Nicolas Widart'),
-            'email' => env('MODULE_AUTHOR_EMAIL', 'n.widart@gmail.com'),
+            'name' => env('MODULE_AUTHOR_NAME', 'Deva Indrayana Rahmat'),
+            'email' => env('MODULE_AUTHOR_EMAIL', 'dhrigos@gmail.com'),
         ],
         'composer-output' => false,
     ],
