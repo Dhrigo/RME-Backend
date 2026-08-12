@@ -16,6 +16,7 @@ return array (
     'JenisTindakan' => 'ServiceType',
     'Kelas' => 'RoomClass',
     'Negara' => 'Country',
+    'NilaiRujukanLab' => 'LabReferenceValue',
     'Paket' => 'Package',
     'ParameterTindakanLab' => 'LabServiceParameter',
     'Pasien' => 'Patient',
