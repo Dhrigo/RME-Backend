@@ -1,0 +1,11 @@
+{
+    "name": "GeneralEthnicity",
+    "alias": "generalethnicity",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralEthnicity\\Providers\\GeneralEthnicityServiceProvider"
+    ],
+    "files": []
+}

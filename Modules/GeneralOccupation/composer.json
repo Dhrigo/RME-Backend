@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generaloccupation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralOccupation\\": "app/",
+            "Modules\\GeneralOccupation\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralOccupation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralOccupation\\Tests\\": "tests/"
+        }
+    }
+}

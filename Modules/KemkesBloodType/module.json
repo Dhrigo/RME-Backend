@@ -1,0 +1,11 @@
+{
+    "name": "KemkesBloodType",
+    "alias": "kemkesbloodtype",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\KemkesBloodType\\Providers\\KemkesBloodTypeServiceProvider"
+    ],
+    "files": []
+}

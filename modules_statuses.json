@@ -11,5 +11,12 @@
     "PendaftaranVisit": true,
     "GeneralWard": true,
     "GeneralRoom": true,
-    "GeneralBed": true
+    "GeneralBed": true,
+    "GeneralCountry": true,
+    "KemkesBloodType": true,
+    "GeneralEducation": true,
+    "GeneralOccupation": true,
+    "GeneralMaritalStatus": true,
+    "GeneralEthnicity": true,
+    "GeneralLanguage": true
 }

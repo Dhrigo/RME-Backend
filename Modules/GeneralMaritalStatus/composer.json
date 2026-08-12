@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalmaritalstatus",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralMaritalStatus\\": "app/",
+            "Modules\\GeneralMaritalStatus\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralMaritalStatus\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralMaritalStatus\\Tests\\": "tests/"
+        }
+    }
+}

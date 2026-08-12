@@ -1,0 +1,11 @@
+{
+    "name": "GeneralEducation",
+    "alias": "generaleducation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralEducation\\Providers\\GeneralEducationServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "GeneralOccupation",
+    "alias": "generaloccupation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralOccupation\\Providers\\GeneralOccupationServiceProvider"
+    ],
+    "files": []
+}

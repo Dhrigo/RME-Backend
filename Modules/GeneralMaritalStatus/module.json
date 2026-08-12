@@ -1,0 +1,11 @@
+{
+    "name": "GeneralMaritalStatus",
+    "alias": "generalmaritalstatus",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralMaritalStatus\\Providers\\GeneralMaritalStatusServiceProvider"
+    ],
+    "files": []
+}

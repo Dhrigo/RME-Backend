@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generaleducation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralEducation\\": "app/",
+            "Modules\\GeneralEducation\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralEducation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralEducation\\Tests\\": "tests/"
+        }
+    }
+}

@@ -7,9 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Laravolt\Indonesia\Models\Village;
 use Modules\Auth\Models\User;
+use Modules\GeneralCountry\Models\Country;
+use Modules\GeneralEducation\Models\Education;
+use Modules\GeneralEthnicity\Models\Ethnicity;
 use Modules\GeneralGender\Models\Gender;
+use Modules\GeneralLanguage\Models\Language;
+use Modules\GeneralMaritalStatus\Models\MaritalStatus;
+use Modules\GeneralOccupation\Models\Occupation;
 use Modules\GeneralPatient\Database\Factories\PatientFactory;
 use Modules\GeneralReligion\Models\Religion;
+use Modules\KemkesBloodType\Models\BloodType;
 
 class Patient extends Model
 {
@@ -69,6 +76,41 @@ class Patient extends Model
     public function registeredBy(): BelongsTo
     {
         return $this->belongsTo(User::class, 'registered_by');
+    }
+
+    public function education(): BelongsTo
+    {
+        return $this->belongsTo(Education::class);
+    }
+
+    public function occupation(): BelongsTo
+    {
+        return $this->belongsTo(Occupation::class);
+    }
+
+    public function maritalStatus(): BelongsTo
+    {
+        return $this->belongsTo(MaritalStatus::class);
+    }
+
+    public function bloodType(): BelongsTo
+    {
+        return $this->belongsTo(BloodType::class);
+    }
+
+    public function nationality(): BelongsTo
+    {
+        return $this->belongsTo(Country::class, 'nationality_id');
+    }
+
+    public function ethnicity(): BelongsTo
+    {
+        return $this->belongsTo(Ethnicity::class);
+    }
+
+    public function language(): BelongsTo
+    {
+        return $this->belongsTo(Language::class);
     }
 
     /**

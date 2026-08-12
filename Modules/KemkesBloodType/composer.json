@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/kemkesbloodtype",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\KemkesBloodType\\": "app/",
+            "Modules\\KemkesBloodType\\Database\\Factories\\": "database/factories/",
+            "Modules\\KemkesBloodType\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\KemkesBloodType\\Tests\\": "tests/"
+        }
+    }
+}

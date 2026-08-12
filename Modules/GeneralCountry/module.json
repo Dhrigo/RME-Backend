@@ -1,0 +1,11 @@
+{
+    "name": "GeneralCountry",
+    "alias": "generalcountry",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralCountry\\Providers\\GeneralCountryServiceProvider"
+    ],
+    "files": []
+}

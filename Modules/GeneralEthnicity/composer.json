@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalethnicity",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralEthnicity\\": "app/",
+            "Modules\\GeneralEthnicity\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralEthnicity\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralEthnicity\\Tests\\": "tests/"
+        }
+    }
+}

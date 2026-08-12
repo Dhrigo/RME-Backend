@@ -1,0 +1,11 @@
+{
+    "name": "GeneralLanguage",
+    "alias": "generallanguage",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralLanguage\\Providers\\GeneralLanguageServiceProvider"
+    ],
+    "files": []
+}
