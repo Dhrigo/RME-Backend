@@ -26,6 +26,11 @@ return array (
   array (
     'GolonganDarah' => 'BloodType',
   ),
+  'Layanan' => 
+  array (
+    'OrderDetilResep' => 'PrescriptionItem',
+    'OrderResep' => 'Prescription',
+  ),
   'MedicalRecord' => 
   array (
     'CPPT' => 'ClinicalNote',

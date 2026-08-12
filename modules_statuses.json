@@ -26,5 +26,7 @@
     "GeneralServiceTariff": true,
     "MedicalRecordClinicalNote": true,
     "GeneralDiagnosisCode": true,
-    "MedicalRecordDiagnosis": true
+    "MedicalRecordDiagnosis": true,
+    "LayananPrescription": true,
+    "LayananPrescriptionItem": true
 }

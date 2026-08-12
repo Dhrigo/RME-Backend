@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananprescription",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananPrescription\\": "app/",
+            "Modules\\LayananPrescription\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananPrescription\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananPrescription\\Tests\\": "tests/"
+        }
+    }
+}
