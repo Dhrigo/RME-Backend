@@ -5,6 +5,7 @@ namespace Modules\PembayaranInvoiceItem\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Modules\GeneralService\Models\Service;
 use Modules\PembayaranInvoice\Models\Invoice;
 use Modules\PembayaranInvoiceItem\Database\Factories\InvoiceItemFactory;
 
@@ -14,6 +15,7 @@ class InvoiceItem extends Model
 
     protected $fillable = [
         'invoice_id',
+        'service_id',
         'description',
         'category',
         'quantity',
@@ -39,6 +41,11 @@ class InvoiceItem extends Model
     public function invoice(): BelongsTo
     {
         return $this->belongsTo(Invoice::class);
+    }
+
+    public function service(): BelongsTo
+    {
+        return $this->belongsTo(Service::class);
     }
 
     protected static function newFactory(): InvoiceItemFactory

@@ -21,5 +21,7 @@
     "GeneralLanguage": true,
     "PembayaranInvoice": true,
     "PembayaranInvoiceItem": true,
-    "PembayaranPayment": true
+    "PembayaranPayment": true,
+    "GeneralService": true,
+    "GeneralServiceTariff": true
 }

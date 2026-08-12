@@ -17,6 +17,8 @@ return array (
     'Ruangan' => 'Ward',
     'StatusPerkawinan' => 'MaritalStatus',
     'Suku' => 'Ethnicity',
+    'TarifTindakan' => 'ServiceTariff',
+    'Tindakan' => 'Service',
     'Wilayah' => 'Region',
   ),
   'Kemkes' => 

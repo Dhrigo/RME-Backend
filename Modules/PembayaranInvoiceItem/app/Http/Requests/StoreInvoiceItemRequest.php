@@ -15,6 +15,7 @@ class StoreInvoiceItemRequest extends FormRequest
     {
         return [
             'invoice_id' => ['required', 'integer', 'exists:invoices,id'],
+            'service_id' => ['nullable', 'integer', 'exists:services,id'],
             'description' => ['required', 'string', 'max:255'],
             'category' => ['nullable', 'string', 'max:255'],
             'quantity' => ['required', 'integer', 'min:1'],
