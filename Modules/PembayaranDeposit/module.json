@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranDeposit",
+    "alias": "pembayarandeposit",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranDeposit\\Providers\\PembayaranDepositServiceProvider"
+    ],
+    "files": []
+}

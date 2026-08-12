@@ -49,5 +49,6 @@
     "MedicalRecordDischargeSummary": true,
     "InventorySupplier": true,
     "InventoryGoodsReceipt": true,
-    "InventoryStockRequest": true
+    "InventoryStockRequest": true,
+    "PembayaranDeposit": true
 }

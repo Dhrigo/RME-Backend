@@ -60,6 +60,7 @@ return array (
   ),
   'Pembayaran' => 
   array (
+    'Deposit' => 'Deposit',
     'PembayaranTagihan' => 'Payment',
     'RincianTagihan' => 'InvoiceItem',
     'Tagihan' => 'Invoice',
