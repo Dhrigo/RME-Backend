@@ -42,6 +42,7 @@ return array (
   array (
     'CPPT' => 'ClinicalNote',
     'Diagnosa' => 'Diagnosis',
+    'TandaVital' => 'VitalSign',
   ),
   'Pembayaran' => 
   array (

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordVitalSign",
+    "alias": "medicalrecordvitalsign",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordVitalSign\\Providers\\MedicalRecordVitalSignServiceProvider"
+    ],
+    "files": []
+}

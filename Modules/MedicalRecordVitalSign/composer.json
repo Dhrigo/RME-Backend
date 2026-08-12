@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordvitalsign",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordVitalSign\\": "app/",
+            "Modules\\MedicalRecordVitalSign\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordVitalSign\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordVitalSign\\Tests\\": "tests/"
+        }
+    }
+}

@@ -33,5 +33,6 @@
     "GeneralRoomClass": true,
     "PendaftaranGuarantor": true,
     "LayananLabOrder": true,
-    "LayananLabResult": true
+    "LayananLabResult": true,
+    "MedicalRecordVitalSign": true
 }
