@@ -31,6 +31,7 @@ return array (
   'Inventory' => 
   array (
     'Barang' => 'Item',
+    'PenerimaanBarang' => 'GoodsReceipt',
     'Penyedia' => 'Supplier',
   ),
   'Kemkes' => 

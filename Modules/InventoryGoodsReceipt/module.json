@@ -1,0 +1,11 @@
+{
+    "name": "InventoryGoodsReceipt",
+    "alias": "inventorygoodsreceipt",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryGoodsReceipt\\Providers\\InventoryGoodsReceiptServiceProvider"
+    ],
+    "files": []
+}

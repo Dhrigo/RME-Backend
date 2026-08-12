@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventorygoodsreceipt",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryGoodsReceipt\\": "app/",
+            "Modules\\InventoryGoodsReceipt\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryGoodsReceipt\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryGoodsReceipt\\Tests\\": "tests/"
+        }
+    }
+}
