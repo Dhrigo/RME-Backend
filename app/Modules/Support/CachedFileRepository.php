@@ -34,7 +34,24 @@ class CachedFileRepository extends LaravelFileRepository
         $cache = ModuleManifestCachePath::read();
 
         if ($cache === null) {
-            return $this->moduleCache = parent::scan();
+            // Do NOT memoize this branch: it means the manifest hasn't been warmed
+            // (e.g. mid module:make-submodule, where a module gets created on disk
+            // partway through this very process). Memoizing here would freeze the
+            // module list from before the new module existed, and every later
+            // module_path()/findOrFail() call in the same process (nwidart's own
+            // internal make-seed/make-provider chaining included) would 404 on a
+            // module that's actually already on disk. Falls through to parent::scan(),
+            // which does its own live glob (cheap here since this path is only hit
+            // without a warm manifest, i.e. local dev/scaffolding, not hot request paths).
+            // Parent::scan() also has its own private static self::$modules cache that
+            // (outside of tests) survives across calls in this same process regardless of
+            // filesystem changes in between - reset it first so a module created earlier
+            // in this process (e.g. by module:make, one step before it needs to find that
+            // very module again for make-seed/make-provider) is actually picked up by the
+            // live glob below instead of an empty/stale snapshot from before it existed.
+            $this->resetModules();
+
+            return parent::scan();
         }
 
         $modules = [];
