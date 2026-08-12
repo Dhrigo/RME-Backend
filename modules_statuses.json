@@ -31,5 +31,7 @@
     "LayananPrescriptionItem": true,
     "InventoryItem": true,
     "GeneralRoomClass": true,
-    "PendaftaranGuarantor": true
+    "PendaftaranGuarantor": true,
+    "LayananLabOrder": true,
+    "LayananLabResult": true
 }

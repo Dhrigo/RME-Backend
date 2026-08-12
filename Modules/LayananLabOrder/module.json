@@ -1,0 +1,11 @@
+{
+    "name": "LayananLabOrder",
+    "alias": "layananlaborder",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananLabOrder\\Providers\\LayananLabOrderServiceProvider"
+    ],
+    "files": []
+}

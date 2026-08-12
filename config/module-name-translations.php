@@ -33,7 +33,9 @@ return array (
   ),
   'Layanan' => 
   array (
+    'HasilLab' => 'LabResult',
     'OrderDetilResep' => 'PrescriptionItem',
+    'OrderLab' => 'LabOrder',
     'OrderResep' => 'Prescription',
   ),
   'MedicalRecord' => 
