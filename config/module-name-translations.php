@@ -46,6 +46,7 @@ return array (
   array (
     'CPPT' => 'ClinicalNote',
     'Diagnosa' => 'Diagnosis',
+    'Operasi' => 'Surgery',
     'RiwayatAlergi' => 'Allergy',
     'TandaVital' => 'VitalSign',
   ),

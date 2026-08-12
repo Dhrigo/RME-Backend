@@ -40,5 +40,6 @@
     "PendaftaranReferral": true,
     "GeneralPackage": true,
     "GeneralMedicalDepartment": true,
-    "GeneralWardVisitType": true
+    "GeneralWardVisitType": true,
+    "MedicalRecordSurgery": true
 }

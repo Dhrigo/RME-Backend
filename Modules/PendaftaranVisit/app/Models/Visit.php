@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Auth\Models\User;
 use Modules\GeneralBed\Models\Bed;
 use Modules\GeneralEmployee\Models\Employee;
+use Modules\GeneralRoomClass\Models\RoomClass;
 use Modules\GeneralWard\Models\Ward;
 use Modules\PendaftaranRegistration\Models\Registration;
 use Modules\PendaftaranVisit\Database\Factories\VisitFactory;
@@ -63,6 +64,11 @@ class Visit extends Model
     public function bed(): BelongsTo
     {
         return $this->belongsTo(Bed::class);
+    }
+
+    public function depositClass(): BelongsTo
+    {
+        return $this->belongsTo(RoomClass::class, 'deposit_class_id');
     }
 
     public function receivedBy(): BelongsTo
