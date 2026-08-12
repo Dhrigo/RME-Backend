@@ -1,0 +1,11 @@
+{
+    "name": "GeneralKap",
+    "alias": "generalkap",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralKap\\Providers\\GeneralKapServiceProvider"
+    ],
+    "files": []
+}

@@ -56,5 +56,6 @@
     "GeneralReferenceType": true,
     "GeneralReportType": true,
     "GeneralBankAccount": true,
-    "GeneralPpk": true
+    "GeneralPpk": true,
+    "GeneralKap": true
 }

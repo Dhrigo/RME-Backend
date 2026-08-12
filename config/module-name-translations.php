@@ -14,6 +14,7 @@ return array (
     'JenisRuangan' => 'WardType',
     'JenisTindakan' => 'ServiceType',
     'JenisWilayah' => 'RegionType',
+    'KAP' => 'Kap',
     'Kelas' => 'RoomClass',
     'Negara' => 'Country',
     'PPK' => 'Ppk',
