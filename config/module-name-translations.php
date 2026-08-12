@@ -5,6 +5,7 @@ return array (
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
+    'Diagnosa' => 'DiagnosisCode',
     'JenisKelamin' => 'Gender',
     'Negara' => 'Country',
     'Pasien' => 'Patient',
@@ -28,6 +29,7 @@ return array (
   'MedicalRecord' => 
   array (
     'CPPT' => 'ClinicalNote',
+    'Diagnosa' => 'Diagnosis',
   ),
   'Pembayaran' => 
   array (

@@ -17,7 +17,7 @@ class StoreRegistrationRequest extends FormRequest
             'registration_number' => ['nullable', 'string', 'max:255', 'unique:registrations,registration_number'],
             'patient_id' => ['required', 'integer', 'exists:patients,id'],
             'registered_at' => ['nullable', 'date'],
-            'admission_diagnosis_id' => ['nullable', 'integer'],
+            'admission_diagnosis_id' => ['nullable', 'integer', 'exists:diagnosis_codes,id'],
             'referral_id' => ['nullable', 'integer'],
             'package_id' => ['nullable', 'integer'],
             'is_emergency' => ['sometimes', 'boolean'],

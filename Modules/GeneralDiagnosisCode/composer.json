@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generaldiagnosiscode",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralDiagnosisCode\\": "app/",
+            "Modules\\GeneralDiagnosisCode\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralDiagnosisCode\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralDiagnosisCode\\Tests\\": "tests/"
+        }
+    }
+}

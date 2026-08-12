@@ -24,5 +24,7 @@
     "PembayaranPayment": true,
     "GeneralService": true,
     "GeneralServiceTariff": true,
-    "MedicalRecordClinicalNote": true
+    "MedicalRecordClinicalNote": true,
+    "GeneralDiagnosisCode": true,
+    "MedicalRecordDiagnosis": true
 }

@@ -18,7 +18,7 @@ class UpdateRegistrationRequest extends FormRequest
 
         return [
             'registration_number' => ['nullable', 'string', 'max:255', Rule::unique('registrations', 'registration_number')->ignore($id)],
-            'admission_diagnosis_id' => ['nullable', 'integer'],
+            'admission_diagnosis_id' => ['nullable', 'integer', 'exists:diagnosis_codes,id'],
             'referral_id' => ['nullable', 'integer'],
             'package_id' => ['nullable', 'integer'],
             'is_emergency' => ['sometimes', 'boolean'],

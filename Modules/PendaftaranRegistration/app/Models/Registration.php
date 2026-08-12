@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Modules\Auth\Models\User;
+use Modules\GeneralDiagnosisCode\Models\DiagnosisCode;
 use Modules\GeneralPatient\Models\Patient;
 use Modules\PendaftaranRegistration\Database\Factories\RegistrationFactory;
 
@@ -51,6 +52,11 @@ class Registration extends Model
     public function registeredBy(): BelongsTo
     {
         return $this->belongsTo(User::class, 'registered_by');
+    }
+
+    public function admissionDiagnosis(): BelongsTo
+    {
+        return $this->belongsTo(DiagnosisCode::class, 'admission_diagnosis_id');
     }
 
     /**

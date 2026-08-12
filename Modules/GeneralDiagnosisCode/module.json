@@ -1,0 +1,11 @@
+{
+    "name": "GeneralDiagnosisCode",
+    "alias": "generaldiagnosiscode",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralDiagnosisCode\\Providers\\GeneralDiagnosisCodeServiceProvider"
+    ],
+    "files": []
+}
