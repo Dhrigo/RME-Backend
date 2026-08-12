@@ -48,5 +48,6 @@
     "MedicalRecordBloodTransfusion": true,
     "MedicalRecordDischargeSummary": true,
     "InventorySupplier": true,
-    "InventoryGoodsReceipt": true
+    "InventoryGoodsReceipt": true,
+    "InventoryStockRequest": true
 }

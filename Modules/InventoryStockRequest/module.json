@@ -1,0 +1,11 @@
+{
+    "name": "InventoryStockRequest",
+    "alias": "inventorystockrequest",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryStockRequest\\Providers\\InventoryStockRequestServiceProvider"
+    ],
+    "files": []
+}

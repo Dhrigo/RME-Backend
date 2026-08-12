@@ -33,6 +33,7 @@ return array (
     'Barang' => 'Item',
     'PenerimaanBarang' => 'GoodsReceipt',
     'Penyedia' => 'Supplier',
+    'Permintaan' => 'StockRequest',
   ),
   'Kemkes' => 
   array (
