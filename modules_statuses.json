@@ -41,5 +41,6 @@
     "GeneralPackage": true,
     "GeneralMedicalDepartment": true,
     "GeneralWardVisitType": true,
-    "MedicalRecordSurgery": true
+    "MedicalRecordSurgery": true,
+    "MedicalRecordTriage": true
 }

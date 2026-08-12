@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordtriage",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordTriage\\": "app/",
+            "Modules\\MedicalRecordTriage\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordTriage\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordTriage\\Tests\\": "tests/"
+        }
+    }
+}

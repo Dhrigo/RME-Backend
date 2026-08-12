@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordTriage",
+    "alias": "medicalrecordtriage",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordTriage\\Providers\\MedicalRecordTriageServiceProvider"
+    ],
+    "files": []
+}

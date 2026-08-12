@@ -49,6 +49,7 @@ return array (
     'Operasi' => 'Surgery',
     'RiwayatAlergi' => 'Allergy',
     'TandaVital' => 'VitalSign',
+    'Triage' => 'Triage',
   ),
   'Pembayaran' => 
   array (
