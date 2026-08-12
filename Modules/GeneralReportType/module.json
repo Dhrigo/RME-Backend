@@ -1,0 +1,11 @@
+{
+    "name": "GeneralReportType",
+    "alias": "generalreporttype",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralReportType\\Providers\\GeneralReportTypeServiceProvider"
+    ],
+    "files": []
+}

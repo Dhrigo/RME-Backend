@@ -9,6 +9,7 @@ return array (
     'Instansi' => 'Institution',
     'JenisKelamin' => 'Gender',
     'JenisKunjunganRuangan' => 'WardVisitType',
+    'JenisLaporan' => 'ReportType',
     'JenisReferensi' => 'ReferenceType',
     'JenisRuangan' => 'WardType',
     'JenisTindakan' => 'ServiceType',

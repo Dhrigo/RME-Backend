@@ -53,5 +53,6 @@
     "PembayaranDeposit": true,
     "GeneralInstitution": true,
     "GeneralRegionType": true,
-    "GeneralReferenceType": true
+    "GeneralReferenceType": true,
+    "GeneralReportType": true
 }
