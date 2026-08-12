@@ -17,6 +17,7 @@
         "laravel/framework": "^13.17",
         "laravel/sanctum": "^4.3",
         "laravel/tinker": "^3.0",
+        "laravolt/indonesia": "^0.41.0",
         "nwidart/laravel-modules": "^13.0",
         "spatie/laravel-permission": "^8.3"
     },

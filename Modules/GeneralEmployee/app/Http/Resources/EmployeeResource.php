@@ -27,7 +27,7 @@ class EmployeeResource extends JsonResource
             'rt' => $this->rt,
             'rw' => $this->rw,
             'postal_code' => $this->postal_code,
-            'region_code' => $this->region_code,
+            'village_id' => $this->village_id,
             'is_non_employee' => $this->is_non_employee,
             'is_active' => $this->is_active,
             'created_at' => $this->created_at?->toIso8601String(),

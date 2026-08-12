@@ -1,0 +1,11 @@
+{
+    "name": "GeneralRegion",
+    "alias": "generalregion",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralRegion\\Providers\\GeneralRegionServiceProvider"
+    ],
+    "files": []
+}

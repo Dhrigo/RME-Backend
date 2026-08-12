@@ -4,5 +4,6 @@
     "GeneralEmployee": true,
     "GeneralReligion": true,
     "GeneralGender": true,
-    "GeneralProfession": true
+    "GeneralProfession": true,
+    "GeneralRegion": true
 }

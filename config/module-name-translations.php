@@ -7,5 +7,6 @@ return array (
     'JenisKelamin' => 'Gender',
     'Pegawai' => 'Employee',
     'Profesi' => 'Profession',
+    'Wilayah' => 'Region',
   ),
 );

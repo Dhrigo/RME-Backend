@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalregion",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralRegion\\": "app/",
+            "Modules\\GeneralRegion\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralRegion\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralRegion\\Tests\\": "tests/"
+        }
+    }
+}

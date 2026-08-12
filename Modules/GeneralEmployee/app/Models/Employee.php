@@ -10,6 +10,7 @@ use Modules\GeneralEmployee\Database\Factories\EmployeeFactory;
 use Modules\GeneralGender\Models\Gender;
 use Modules\GeneralProfession\Models\Profession;
 use Modules\GeneralReligion\Models\Religion;
+use Laravolt\Indonesia\Models\Village;
 
 class Employee extends Model
 {
@@ -32,7 +33,7 @@ class Employee extends Model
         'rt',
         'rw',
         'postal_code',
-        'region_code',
+        'village_id',
         'is_non_employee',
         'is_active',
     ];
@@ -64,6 +65,11 @@ class Employee extends Model
     public function profession(): BelongsTo
     {
         return $this->belongsTo(Profession::class);
+    }
+
+    public function village(): BelongsTo
+    {
+        return $this->belongsTo(Village::class);
     }
 
     protected static function newFactory(): EmployeeFactory

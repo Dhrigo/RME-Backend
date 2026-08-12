@@ -30,7 +30,7 @@ class StoreEmployeeRequest extends FormRequest
             'rt' => ['nullable', 'string', 'max:5'],
             'rw' => ['nullable', 'string', 'max:5'],
             'postal_code' => ['nullable', 'string', 'max:10'],
-            'region_code' => ['nullable', 'string', 'max:255'],
+            'village_id' => ['nullable', 'integer', 'exists:indonesia_villages,id'],
             'is_non_employee' => ['sometimes', 'boolean'],
             'is_active' => ['sometimes', 'boolean'],
         ];

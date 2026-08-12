@@ -28,7 +28,7 @@ class EmployeeFactory extends Factory
             'rt' => fake()->numerify('##'),
             'rw' => fake()->numerify('##'),
             'postal_code' => fake()->postcode(),
-            'region_code' => null,
+            'village_id' => null,
             'is_non_employee' => false,
             'is_active' => true,
         ];
