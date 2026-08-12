@@ -16,6 +16,7 @@ return array (
     'JenisWilayah' => 'RegionType',
     'Kelas' => 'RoomClass',
     'Negara' => 'Country',
+    'PPK' => 'Ppk',
     'Paket' => 'Package',
     'Pasien' => 'Patient',
     'Pegawai' => 'Employee',
