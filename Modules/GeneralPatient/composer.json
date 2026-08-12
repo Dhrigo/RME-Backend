@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalpatient",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPatient\\": "app/",
+            "Modules\\GeneralPatient\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPatient\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralPatient\\Tests\\": "tests/"
+        }
+    }
+}
