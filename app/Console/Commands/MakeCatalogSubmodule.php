@@ -10,31 +10,75 @@ use Illuminate\Support\Str;
 
 class MakeCatalogSubmodule extends Command
 {
-    protected $signature = 'module:make-submodule {module : Top-level module name, e.g. General} {submodule : Submodule name, e.g. Agama}';
+    protected $signature = 'module:make-submodule
+        {module : Top-level module name, e.g. General}
+        {submodule : Submodule name from the catalog, e.g. Pegawai}
+        {--as= : English name for the generated module/class (e.g. Employee). Required the first time a submodule is scaffolded; reused automatically afterwards}';
 
-    protected $description = 'Scaffold a Laravel module for one submodule (config/module-catalog.php is the source of truth)';
+    protected $description = 'Scaffold a Laravel module for one catalog submodule (config/module-catalog.php is the source of truth for validity, config/module-name-translations.php for the English name)';
+
+    private function translationsPath(): string
+    {
+        return config_path('module-name-translations.php');
+    }
+
+    private function loadTranslations(): array
+    {
+        $path = $this->translationsPath();
+
+        return is_file($path) ? require $path : [];
+    }
+
+    private function saveTranslation(string $module, string $submodule, string $englishName): void
+    {
+        $translations = $this->loadTranslations();
+        $translations[$module][$submodule] = $englishName;
+
+        ksort($translations);
+        foreach ($translations as &$subs) {
+            ksort($subs);
+        }
+
+        $export = var_export($translations, true);
+        File::put($this->translationsPath(), "<?php\n\nreturn {$export};\n");
+    }
 
     public function handle(): int
     {
         $module = $this->argument('module');
         $submodule = $this->argument('submodule');
 
-        $map = config('module-catalog');
-        $known = collect($map[$module] ?? []);
+        $catalog = config('module-catalog');
+        $known = collect($catalog[$module] ?? []);
 
         if (! $known->contains($submodule)) {
-            $this->error("'{$module}/{$submodule}' bukan pasangan module/submodule yang valid.");
+            $this->error("'{$module}/{$submodule}' bukan pasangan module/submodule yang valid di katalog.");
 
             if (! $known->isEmpty()) {
                 $suggestions = $known->filter(fn ($s) => Str::contains(Str::lower($s), Str::lower(substr($submodule, 0, 3))))->take(5);
                 if ($suggestions->isNotEmpty()) {
                     $this->line('Mirip: '.$suggestions->implode(', '));
                 }
-            } elseif (! array_key_exists($module, $map)) {
-                $this->line('Modul tidak dikenal: '.$module.'. Modul valid: '.implode(', ', array_keys($map)));
+            } elseif (! array_key_exists($module, $catalog)) {
+                $this->line('Modul tidak dikenal: '.$module.'. Modul valid: '.implode(', ', array_keys($catalog)));
             }
 
             return self::FAILURE;
+        }
+
+        $translations = $this->loadTranslations();
+        $englishName = $this->option('as') ?: ($translations[$module][$submodule] ?? null);
+
+        if (! $englishName) {
+            $this->error("Belum ada nama Inggris buat '{$module}/{$submodule}'. Kasih pakai --as=NamaInggris (contoh: --as=Employee).");
+
+            return self::FAILURE;
+        }
+
+        $englishName = Str::studly($englishName);
+
+        if (isset($translations[$module][$submodule]) && $translations[$module][$submodule] !== $englishName) {
+            $this->warn("Sebelumnya '{$module}/{$submodule}' pernah diterjemahkan jadi '{$translations[$module][$submodule]}', sekarang di-override jadi '{$englishName}'.");
         }
 
         // nwidart normalizes the module directory name to StudlyCase internally regardless
@@ -42,7 +86,7 @@ class MakeCatalogSubmodule extends Command
         // and module lookup when given a hyphenated name (crashes with "fireEvent() on null")
         // — so we pre-compute the final studly form ourselves and pass that directly, keeping
         // directory/namespace/module.json name/modules_statuses.json key all identical.
-        $name = Str::studly($module).Str::studly($submodule);
+        $name = Str::studly($module).$englishName;
 
         try {
             $this->call('module:make', [
@@ -59,10 +103,11 @@ class MakeCatalogSubmodule extends Command
         }
 
         $this->stripUnusedScaffold($name);
+        $this->saveTranslation($module, $submodule, $englishName);
 
         $this->call('module:manifest-cache');
 
-        $this->info("Modul {$name} siap. Namespace: Modules\\{$name}");
+        $this->info("Modul {$name} siap (sumber katalog: {$module}/{$submodule}). Namespace: Modules\\{$name}");
 
         return self::SUCCESS;
     }

@@ -1,4 +1,5 @@
 {
     "Auth": true,
-    "Authorization": true
+    "Authorization": true,
+    "GeneralEmployee": true
 }

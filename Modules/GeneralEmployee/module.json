@@ -1,0 +1,11 @@
+{
+    "name": "GeneralEmployee",
+    "alias": "generalemployee",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralEmployee\\Providers\\GeneralEmployeeServiceProvider"
+    ],
+    "files": []
+}

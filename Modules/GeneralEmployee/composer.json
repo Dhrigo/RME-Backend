@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalemployee",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralEmployee\\": "app/",
+            "Modules\\GeneralEmployee\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralEmployee\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralEmployee\\Tests\\": "tests/"
+        }
+    }
+}
