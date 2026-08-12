@@ -53,5 +53,6 @@
     "PembayaranDeposit": true,
     "GeneralLabGroup": true,
     "GeneralLabServiceGroup": true,
-    "GeneralExaminationGroup": true
+    "GeneralExaminationGroup": true,
+    "GeneralRoomClassReferenceGroup": true
 }

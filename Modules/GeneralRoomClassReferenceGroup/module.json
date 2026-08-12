@@ -1,0 +1,11 @@
+{
+    "name": "GeneralRoomClassReferenceGroup",
+    "alias": "generalroomclassreferencegroup",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralRoomClassReferenceGroup\\Providers\\GeneralRoomClassReferenceGroupServiceProvider"
+    ],
+    "files": []
+}

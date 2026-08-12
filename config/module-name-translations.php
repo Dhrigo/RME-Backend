@@ -8,6 +8,7 @@ return array (
     'Diagnosa' => 'DiagnosisCode',
     'GroupLab' => 'LabGroup',
     'GroupPemeriksaan' => 'ExaminationGroup',
+    'GroupReferensiKelas' => 'RoomClassReferenceGroup',
     'GroupTindakanLab' => 'LabServiceGroup',
     'JenisKelamin' => 'Gender',
     'JenisKunjunganRuangan' => 'WardVisitType',
