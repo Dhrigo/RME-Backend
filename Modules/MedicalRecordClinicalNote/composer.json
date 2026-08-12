@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordclinicalnote",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordClinicalNote\\": "app/",
+            "Modules\\MedicalRecordClinicalNote\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordClinicalNote\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordClinicalNote\\Tests\\": "tests/"
+        }
+    }
+}

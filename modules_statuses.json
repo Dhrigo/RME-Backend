@@ -23,5 +23,6 @@
     "PembayaranInvoiceItem": true,
     "PembayaranPayment": true,
     "GeneralService": true,
-    "GeneralServiceTariff": true
+    "GeneralServiceTariff": true,
+    "MedicalRecordClinicalNote": true
 }

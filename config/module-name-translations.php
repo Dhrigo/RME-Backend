@@ -25,6 +25,10 @@ return array (
   array (
     'GolonganDarah' => 'BloodType',
   ),
+  'MedicalRecord' => 
+  array (
+    'CPPT' => 'ClinicalNote',
+  ),
   'Pembayaran' => 
   array (
     'PembayaranTagihan' => 'Payment',

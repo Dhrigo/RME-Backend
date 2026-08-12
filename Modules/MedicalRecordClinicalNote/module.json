@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordClinicalNote",
+    "alias": "medicalrecordclinicalnote",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordClinicalNote\\Providers\\MedicalRecordClinicalNoteServiceProvider"
+    ],
+    "files": []
+}
