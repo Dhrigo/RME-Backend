@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranregistration",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranRegistration\\": "app/",
+            "Modules\\PendaftaranRegistration\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranRegistration\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranRegistration\\Tests\\": "tests/"
+        }
+    }
+}

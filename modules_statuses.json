@@ -6,5 +6,7 @@
     "GeneralGender": true,
     "GeneralProfession": true,
     "GeneralRegion": true,
-    "GeneralPatient": true
+    "GeneralPatient": true,
+    "PendaftaranRegistration": true,
+    "PendaftaranVisit": true
 }

@@ -10,4 +10,9 @@ return array (
     'Profesi' => 'Profession',
     'Wilayah' => 'Region',
   ),
+  'Pendaftaran' => 
+  array (
+    'Kunjungan' => 'Visit',
+    'Pendaftaran' => 'Registration',
+  ),
 );

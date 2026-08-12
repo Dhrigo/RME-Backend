@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranRegistration",
+    "alias": "pendaftaranregistration",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranRegistration\\Providers\\PendaftaranRegistrationServiceProvider"
+    ],
+    "files": []
+}
