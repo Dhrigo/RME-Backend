@@ -6,6 +6,7 @@ return array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
     'Diagnosa' => 'DiagnosisCode',
+    'Instansi' => 'Institution',
     'JenisKelamin' => 'Gender',
     'JenisKunjunganRuangan' => 'WardVisitType',
     'JenisRuangan' => 'WardType',

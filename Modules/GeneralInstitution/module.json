@@ -1,0 +1,11 @@
+{
+    "name": "GeneralInstitution",
+    "alias": "generalinstitution",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralInstitution\\Providers\\GeneralInstitutionServiceProvider"
+    ],
+    "files": []
+}

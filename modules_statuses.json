@@ -50,5 +50,6 @@
     "InventorySupplier": true,
     "InventoryGoodsReceipt": true,
     "InventoryStockRequest": true,
-    "PembayaranDeposit": true
+    "PembayaranDeposit": true,
+    "GeneralInstitution": true
 }

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalinstitution",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralInstitution\\": "app/",
+            "Modules\\GeneralInstitution\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralInstitution\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralInstitution\\Tests\\": "tests/"
+        }
+    }
+}
