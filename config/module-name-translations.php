@@ -11,6 +11,7 @@ return array (
     'JenisKunjunganRuangan' => 'WardVisitType',
     'JenisRuangan' => 'WardType',
     'JenisTindakan' => 'ServiceType',
+    'JenisWilayah' => 'RegionType',
     'Kelas' => 'RoomClass',
     'Negara' => 'Country',
     'Paket' => 'Package',
