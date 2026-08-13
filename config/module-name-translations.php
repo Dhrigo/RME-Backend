@@ -1,7 +1,14 @@
 <?php
 
 return array (
-  'General' => 
+  'BerkasKlaim' =>
+  array (
+    'Berkas' => 'ClaimFile',
+    'DokumenPendukung' => 'SupportingDocument',
+    'Kelengkapan' => 'ClaimCompleteness',
+    'KelengkapanKomentar' => 'ClaimCompletenessComment',
+  ),
+  'General' =>
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
@@ -99,6 +106,13 @@ return array (
     'KontakPegawai' => 'EmployeeContact',
     'StrSip' => 'PracticeLicense',
   ),
+  'Pembatalan' =>
+  array (
+    'FinalHasil' => 'FinalResult',
+    'PembatalanDocument' => 'DocumentCancellation',
+    'PembatalanRekamMedis' => 'MedicalRecordCancellation',
+    'PembatalanRetur' => 'ReturnCancellation',
+  ),
   'Pembayaran' =>
   array (
     'Deposit' => 'Deposit',
@@ -129,6 +143,8 @@ return array (
   'PenjaminRS' => 
   array (
     'CaraKeluar' => 'DischargeMethod',
+    'Dpjp' => 'AttendingPhysician',
+    'Drivers' => 'ClaimDriver',
   ),
   'Penjualan' => 
   array (

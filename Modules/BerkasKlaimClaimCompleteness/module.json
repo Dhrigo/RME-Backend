@@ -1,0 +1,11 @@
+{
+    "name": "BerkasKlaimClaimCompleteness",
+    "alias": "berkasklaimclaimcompleteness",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BerkasKlaimClaimCompleteness\\Providers\\BerkasKlaimClaimCompletenessServiceProvider"
+    ],
+    "files": []
+}

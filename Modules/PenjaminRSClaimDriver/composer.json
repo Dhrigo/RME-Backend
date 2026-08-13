@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/penjaminrsclaimdriver",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PenjaminRSClaimDriver\\": "app/",
+            "Modules\\PenjaminRSClaimDriver\\Database\\Factories\\": "database/factories/",
+            "Modules\\PenjaminRSClaimDriver\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PenjaminRSClaimDriver\\Tests\\": "tests/"
+        }
+    }
+}

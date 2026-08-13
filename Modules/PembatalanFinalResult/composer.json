@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembatalanfinalresult",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembatalanFinalResult\\": "app/",
+            "Modules\\PembatalanFinalResult\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembatalanFinalResult\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembatalanFinalResult\\Tests\\": "tests/"
+        }
+    }
+}

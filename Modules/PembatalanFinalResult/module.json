@@ -1,0 +1,11 @@
+{
+    "name": "PembatalanFinalResult",
+    "alias": "pembatalanfinalresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembatalanFinalResult\\Providers\\PembatalanFinalResultServiceProvider"
+    ],
+    "files": []
+}

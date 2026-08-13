@@ -1,0 +1,11 @@
+{
+    "name": "PenjaminRSAttendingPhysician",
+    "alias": "penjaminrsattendingphysician",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PenjaminRSAttendingPhysician\\Providers\\PenjaminRSAttendingPhysicianServiceProvider"
+    ],
+    "files": []
+}

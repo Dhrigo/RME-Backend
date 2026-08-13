@@ -1,135 +1,175 @@
 {
-    "$schema": "https://getcomposer.org/schema.json",
-    "name": "dhrigos/simgos-backend",
-    "type": "project",
-    "description": "Modular monolith backend, one Laravel module per source submodule.",
-    "keywords": [
-        "laravel",
-        "framework"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Deva Indrayana Rahmat",
-            "email": "dhrigos@gmail.com"
-        }
-    ],
-    "require": {
-        "php": "^8.3",
-        "barryvdh/laravel-dompdf": "^3.1",
-        "laravel/framework": "^13.17",
-        "laravel/sanctum": "^4.3",
-        "laravel/tinker": "^3.0",
-        "laravolt/indonesia": "^0.41.0",
-        "nwidart/laravel-modules": "^13.0",
-        "spatie/laravel-permission": "^8.3"
-    },
-    "require-dev": {
-        "brianium/paratest": "^7.20",
-        "fakerphp/faker": "^1.23",
-        "laravel/pail": "^1.2.5",
-        "laravel/pao": "^1.0.6",
-        "laravel/pint": "^1.27",
-        "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.6",
-        "phpunit/phpunit": "^12.5.12"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/",
-            "Modules\\GeneralAdministrationTariff\\": "Modules/GeneralAdministrationTariff/app/",
-            "Modules\\GeneralAdministrationTariff\\Database\\Factories\\": "Modules/GeneralAdministrationTariff/database/factories/",
-            "Modules\\GeneralAdministrationTariff\\Database\\Seeders\\": "Modules/GeneralAdministrationTariff/database/seeders/",
-            "Modules\\GeneralOxygenTariff\\": "Modules/GeneralOxygenTariff/app/",
-            "Modules\\GeneralOxygenTariff\\Database\\Factories\\": "Modules/GeneralOxygenTariff/database/factories/",
-            "Modules\\GeneralOxygenTariff\\Database\\Seeders\\": "Modules/GeneralOxygenTariff/database/seeders/",
-            "Modules\\GeneralWardTariff\\": "Modules/GeneralWardTariff/app/",
-            "Modules\\GeneralWardTariff\\Database\\Factories\\": "Modules/GeneralWardTariff/database/factories/",
-            "Modules\\GeneralWardTariff\\Database\\Seeders\\": "Modules/GeneralWardTariff/database/seeders/",
-            "Modules\\GeneralPharmacyTariffByRoomClass\\": "Modules/GeneralPharmacyTariffByRoomClass/app/",
-            "Modules\\GeneralPharmacyTariffByRoomClass\\Database\\Factories\\": "Modules/GeneralPharmacyTariffByRoomClass/database/factories/",
-            "Modules\\GeneralPharmacyTariffByRoomClass\\Database\\Seeders\\": "Modules/GeneralPharmacyTariffByRoomClass/database/seeders/",
-            "Modules\\GeneralServiceTariffDistribution\\": "Modules/GeneralServiceTariffDistribution/app/",
-            "Modules\\GeneralServiceTariffDistribution\\Database\\Factories\\": "Modules/GeneralServiceTariffDistribution/database/factories/",
-            "Modules\\GeneralServiceTariffDistribution\\Database\\Seeders\\": "Modules/GeneralServiceTariffDistribution/database/seeders/",
-            "Modules\\GeneralPackageService\\": "Modules/GeneralPackageService/app/",
-            "Modules\\GeneralPackageService\\Database\\Factories\\": "Modules/GeneralPackageService/database/factories/",
-            "Modules\\GeneralPackageService\\Database\\Seeders\\": "Modules/GeneralPackageService/database/seeders/",
-            "Modules\\GeneralPackageItem\\": "Modules/GeneralPackageItem/app/",
-            "Modules\\GeneralPackageItem\\Database\\Factories\\": "Modules/GeneralPackageItem/database/factories/",
-            "Modules\\GeneralPackageItem\\Database\\Seeders\\": "Modules/GeneralPackageItem/database/seeders/",
-            "Modules\\GeneralProcedure\\": "Modules/GeneralProcedure/app/",
-            "Modules\\GeneralProcedure\\Database\\Factories\\": "Modules/GeneralProcedure/database/factories/",
-            "Modules\\GeneralProcedure\\Database\\Seeders\\": "Modules/GeneralProcedure/database/seeders/",
-            "Modules\\GeneralAnatomyTemplate\\": "Modules/GeneralAnatomyTemplate/app/",
-            "Modules\\GeneralAnatomyTemplate\\Database\\Factories\\": "Modules/GeneralAnatomyTemplate/database/factories/",
-            "Modules\\GeneralAnatomyTemplate\\Database\\Seeders\\": "Modules/GeneralAnatomyTemplate/database/seeders/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
-    "scripts": {
-        "setup": [
-            "composer install",
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
-            "@php artisan key:generate",
-            "@php artisan migrate --force"
-        ],
-        "dev": [
-            "Composer\\Config::disableProcessTimeout",
-            "@php artisan serve"
-        ],
-        "test": [
-            "@php artisan config:clear --ansi @no_additional_args",
-            "@php artisan test --parallel"
-        ],
-        "post-autoload-dump": [
-            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-            "@php artisan package:discover --ansi",
-            "@php artisan module:manifest-cache --ansi"
-        ],
-        "post-update-cmd": [
-            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
-        ],
-        "post-root-package-install": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-        ],
-        "post-create-project-cmd": [
-            "@php artisan key:generate --ansi",
-            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
-            "@php artisan migrate --graceful --ansi"
-        ],
-        "pre-package-uninstall": [
-            "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
-        ]
-    },
-    "extra": {
-        "laravel": {
-            "dont-discover": [
-                "nwidart/laravel-modules"
-            ]
-        },
-        "merge-plugin": {
-            "include": [
-                "Modules/*/composer.json"
-            ]
-        }
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "allow-plugins": {
-            "pestphp/pest-plugin": true,
-            "php-http/discovery": true,
-            "wikimedia/composer-merge-plugin": true
-        }
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "$schema":  "https://getcomposer.org/schema.json",
+    "name":  "dhrigos/simgos-backend",
+    "type":  "project",
+    "description":  "Modular monolith backend, one Laravel module per source submodule.",
+    "keywords":  [
+                     "laravel",
+                     "framework"
+                 ],
+    "license":  "MIT",
+    "authors":  [
+                    {
+                        "name":  "Deva Indrayana Rahmat",
+                        "email":  "dhrigos@gmail.com"
+                    }
+                ],
+    "require":  {
+                    "php":  "^8.3",
+                    "barryvdh/laravel-dompdf":  "^3.1",
+                    "laravel/framework":  "^13.17",
+                    "laravel/sanctum":  "^4.3",
+                    "laravel/tinker":  "^3.0",
+                    "laravolt/indonesia":  "^0.41.0",
+                    "nwidart/laravel-modules":  "^13.0",
+                    "spatie/laravel-permission":  "^8.3"
+                },
+    "require-dev":  {
+                        "brianium/paratest":  "^7.20",
+                        "fakerphp/faker":  "^1.23",
+                        "laravel/pail":  "^1.2.5",
+                        "laravel/pao":  "^1.0.6",
+                        "laravel/pint":  "^1.27",
+                        "mockery/mockery":  "^1.6",
+                        "nunomaduro/collision":  "^8.6",
+                        "phpunit/phpunit":  "^12.5.12"
+                    },
+    "autoload":  {
+                     "psr-4":  {
+                                   "App\\":  "app/",
+                                   "Database\\Factories\\":  "database/factories/",
+                                   "Database\\Seeders\\":  "database/seeders/",
+                                   "Modules\\GeneralAdministrationTariff\\":  "Modules/GeneralAdministrationTariff/app/",
+                                   "Modules\\GeneralAdministrationTariff\\Database\\Factories\\":  "Modules/GeneralAdministrationTariff/database/factories/",
+                                   "Modules\\GeneralAdministrationTariff\\Database\\Seeders\\":  "Modules/GeneralAdministrationTariff/database/seeders/",
+                                   "Modules\\GeneralOxygenTariff\\":  "Modules/GeneralOxygenTariff/app/",
+                                   "Modules\\GeneralOxygenTariff\\Database\\Factories\\":  "Modules/GeneralOxygenTariff/database/factories/",
+                                   "Modules\\GeneralOxygenTariff\\Database\\Seeders\\":  "Modules/GeneralOxygenTariff/database/seeders/",
+                                   "Modules\\GeneralWardTariff\\":  "Modules/GeneralWardTariff/app/",
+                                   "Modules\\GeneralWardTariff\\Database\\Factories\\":  "Modules/GeneralWardTariff/database/factories/",
+                                   "Modules\\GeneralWardTariff\\Database\\Seeders\\":  "Modules/GeneralWardTariff/database/seeders/",
+                                   "Modules\\GeneralPharmacyTariffByRoomClass\\":  "Modules/GeneralPharmacyTariffByRoomClass/app/",
+                                   "Modules\\GeneralPharmacyTariffByRoomClass\\Database\\Factories\\":  "Modules/GeneralPharmacyTariffByRoomClass/database/factories/",
+                                   "Modules\\GeneralPharmacyTariffByRoomClass\\Database\\Seeders\\":  "Modules/GeneralPharmacyTariffByRoomClass/database/seeders/",
+                                   "Modules\\GeneralServiceTariffDistribution\\":  "Modules/GeneralServiceTariffDistribution/app/",
+                                   "Modules\\GeneralServiceTariffDistribution\\Database\\Factories\\":  "Modules/GeneralServiceTariffDistribution/database/factories/",
+                                   "Modules\\GeneralServiceTariffDistribution\\Database\\Seeders\\":  "Modules/GeneralServiceTariffDistribution/database/seeders/",
+                                   "Modules\\GeneralPackageService\\":  "Modules/GeneralPackageService/app/",
+                                   "Modules\\GeneralPackageService\\Database\\Factories\\":  "Modules/GeneralPackageService/database/factories/",
+                                   "Modules\\GeneralPackageService\\Database\\Seeders\\":  "Modules/GeneralPackageService/database/seeders/",
+                                   "Modules\\GeneralPackageItem\\":  "Modules/GeneralPackageItem/app/",
+                                   "Modules\\GeneralPackageItem\\Database\\Factories\\":  "Modules/GeneralPackageItem/database/factories/",
+                                   "Modules\\GeneralPackageItem\\Database\\Seeders\\":  "Modules/GeneralPackageItem/database/seeders/",
+                                   "Modules\\GeneralProcedure\\":  "Modules/GeneralProcedure/app/",
+                                   "Modules\\GeneralProcedure\\Database\\Factories\\":  "Modules/GeneralProcedure/database/factories/",
+                                   "Modules\\GeneralProcedure\\Database\\Seeders\\":  "Modules/GeneralProcedure/database/seeders/",
+                                   "Modules\\GeneralAnatomyTemplate\\":  "Modules/GeneralAnatomyTemplate/app/",
+                                   "Modules\\GeneralAnatomyTemplate\\Database\\Factories\\":  "Modules/GeneralAnatomyTemplate/database/factories/",
+                                   "Modules\\GeneralAnatomyTemplate\\Database\\Seeders\\":  "Modules/GeneralAnatomyTemplate/database/seeders/",
+                                   "Modules\\PenjaminRSAttendingPhysician\\":  "Modules/PenjaminRSAttendingPhysician/app/",
+                                   "Modules\\PenjaminRSAttendingPhysician\\Database\\Factories\\":  "Modules/PenjaminRSAttendingPhysician/database/factories/",
+                                   "Modules\\PenjaminRSAttendingPhysician\\Database\\Seeders\\":  "Modules/PenjaminRSAttendingPhysician/database/seeders/",
+                                   "Modules\\PenjaminRSClaimDriver\\":  "Modules/PenjaminRSClaimDriver/app/",
+                                   "Modules\\PenjaminRSClaimDriver\\Database\\Factories\\":  "Modules/PenjaminRSClaimDriver/database/factories/",
+                                   "Modules\\PenjaminRSClaimDriver\\Database\\Seeders\\":  "Modules/PenjaminRSClaimDriver/database/seeders/",
+                                   "Modules\\BerkasKlaimClaimFile\\":  "Modules/BerkasKlaimClaimFile/app/",
+                                   "Modules\\BerkasKlaimClaimFile\\Database\\Factories\\":  "Modules/BerkasKlaimClaimFile/database/factories/",
+                                   "Modules\\BerkasKlaimClaimFile\\Database\\Seeders\\":  "Modules/BerkasKlaimClaimFile/database/seeders/",
+                                   "Modules\\BerkasKlaimSupportingDocument\\":  "Modules/BerkasKlaimSupportingDocument/app/",
+                                   "Modules\\BerkasKlaimSupportingDocument\\Database\\Factories\\":  "Modules/BerkasKlaimSupportingDocument/database/factories/",
+                                   "Modules\\BerkasKlaimSupportingDocument\\Database\\Seeders\\":  "Modules/BerkasKlaimSupportingDocument/database/seeders/",
+                                   "Modules\\BerkasKlaimClaimCompleteness\\":  "Modules/BerkasKlaimClaimCompleteness/app/",
+                                   "Modules\\BerkasKlaimClaimCompleteness\\Database\\Factories\\":  "Modules/BerkasKlaimClaimCompleteness/database/factories/",
+                                   "Modules\\BerkasKlaimClaimCompleteness\\Database\\Seeders\\":  "Modules/BerkasKlaimClaimCompleteness/database/seeders/",
+                                   "Modules\\BerkasKlaimClaimCompletenessComment\\":  "Modules/BerkasKlaimClaimCompletenessComment/app/",
+                                   "Modules\\BerkasKlaimClaimCompletenessComment\\Database\\Factories\\":  "Modules/BerkasKlaimClaimCompletenessComment/database/factories/",
+                                   "Modules\\BerkasKlaimClaimCompletenessComment\\Database\\Seeders\\":  "Modules/BerkasKlaimClaimCompletenessComment/database/seeders/",
+                                   "Modules\\PembatalanFinalResult\\":  "Modules/PembatalanFinalResult/app/",
+                                   "Modules\\PembatalanFinalResult\\Database\\Factories\\":  "Modules/PembatalanFinalResult/database/factories/",
+                                   "Modules\\PembatalanFinalResult\\Database\\Seeders\\":  "Modules/PembatalanFinalResult/database/seeders/",
+                                   "Modules\\PembatalanDocumentCancellation\\":  "Modules/PembatalanDocumentCancellation/app/",
+                                   "Modules\\PembatalanDocumentCancellation\\Database\\Factories\\":  "Modules/PembatalanDocumentCancellation/database/factories/",
+                                   "Modules\\PembatalanDocumentCancellation\\Database\\Seeders\\":  "Modules/PembatalanDocumentCancellation/database/seeders/",
+                                   "Modules\\PembatalanMedicalRecordCancellation\\":  "Modules/PembatalanMedicalRecordCancellation/app/",
+                                   "Modules\\PembatalanMedicalRecordCancellation\\Database\\Factories\\":  "Modules/PembatalanMedicalRecordCancellation/database/factories/",
+                                   "Modules\\PembatalanMedicalRecordCancellation\\Database\\Seeders\\":  "Modules/PembatalanMedicalRecordCancellation/database/seeders/",
+                                   "Modules\\PembatalanReturnCancellation\\":  "Modules/PembatalanReturnCancellation/app/",
+                                   "Modules\\PembatalanReturnCancellation\\Database\\Factories\\":  "Modules/PembatalanReturnCancellation/database/factories/",
+                                   "Modules\\PembatalanReturnCancellation\\Database\\Seeders\\":  "Modules/PembatalanReturnCancellation/database/seeders/"
+                               }
+                 },
+    "autoload-dev":  {
+                         "psr-4":  {
+                                       "Tests\\":  "tests/",
+                                       "Modules\\PenjaminRSAttendingPhysician\\Tests\\":  "Modules/PenjaminRSAttendingPhysician/tests/",
+                                       "Modules\\PenjaminRSClaimDriver\\Tests\\":  "Modules/PenjaminRSClaimDriver/tests/",
+                                       "Modules\\BerkasKlaimClaimFile\\Tests\\":  "Modules/BerkasKlaimClaimFile/tests/",
+                                       "Modules\\BerkasKlaimSupportingDocument\\Tests\\":  "Modules/BerkasKlaimSupportingDocument/tests/",
+                                       "Modules\\BerkasKlaimClaimCompleteness\\Tests\\":  "Modules/BerkasKlaimClaimCompleteness/tests/",
+                                       "Modules\\BerkasKlaimClaimCompletenessComment\\Tests\\":  "Modules/BerkasKlaimClaimCompletenessComment/tests/",
+                                       "Modules\\PembatalanFinalResult\\Tests\\":  "Modules/PembatalanFinalResult/tests/",
+                                       "Modules\\PembatalanDocumentCancellation\\Tests\\":  "Modules/PembatalanDocumentCancellation/tests/",
+                                       "Modules\\PembatalanMedicalRecordCancellation\\Tests\\":  "Modules/PembatalanMedicalRecordCancellation/tests/",
+                                       "Modules\\PembatalanReturnCancellation\\Tests\\":  "Modules/PembatalanReturnCancellation/tests/"
+                                   }
+                     },
+    "scripts":  {
+                    "setup":  [
+                                  "composer install",
+                                  "@php -r \"file_exists(\u0027.env\u0027) || copy(\u0027.env.example\u0027, \u0027.env\u0027);\"",
+                                  "@php artisan key:generate",
+                                  "@php artisan migrate --force"
+                              ],
+                    "dev":  [
+                                "Composer\\Config::disableProcessTimeout",
+                                "@php artisan serve"
+                            ],
+                    "test":  [
+                                 "@php artisan config:clear --ansi @no_additional_args",
+                                 "@php artisan test --parallel"
+                             ],
+                    "post-autoload-dump":  [
+                                               "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+                                               "@php artisan package:discover --ansi",
+                                               "@php artisan module:manifest-cache --ansi"
+                                           ],
+                    "post-update-cmd":  [
+                                            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+                                        ],
+                    "post-root-package-install":  [
+                                                      "@php -r \"file_exists(\u0027.env\u0027) || copy(\u0027.env.example\u0027, \u0027.env\u0027);\""
+                                                  ],
+                    "post-create-project-cmd":  [
+                                                    "@php artisan key:generate --ansi",
+                                                    "@php -r \"file_exists(\u0027database/database.sqlite\u0027) || touch(\u0027database/database.sqlite\u0027);\"",
+                                                    "@php artisan migrate --graceful --ansi"
+                                                ],
+                    "pre-package-uninstall":  [
+                                                  "Illuminate\\Foundation\\ComposerScripts::prePackageUninstall"
+                                              ]
+                },
+    "extra":  {
+                  "laravel":  {
+                                  "dont-discover":  [
+                                                        "nwidart/laravel-modules"
+                                                    ]
+                              },
+                  "merge-plugin":  {
+                                       "include":  [
+                                                       "Modules/*/composer.json"
+                                                   ]
+                                   }
+              },
+    "config":  {
+                   "optimize-autoloader":  true,
+                   "preferred-install":  "dist",
+                   "sort-packages":  true,
+                   "allow-plugins":  {
+                                         "pestphp/pest-plugin":  true,
+                                         "php-http/discovery":  true,
+                                         "wikimedia/composer-merge-plugin":  true
+                                     }
+               },
+    "minimum-stability":  "stable",
+    "prefer-stable":  true
 }
