@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalreferencetype",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralReferenceType\\": "app/",
+            "Modules\\GeneralReferenceType\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralReferenceType\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralReferenceType\\Tests\\": "tests/"
+        }
+    }
+}

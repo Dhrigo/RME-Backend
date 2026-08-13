@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPpk",
+    "alias": "generalppk",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPpk\\Providers\\GeneralPpkServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalkip",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralKip\\": "app/",
+            "Modules\\GeneralKip\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralKip\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralKip\\Tests\\": "tests/"
+        }
+    }
+}

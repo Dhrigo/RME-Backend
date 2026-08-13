@@ -50,5 +50,13 @@
     "InventorySupplier": true,
     "InventoryGoodsReceipt": true,
     "InventoryStockRequest": true,
-    "PembayaranDeposit": true
+    "PembayaranDeposit": true,
+    "GeneralInstitution": true,
+    "GeneralRegionType": true,
+    "GeneralReferenceType": true,
+    "GeneralReportType": true,
+    "GeneralBankAccount": true,
+    "GeneralPpk": true,
+    "GeneralKap": true,
+    "GeneralKip": true
 }

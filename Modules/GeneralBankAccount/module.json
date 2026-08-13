@@ -1,0 +1,11 @@
+{
+    "name": "GeneralBankAccount",
+    "alias": "generalbankaccount",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralBankAccount\\Providers\\GeneralBankAccountServiceProvider"
+    ],
+    "files": []
+}
