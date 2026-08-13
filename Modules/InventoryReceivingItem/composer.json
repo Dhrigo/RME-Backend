@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventoryreceivingitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryReceivingItem\\": "app/",
+            "Modules\\InventoryReceivingItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryReceivingItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryReceivingItem\\Tests\\": "tests/"
+        }
+    }
+}

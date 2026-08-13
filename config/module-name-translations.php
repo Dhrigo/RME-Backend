@@ -1,14 +1,18 @@
 <?php
 
 return array (
-  'BerkasKlaim' =>
+  'BerkasKlaim' => 
   array (
     'Berkas' => 'ClaimFile',
     'DokumenPendukung' => 'SupportingDocument',
     'Kelengkapan' => 'ClaimCompleteness',
     'KelengkapanKomentar' => 'ClaimCompletenessComment',
+    'LabKlinik' => 'ClinicalLabClaim',
+    'LabKlinikDetil' => 'ClinicalLabClaimItem',
+    'Radiologi' => 'RadiologyClaim',
+    'RadiologiDetil' => 'RadiologyClaimItem',
   ),
-  'General' =>
+  'General' => 
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
@@ -68,8 +72,12 @@ return array (
     'HargaBarang' => 'ItemPrice',
     'Kategori' => 'ItemCategory',
     'NoSeriBarangRuangan' => 'ItemSerialNumber',
+    'Penerimaan' => 'ReceivingRecord',
     'PenerimaanBarang' => 'GoodsReceipt',
+    'PenerimaanBarangDetil' => 'ReceivingItem',
     'PenggolonganBarang' => 'ItemClassification',
+    'Pengiriman' => 'Shipment',
+    'PengirimanDetil' => 'ShipmentItem',
     'Penyedia' => 'Supplier',
     'Permintaan' => 'StockRequest',
     'Satuan' => 'UnitOfMeasure',
@@ -100,20 +108,20 @@ return array (
     'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
-  'Pegawai' =>
+  'Pegawai' => 
   array (
     'KartuIdentitas' => 'EmployeeIdentityCard',
     'KontakPegawai' => 'EmployeeContact',
     'StrSip' => 'PracticeLicense',
   ),
-  'Pembatalan' =>
+  'Pembatalan' => 
   array (
     'FinalHasil' => 'FinalResult',
     'PembatalanDocument' => 'DocumentCancellation',
     'PembatalanRekamMedis' => 'MedicalRecordCancellation',
     'PembatalanRetur' => 'ReturnCancellation',
   ),
-  'Pembayaran' =>
+  'Pembayaran' => 
   array (
     'Deposit' => 'Deposit',
     'PembayaranTagihan' => 'Payment',

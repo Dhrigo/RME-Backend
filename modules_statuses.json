@@ -115,5 +115,13 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "InventoryReceivingRecord": true,
+    "InventoryReceivingItem": true,
+    "InventoryShipment": true,
+    "InventoryShipmentItem": true,
+    "BerkasKlaimClinicalLabClaim": true,
+    "BerkasKlaimClinicalLabClaimItem": true,
+    "BerkasKlaimRadiologyClaim": true,
+    "BerkasKlaimRadiologyClaimItem": true
 }

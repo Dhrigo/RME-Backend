@@ -1,0 +1,11 @@
+{
+    "name": "BerkasKlaimRadiologyClaimItem",
+    "alias": "berkasklaimradiologyclaimitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BerkasKlaimRadiologyClaimItem\\Providers\\BerkasKlaimRadiologyClaimItemServiceProvider"
+    ],
+    "files": []
+}
