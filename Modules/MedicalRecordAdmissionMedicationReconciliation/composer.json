@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordadmissionmedicationreconciliation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordAdmissionMedicationReconciliation\\": "app/",
+            "Modules\\MedicalRecordAdmissionMedicationReconciliation\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordAdmissionMedicationReconciliation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordAdmissionMedicationReconciliation\\Tests\\": "tests/"
+        }
+    }
+}

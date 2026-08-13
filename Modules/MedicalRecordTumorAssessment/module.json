@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordTumorAssessment",
+    "alias": "medicalrecordtumorassessment",
+    "description": "TumorAssessment records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordTumorAssessment\\Providers\\MedicalRecordTumorAssessmentServiceProvider"
+    ],
+    "files": []
+}

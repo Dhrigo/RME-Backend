@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBaepInsomniaDetail",
+    "alias": "medicalrecordbaepinsomniadetail",
+    "description": "BaepInsomniaDetail records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBaepInsomniaDetail\\Providers\\MedicalRecordBaepInsomniaDetailServiceProvider"
+    ],
+    "files": []
+}

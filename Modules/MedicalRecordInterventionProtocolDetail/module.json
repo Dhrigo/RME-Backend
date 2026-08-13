@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordInterventionProtocolDetail",
+    "alias": "medicalrecordinterventionprotocoldetail",
+    "description": "InterventionProtocolDetail records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordInterventionProtocolDetail\\Providers\\MedicalRecordInterventionProtocolDetailServiceProvider"
+    ],
+    "files": []
+}

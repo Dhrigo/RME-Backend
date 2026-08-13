@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordprocedureconsentinformationitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordProcedureConsentInformationItem\\": "app/",
+            "Modules\\MedicalRecordProcedureConsentInformationItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordProcedureConsentInformationItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordProcedureConsentInformationItem\\Tests\\": "tests/"
+        }
+    }
+}

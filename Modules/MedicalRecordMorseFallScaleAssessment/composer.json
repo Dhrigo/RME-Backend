@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordmorsefallscaleassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordMorseFallScaleAssessment\\": "app/",
+            "Modules\\MedicalRecordMorseFallScaleAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordMorseFallScaleAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordMorseFallScaleAssessment\\Tests\\": "tests/"
+        }
+    }
+}

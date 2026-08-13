@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordtransfermedicationreconciliation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordTransferMedicationReconciliation\\": "app/",
+            "Modules\\MedicalRecordTransferMedicationReconciliation\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordTransferMedicationReconciliation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordTransferMedicationReconciliation\\Tests\\": "tests/"
+        }
+    }
+}

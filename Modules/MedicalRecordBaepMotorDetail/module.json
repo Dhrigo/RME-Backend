@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBaepMotorDetail",
+    "alias": "medicalrecordbaepmotordetail",
+    "description": "BaepMotorDetail records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBaepMotorDetail\\Providers\\MedicalRecordBaepMotorDetailServiceProvider"
+    ],
+    "files": []
+}

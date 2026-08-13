@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordmedicationadministrationhistory",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordMedicationAdministrationHistory\\": "app/",
+            "Modules\\MedicalRecordMedicationAdministrationHistory\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordMedicationAdministrationHistory\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordMedicationAdministrationHistory\\Tests\\": "tests/"
+        }
+    }
+}

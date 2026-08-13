@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbaepsensorydetail",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepSensoryDetail\\": "app/",
+            "Modules\\MedicalRecordBaepSensoryDetail\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBaepSensoryDetail\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepSensoryDetail\\Tests\\": "tests/"
+        }
+    }
+}

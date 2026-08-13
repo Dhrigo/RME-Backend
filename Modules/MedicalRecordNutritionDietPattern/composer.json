@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordnutritiondietpattern",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordNutritionDietPattern\\": "app/",
+            "Modules\\MedicalRecordNutritionDietPattern\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordNutritionDietPattern\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordNutritionDietPattern\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbaepmotordetail",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepMotorDetail\\": "app/",
+            "Modules\\MedicalRecordBaepMotorDetail\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBaepMotorDetail\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepMotorDetail\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordMedicationAdministrationHistory",
+    "alias": "medicalrecordmedicationadministrationhistory",
+    "description": "MedicationAdministrationHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordMedicationAdministrationHistory\\Providers\\MedicalRecordMedicationAdministrationHistoryServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordTreatmentHistory",
+    "alias": "medicalrecordtreatmenthistory",
+    "description": "TreatmentHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordTreatmentHistory\\Providers\\MedicalRecordTreatmentHistoryServiceProvider"
+    ],
+    "files": []
+}

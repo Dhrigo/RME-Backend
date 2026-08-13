@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordProcedureConsentInformation",
+    "alias": "medicalrecordprocedureconsentinformation",
+    "description": "ProcedureConsentInformation records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordProcedureConsentInformation\\Providers\\MedicalRecordProcedureConsentInformationServiceProvider"
+    ],
+    "files": []
+}

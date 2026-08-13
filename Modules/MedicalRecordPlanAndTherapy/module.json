@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPlanAndTherapy",
+    "alias": "medicalrecordplanandtherapy",
+    "description": "PlanAndTherapy records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPlanAndTherapy\\Providers\\MedicalRecordPlanAndTherapyServiceProvider"
+    ],
+    "files": []
+}

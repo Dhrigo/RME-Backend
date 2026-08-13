@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordplanandtherapy",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordPlanAndTherapy\\": "app/",
+            "Modules\\MedicalRecordPlanAndTherapy\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordPlanAndTherapy\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordPlanAndTherapy\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordAdmissionMedicationReconciliation",
+    "alias": "medicalrecordadmissionmedicationreconciliation",
+    "description": "AdmissionMedicationReconciliation records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordAdmissionMedicationReconciliation\\Providers\\MedicalRecordAdmissionMedicationReconciliationServiceProvider"
+    ],
+    "files": []
+}

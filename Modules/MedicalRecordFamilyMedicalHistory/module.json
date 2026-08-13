@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordFamilyMedicalHistory",
+    "alias": "medicalrecordfamilymedicalhistory",
+    "description": "FamilyMedicalHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordFamilyMedicalHistory\\Providers\\MedicalRecordFamilyMedicalHistoryServiceProvider"
+    ],
+    "files": []
+}

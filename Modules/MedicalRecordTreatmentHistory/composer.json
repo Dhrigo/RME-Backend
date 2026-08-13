@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordtreatmenthistory",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordTreatmentHistory\\": "app/",
+            "Modules\\MedicalRecordTreatmentHistory\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordTreatmentHistory\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordTreatmentHistory\\Tests\\": "tests/"
+        }
+    }
+}

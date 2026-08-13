@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPreAnesthesiaSedationAssessment",
+    "alias": "medicalrecordpreanesthesiasedationassessment",
+    "description": "PreAnesthesiaSedationAssessment records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPreAnesthesiaSedationAssessment\\Providers\\MedicalRecordPreAnesthesiaSedationAssessmentServiceProvider"
+    ],
+    "files": []
+}

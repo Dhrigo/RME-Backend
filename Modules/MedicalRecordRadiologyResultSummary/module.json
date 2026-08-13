@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordRadiologyResultSummary",
+    "alias": "medicalrecordradiologyresultsummary",
+    "description": "RadiologyResultSummary records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordRadiologyResultSummary\\Providers\\MedicalRecordRadiologyResultSummaryServiceProvider"
+    ],
+    "files": []
+}

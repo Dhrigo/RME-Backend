@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPainScoreAssessment",
+    "alias": "medicalrecordpainscoreassessment",
+    "description": "PainScoreAssessment records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPainScoreAssessment\\Providers\\MedicalRecordPainScoreAssessmentServiceProvider"
+    ],
+    "files": []
+}

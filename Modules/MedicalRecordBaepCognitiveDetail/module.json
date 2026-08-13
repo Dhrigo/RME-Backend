@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBaepCognitiveDetail",
+    "alias": "medicalrecordbaepcognitivedetail",
+    "description": "BaepCognitiveDetail records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBaepCognitiveDetail\\Providers\\MedicalRecordBaepCognitiveDetailServiceProvider"
+    ],
+    "files": []
+}

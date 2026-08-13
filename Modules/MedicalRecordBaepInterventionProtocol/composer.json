@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbaepinterventionprotocol",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepInterventionProtocol\\": "app/",
+            "Modules\\MedicalRecordBaepInterventionProtocol\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBaepInterventionProtocol\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepInterventionProtocol\\Tests\\": "tests/"
+        }
+    }
+}

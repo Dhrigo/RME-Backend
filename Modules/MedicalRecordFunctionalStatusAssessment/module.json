@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordFunctionalStatusAssessment",
+    "alias": "medicalrecordfunctionalstatusassessment",
+    "description": "FunctionalStatusAssessment records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordFunctionalStatusAssessment\\Providers\\MedicalRecordFunctionalStatusAssessmentServiceProvider"
+    ],
+    "files": []
+}

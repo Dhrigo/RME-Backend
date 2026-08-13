@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbaepanxietydetail",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepAnxietyDetail\\": "app/",
+            "Modules\\MedicalRecordBaepAnxietyDetail\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBaepAnxietyDetail\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepAnxietyDetail\\Tests\\": "tests/"
+        }
+    }
+}

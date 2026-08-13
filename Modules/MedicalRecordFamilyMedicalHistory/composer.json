@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordfamilymedicalhistory",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordFamilyMedicalHistory\\": "app/",
+            "Modules\\MedicalRecordFamilyMedicalHistory\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordFamilyMedicalHistory\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordFamilyMedicalHistory\\Tests\\": "tests/"
+        }
+    }
+}

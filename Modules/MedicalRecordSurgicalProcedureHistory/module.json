@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordSurgicalProcedureHistory",
+    "alias": "medicalrecordsurgicalprocedurehistory",
+    "description": "SurgicalProcedureHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordSurgicalProcedureHistory\\Providers\\MedicalRecordSurgicalProcedureHistoryServiceProvider"
+    ],
+    "files": []
+}

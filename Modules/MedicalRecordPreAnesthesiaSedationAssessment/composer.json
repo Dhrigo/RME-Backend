@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordpreanesthesiasedationassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordPreAnesthesiaSedationAssessment\\": "app/",
+            "Modules\\MedicalRecordPreAnesthesiaSedationAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordPreAnesthesiaSedationAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordPreAnesthesiaSedationAssessment\\Tests\\": "tests/"
+        }
+    }
+}

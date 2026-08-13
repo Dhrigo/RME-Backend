@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordMorseFallScaleAssessment",
+    "alias": "medicalrecordmorsefallscaleassessment",
+    "description": "MorseFallScaleAssessment records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordMorseFallScaleAssessment\\Providers\\MedicalRecordMorseFallScaleAssessmentServiceProvider"
+    ],
+    "files": []
+}

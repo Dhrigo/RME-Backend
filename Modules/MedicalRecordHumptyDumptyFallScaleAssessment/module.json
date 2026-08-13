@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordHumptyDumptyFallScaleAssessment",
+    "alias": "medicalrecordhumptydumptyfallscaleassessment",
+    "description": "HumptyDumptyFallScaleAssessment records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordHumptyDumptyFallScaleAssessment\\Providers\\MedicalRecordHumptyDumptyFallScaleAssessmentServiceProvider"
+    ],
+    "files": []
+}

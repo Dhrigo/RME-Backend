@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordpainscoreassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordPainScoreAssessment\\": "app/",
+            "Modules\\MedicalRecordPainScoreAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordPainScoreAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordPainScoreAssessment\\Tests\\": "tests/"
+        }
+    }
+}
