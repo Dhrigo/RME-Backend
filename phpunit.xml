@@ -23,6 +23,17 @@
         </include>
     </source>
     <php>
+        <!--
+            Laravel's Application::inferBasePath() derives the base path from Composer
+            ClassLoader::getRegisteredLoaders() keys. vendor/ here is a symlink shared across
+            multiple git worktrees (to avoid N copies of installed deps) - PHP resolves that
+            symlink to its realpath when Composer registers the loader, so inference silently
+            picks whichever repo checkout vendor physically lives under instead of this
+            worktree. That's invisible for modules that also happen to exist in that other
+            checkout, but any module that exists ONLY in this worktree becomes untestable
+            (its migrations/routes never load). Pinning APP_BASE_PATH bypasses the inference.
+        -->
+        <env name="APP_BASE_PATH" value="G:\New folder\simgos-backend-wt-e"/>
         <env name="APP_ENV" value="testing"/>
         <env name="APP_MAINTENANCE_DRIVER" value="file"/>
         <env name="BCRYPT_ROUNDS" value="4"/>
