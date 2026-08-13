@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayaraninvoicesubsidy",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranInvoiceSubsidy\\": "app/",
+            "Modules\\PembayaranInvoiceSubsidy\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranInvoiceSubsidy\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranInvoiceSubsidy\\Tests\\": "tests/"
+        }
+    }
+}

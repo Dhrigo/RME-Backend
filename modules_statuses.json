@@ -190,5 +190,15 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "PembayaranInvoiceMerge": true,
+    "PembayaranProviderService": true,
+    "PembayaranInvoiceGuarantor": true,
+    "PembayaranPaymentProvider": true,
+    "PembayaranPackageInvoiceItem": true,
+    "PembayaranInvoiceSubsidy": true,
+    "PembayaranClaimInvoice": true,
+    "PembayaranRegistrationInvoice": true,
+    "GeneralPackageTariffDistribution": true,
+    "GeneralPackageTariffDistributionItem": true
 }

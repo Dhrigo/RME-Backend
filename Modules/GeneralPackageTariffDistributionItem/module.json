@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPackageTariffDistributionItem",
+    "alias": "generalpackagetariffdistributionitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPackageTariffDistributionItem\\Providers\\GeneralPackageTariffDistributionItemServiceProvider"
+    ],
+    "files": []
+}

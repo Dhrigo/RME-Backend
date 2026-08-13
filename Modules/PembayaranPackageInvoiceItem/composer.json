@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayaranpackageinvoiceitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranPackageInvoiceItem\\": "app/",
+            "Modules\\PembayaranPackageInvoiceItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranPackageInvoiceItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranPackageInvoiceItem\\Tests\\": "tests/"
+        }
+    }
+}

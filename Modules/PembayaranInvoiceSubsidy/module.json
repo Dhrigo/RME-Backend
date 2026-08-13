@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranInvoiceSubsidy",
+    "alias": "pembayaraninvoicesubsidy",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranInvoiceSubsidy\\Providers\\PembayaranInvoiceSubsidyServiceProvider"
+    ],
+    "files": []
+}

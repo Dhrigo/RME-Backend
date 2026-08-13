@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalpackagetariffdistribution",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPackageTariffDistribution\\": "app/",
+            "Modules\\GeneralPackageTariffDistribution\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPackageTariffDistribution\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralPackageTariffDistribution\\Tests\\": "tests/"
+        }
+    }
+}
