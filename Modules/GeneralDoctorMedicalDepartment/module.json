@@ -1,0 +1,11 @@
+{
+    "name": "GeneralDoctorMedicalDepartment",
+    "alias": "generaldoctormedicaldepartment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralDoctorMedicalDepartment\\Providers\\GeneralDoctorMedicalDepartmentServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "GeneralStaffMember",
+    "alias": "generalstaffmember",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralStaffMember\\Providers\\GeneralStaffMemberServiceProvider"
+    ],
+    "files": []
+}

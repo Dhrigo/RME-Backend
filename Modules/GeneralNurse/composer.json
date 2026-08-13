@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalnurse",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralNurse\\": "app/",
+            "Modules\\GeneralNurse\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralNurse\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralNurse\\Tests\\": "tests/"
+        }
+    }
+}

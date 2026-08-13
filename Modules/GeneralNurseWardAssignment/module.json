@@ -1,0 +1,11 @@
+{
+    "name": "GeneralNurseWardAssignment",
+    "alias": "generalnursewardassignment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralNurseWardAssignment\\Providers\\GeneralNurseWardAssignmentServiceProvider"
+    ],
+    "files": []
+}
