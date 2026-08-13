@@ -46,9 +46,11 @@ class VisitDateChangeControllerTest extends TestCase
         $response->assertCreated()
             ->assertJsonPath('data.reason', 'Patient request');
 
-        $this->assertDatabaseHas('visit_date_changes', array_merge($data, [
+        $this->assertDatabaseHas('visit_date_changes', [
+            'visit_id' => $visit->id,
+            'reason' => 'Patient request',
             'changed_by' => $this->user->id,
-        ]));
+        ]);
     }
 
     public function test_can_show_visit_date_change(): void

@@ -13,6 +13,10 @@ class CoManagement extends Model
 {
     use HasFactory;
 
+    // "management" is uncountable to Laravel's pluralizer, so the default table name would be
+    // "co_management" (singular) instead of matching this migration's "co_managements".
+    protected $table = 'co_managements';
+
     protected $fillable = [
         'visit_id',
         'employee_id',
