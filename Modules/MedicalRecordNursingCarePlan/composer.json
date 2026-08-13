@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordnursingcareplan",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordNursingCarePlan\\": "app/",
+            "Modules\\MedicalRecordNursingCarePlan\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordNursingCarePlan\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordNursingCarePlan\\Tests\\": "tests/"
+        }
+    }
+}

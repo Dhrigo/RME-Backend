@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordanamnesissource",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordAnamnesisSource\\": "app/",
+            "Modules\\MedicalRecordAnamnesisSource\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordAnamnesisSource\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordAnamnesisSource\\Tests\\": "tests/"
+        }
+    }
+}

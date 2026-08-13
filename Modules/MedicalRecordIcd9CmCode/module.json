@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordIcd9CmCode",
+    "alias": "medicalrecordicd9cmcode",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordIcd9CmCode\\Providers\\MedicalRecordIcd9CmCodeServiceProvider"
+    ],
+    "files": []
+}

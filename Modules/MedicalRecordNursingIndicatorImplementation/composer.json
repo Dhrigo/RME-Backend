@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordnursingindicatorimplementation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordNursingIndicatorImplementation\\": "app/",
+            "Modules\\MedicalRecordNursingIndicatorImplementation\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordNursingIndicatorImplementation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordNursingIndicatorImplementation\\Tests\\": "tests/"
+        }
+    }
+}

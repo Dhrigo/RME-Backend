@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPharmacyDiagnosis",
+    "alias": "medicalrecordpharmacydiagnosis",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPharmacyDiagnosis\\Providers\\MedicalRecordPharmacyDiagnosisServiceProvider"
+    ],
+    "files": []
+}

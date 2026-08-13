@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layanantreatmentprotocolstep",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananTreatmentProtocolStep\\": "app/",
+            "Modules\\LayananTreatmentProtocolStep\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananTreatmentProtocolStep\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananTreatmentProtocolStep\\Tests\\": "tests/"
+        }
+    }
+}

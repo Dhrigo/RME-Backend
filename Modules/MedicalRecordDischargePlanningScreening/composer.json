@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecorddischargeplanningscreening",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordDischargePlanningScreening\\": "app/",
+            "Modules\\MedicalRecordDischargePlanningScreening\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordDischargePlanningScreening\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordDischargePlanningScreening\\Tests\\": "tests/"
+        }
+    }
+}

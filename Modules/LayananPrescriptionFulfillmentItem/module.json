@@ -1,0 +1,11 @@
+{
+    "name": "LayananPrescriptionFulfillmentItem",
+    "alias": "layananprescriptionfulfillmentitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPrescriptionFulfillmentItem\\Providers\\LayananPrescriptionFulfillmentItemServiceProvider"
+    ],
+    "files": []
+}

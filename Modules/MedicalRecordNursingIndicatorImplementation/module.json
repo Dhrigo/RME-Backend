@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordNursingIndicatorImplementation",
+    "alias": "medicalrecordnursingindicatorimplementation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordNursingIndicatorImplementation\\Providers\\MedicalRecordNursingIndicatorImplementationServiceProvider"
+    ],
+    "files": []
+}

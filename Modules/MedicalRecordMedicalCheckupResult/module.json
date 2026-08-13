@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordMedicalCheckupResult",
+    "alias": "medicalrecordmedicalcheckupresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordMedicalCheckupResult\\Providers\\MedicalRecordMedicalCheckupResultServiceProvider"
+    ],
+    "files": []
+}

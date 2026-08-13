@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordImplementationChecklistItem",
+    "alias": "medicalrecordimplementationchecklistitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordImplementationChecklistItem\\Providers\\MedicalRecordImplementationChecklistItemServiceProvider"
+    ],
+    "files": []
+}

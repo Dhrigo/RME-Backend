@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordDischargePlanningScreening",
+    "alias": "medicalrecorddischargeplanningscreening",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordDischargePlanningScreening\\Providers\\MedicalRecordDischargePlanningScreeningServiceProvider"
+    ],
+    "files": []
+}

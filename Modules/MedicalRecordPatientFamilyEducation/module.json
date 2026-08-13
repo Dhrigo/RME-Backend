@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPatientFamilyEducation",
+    "alias": "medicalrecordpatientfamilyeducation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPatientFamilyEducation\\Providers\\MedicalRecordPatientFamilyEducationServiceProvider"
+    ],
+    "files": []
+}

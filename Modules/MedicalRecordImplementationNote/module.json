@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordImplementationNote",
+    "alias": "medicalrecordimplementationnote",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordImplementationNote\\Providers\\MedicalRecordImplementationNoteServiceProvider"
+    ],
+    "files": []
+}

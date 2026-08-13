@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordFluidFinalBalance",
+    "alias": "medicalrecordfluidfinalbalance",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordFluidFinalBalance\\Providers\\MedicalRecordFluidFinalBalanceServiceProvider"
+    ],
+    "files": []
+}

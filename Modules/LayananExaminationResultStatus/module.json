@@ -1,0 +1,11 @@
+{
+    "name": "LayananExaminationResultStatus",
+    "alias": "layananexaminationresultstatus",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananExaminationResultStatus\\Providers\\LayananExaminationResultStatusServiceProvider"
+    ],
+    "files": []
+}

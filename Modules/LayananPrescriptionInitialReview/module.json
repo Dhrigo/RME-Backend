@@ -1,0 +1,11 @@
+{
+    "name": "LayananPrescriptionInitialReview",
+    "alias": "layananprescriptioninitialreview",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPrescriptionInitialReview\\Providers\\LayananPrescriptionInitialReviewServiceProvider"
+    ],
+    "files": []
+}

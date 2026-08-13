@@ -1,0 +1,11 @@
+{
+    "name": "LayananPharmacyServiceTime",
+    "alias": "layananpharmacyservicetime",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPharmacyServiceTime\\Providers\\LayananPharmacyServiceTimeServiceProvider"
+    ],
+    "files": []
+}

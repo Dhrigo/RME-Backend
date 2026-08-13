@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordendoflifepsychosocialrelationship",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordEndOfLifePsychosocialRelationship\\": "app/",
+            "Modules\\MedicalRecordEndOfLifePsychosocialRelationship\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordEndOfLifePsychosocialRelationship\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordEndOfLifePsychosocialRelationship\\Tests\\": "tests/"
+        }
+    }
+}

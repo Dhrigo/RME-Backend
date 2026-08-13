@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordEndOfLifeEducation",
+    "alias": "medicalrecordendoflifeeducation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordEndOfLifeEducation\\Providers\\MedicalRecordEndOfLifeEducationServiceProvider"
+    ],
+    "files": []
+}

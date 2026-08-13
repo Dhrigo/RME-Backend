@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordIcd10CauseOfDeathCode",
+    "alias": "medicalrecordicd10causeofdeathcode",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordIcd10CauseOfDeathCode\\Providers\\MedicalRecordIcd10CauseOfDeathCodeServiceProvider"
+    ],
+    "files": []
+}

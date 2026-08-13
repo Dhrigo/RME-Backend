@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordNursingCarePlanImplementation",
+    "alias": "medicalrecordnursingcareplanimplementation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordNursingCarePlanImplementation\\Providers\\MedicalRecordNursingCarePlanImplementationServiceProvider"
+    ],
+    "files": []
+}

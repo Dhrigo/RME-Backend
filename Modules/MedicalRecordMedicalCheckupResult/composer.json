@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordmedicalcheckupresult",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordMedicalCheckupResult\\": "app/",
+            "Modules\\MedicalRecordMedicalCheckupResult\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordMedicalCheckupResult\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordMedicalCheckupResult\\Tests\\": "tests/"
+        }
+    }
+}

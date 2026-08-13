@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordDischargePlanningRiskFactor",
+    "alias": "medicalrecorddischargeplanningriskfactor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordDischargePlanningRiskFactor\\Providers\\MedicalRecordDischargePlanningRiskFactorServiceProvider"
+    ],
+    "files": []
+}

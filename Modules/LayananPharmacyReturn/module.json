@@ -1,0 +1,11 @@
+{
+    "name": "LayananPharmacyReturn",
+    "alias": "layananpharmacyreturn",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPharmacyReturn\\Providers\\LayananPharmacyReturnServiceProvider"
+    ],
+    "files": []
+}

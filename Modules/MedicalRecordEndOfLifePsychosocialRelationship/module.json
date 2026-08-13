@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordEndOfLifePsychosocialRelationship",
+    "alias": "medicalrecordendoflifepsychosocialrelationship",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordEndOfLifePsychosocialRelationship\\Providers\\MedicalRecordEndOfLifePsychosocialRelationshipServiceProvider"
+    ],
+    "files": []
+}

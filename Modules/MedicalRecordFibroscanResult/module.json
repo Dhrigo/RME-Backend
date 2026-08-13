@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordFibroscanResult",
+    "alias": "medicalrecordfibroscanresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordFibroscanResult\\Providers\\MedicalRecordFibroscanResultServiceProvider"
+    ],
+    "files": []
+}

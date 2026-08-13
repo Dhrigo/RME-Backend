@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordfunctionalassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordFunctionalAssessment\\": "app/",
+            "Modules\\MedicalRecordFunctionalAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordFunctionalAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordFunctionalAssessment\\Tests\\": "tests/"
+        }
+    }
+}

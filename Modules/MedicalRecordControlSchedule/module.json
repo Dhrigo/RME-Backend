@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordControlSchedule",
+    "alias": "medicalrecordcontrolschedule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordControlSchedule\\Providers\\MedicalRecordControlScheduleServiceProvider"
+    ],
+    "files": []
+}

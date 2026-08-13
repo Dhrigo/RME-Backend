@@ -1,0 +1,11 @@
+{
+    "name": "LayananBloodRequestItem",
+    "alias": "layananbloodrequestitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananBloodRequestItem\\Providers\\LayananBloodRequestItemServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordInterventionRecommendation",
+    "alias": "medicalrecordinterventionrecommendation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordInterventionRecommendation\\Providers\\MedicalRecordInterventionRecommendationServiceProvider"
+    ],
+    "files": []
+}

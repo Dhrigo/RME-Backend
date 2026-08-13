@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordendoflifeeducation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordEndOfLifeEducation\\": "app/",
+            "Modules\\MedicalRecordEndOfLifeEducation\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordEndOfLifeEducation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordEndOfLifeEducation\\Tests\\": "tests/"
+        }
+    }
+}
