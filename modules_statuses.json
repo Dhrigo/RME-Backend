@@ -125,14 +125,5 @@
     "GeneralStaffWardAssignment": true,
     "GeneralPatientFamily": true,
     "GeneralPatientFamilyContact": true,
-    "GeneralPatientFamilyIdentityCard": true,
-    "GeneralPharmacyWard": true,
-    "GeneralWardClass": true,
-    "GeneralConsultationWard": true,
-    "GeneralLaboratoryWard": true,
-    "GeneralOperatingWard": true,
-    "GeneralRadiologyWard": true,
-    "GeneralScannedDocument": true,
-    "GeneralPatientPhoto": true,
-    "GeneralEmployeePhoto": true
+    "GeneralPatientFamilyIdentityCard": true
 }
