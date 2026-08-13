@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8f502536aff3c821c1d7ca9d7a77f1f",
+    "content-hash": "8936e83c137756930b2d301fb038ea14",
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",
@@ -2898,6 +2898,54 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.8.0"
             },
             "time": "2026-07-04T14:30:18+00:00"
+        },
+        {
+            "name": "nullpunkt/lz-string-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nullpunkt/lz-string-php.git",
+                "reference": "699a9574713a38af62af2fc6287cc7ba8edd0dc8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nullpunkt/lz-string-php/zipball/699a9574713a38af62af2fc6287cc7ba8edd0dc8",
+                "reference": "699a9574713a38af62af2fc6287cc7ba8edd0dc8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "monolog/monolog": "^1.17",
+                "phpunit/phpunit": "~9.5"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LZCompressor\\": "src/LZCompressor"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Tobias Seipke",
+                    "email": "tobias.seipke@gmail.com",
+                    "homepage": "https://github.com/nullpunkt"
+                },
+                {
+                    "name": "Juhász Ádám",
+                    "email": "juhasz.adam@virgo.hu",
+                    "homepage": "https://github.com/JuhaszAdam"
+                }
+            ],
+            "description": "PHP Class implementation of LZ-String javascript.",
+            "support": {
+                "issues": "https://github.com/nullpunkt/lz-string-php/issues",
+                "source": "https://github.com/nullpunkt/lz-string-php/tree/master"
+            },
+            "time": "2021-06-17T07:56:13+00:00"
         },
         {
             "name": "nunomaduro/termwind",
@@ -9464,7 +9512,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "nullpunkt/lz-string-php": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

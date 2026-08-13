@@ -442,5 +442,6 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "Bpjs": true
 }

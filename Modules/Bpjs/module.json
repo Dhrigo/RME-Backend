@@ -1,0 +1,11 @@
+{
+    "name": "Bpjs",
+    "alias": "bpjs",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Bpjs\\Providers\\BpjsServiceProvider"
+    ],
+    "files": []
+}

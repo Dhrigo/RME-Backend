@@ -15,15 +15,16 @@
                     }
                 ],
     "require":  {
-                    "php":  "^8.3",
-                    "barryvdh/laravel-dompdf":  "^3.1",
-                    "laravel/framework":  "^13.17",
-                    "laravel/sanctum":  "^4.3",
-                    "laravel/tinker":  "^3.0",
-                    "laravolt/indonesia":  "^0.41.0",
-                    "nwidart/laravel-modules":  "^13.0",
-                    "spatie/laravel-permission":  "^8.3"
-                },
+        "php": "^8.3",
+        "barryvdh/laravel-dompdf": "^3.1",
+        "laravel/framework": "^13.17",
+        "laravel/sanctum": "^4.3",
+        "laravel/tinker": "^3.0",
+        "laravolt/indonesia": "^0.41.0",
+        "nullpunkt/lz-string-php": "dev-master",
+        "nwidart/laravel-modules": "^13.0",
+        "spatie/laravel-permission": "^8.3"
+    },
     "require-dev":  {
                         "brianium/paratest":  "^7.20",
                         "fakerphp/faker":  "^1.23",
