@@ -97,5 +97,6 @@ return array (
     'Pendaftaran' => 'Registration',
     'Penjamin' => 'Guarantor',
     'RujukanKeluar' => 'Referral',
+    'TujuanPasien' => 'PatientPurpose',
   ),
 );

@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranPatientPurpose",
+    "alias": "pendaftaranpatientpurpose",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranPatientPurpose\\Providers\\PendaftaranPatientPurposeServiceProvider"
+    ],
+    "files": []
+}
