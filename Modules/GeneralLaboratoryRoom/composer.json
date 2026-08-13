@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generallaboratoryroom",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralLaboratoryRoom\\": "app/",
+            "Modules\\GeneralLaboratoryRoom\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralLaboratoryRoom\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralLaboratoryRoom\\Tests\\": "tests/"
+        }
+    }
+}

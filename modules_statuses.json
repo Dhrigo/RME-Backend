@@ -115,5 +115,14 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "GeneralPharmacyRoom": true,
+    "GeneralWardClassAssignment": true,
+    "GeneralConsultationRoom": true,
+    "GeneralLaboratoryRoom": true,
+    "GeneralOperatingRoom": true,
+    "GeneralRadiologyRoom": true,
+    "GeneralScannedDocument": true,
+    "GeneralPatientPhoto": true,
+    "GeneralEmployeePhoto": true
 }

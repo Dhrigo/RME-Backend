@@ -1,19 +1,20 @@
 <?php
 
 return array (
-  'BerkasKlaim' =>
+  'BerkasKlaim' => 
   array (
     'Berkas' => 'ClaimFile',
     'DokumenPendukung' => 'SupportingDocument',
     'Kelengkapan' => 'ClaimCompleteness',
     'KelengkapanKomentar' => 'ClaimCompletenessComment',
   ),
-  'General' =>
+  'General' => 
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
     'Diagnosa' => 'DiagnosisCode',
     'DistribusiTarifTindakan' => 'ServiceTariffDistribution',
+    'DokumenScan' => 'ScannedDocument',
     'GroupLab' => 'LabGroup',
     'GroupPemeriksaan' => 'ExaminationGroup',
     'GroupReferensiKelas' => 'RoomClassReferenceGroup',
@@ -41,12 +42,20 @@ return array (
     'Pegawai' => 'Employee',
     'Pekerjaan' => 'Occupation',
     'Pendidikan' => 'Education',
+    'PhotoPegawai' => 'EmployeePhoto',
+    'Photopasien' => 'PatientPhoto',
     'Profesi' => 'Profession',
     'Prosedur' => 'Procedure',
     'Rekening' => 'BankAccount',
     'RuangKamar' => 'Room',
     'RuangKamarTidur' => 'Bed',
     'Ruangan' => 'Ward',
+    'RuanganFarmasi' => 'PharmacyRoom',
+    'RuanganKelas' => 'WardClassAssignment',
+    'RuanganKonsul' => 'ConsultationRoom',
+    'RuanganLaboratorium' => 'LaboratoryRoom',
+    'RuanganOperasi' => 'OperatingRoom',
+    'RuanganRadiologi' => 'RadiologyRoom',
     'Smf' => 'MedicalDepartment',
     'StatusPerkawinan' => 'MaritalStatus',
     'Suku' => 'Ethnicity',
@@ -100,20 +109,20 @@ return array (
     'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
-  'Pegawai' =>
+  'Pegawai' => 
   array (
     'KartuIdentitas' => 'EmployeeIdentityCard',
     'KontakPegawai' => 'EmployeeContact',
     'StrSip' => 'PracticeLicense',
   ),
-  'Pembatalan' =>
+  'Pembatalan' => 
   array (
     'FinalHasil' => 'FinalResult',
     'PembatalanDocument' => 'DocumentCancellation',
     'PembatalanRekamMedis' => 'MedicalRecordCancellation',
     'PembatalanRetur' => 'ReturnCancellation',
   ),
-  'Pembayaran' =>
+  'Pembayaran' => 
   array (
     'Deposit' => 'Deposit',
     'PembayaranTagihan' => 'Payment',

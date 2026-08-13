@@ -1,0 +1,11 @@
+{
+    "name": "GeneralOperatingRoom",
+    "alias": "generaloperatingroom",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralOperatingRoom\\Providers\\GeneralOperatingRoomServiceProvider"
+    ],
+    "files": []
+}

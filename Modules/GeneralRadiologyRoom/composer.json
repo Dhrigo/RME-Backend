@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalradiologyroom",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralRadiologyRoom\\": "app/",
+            "Modules\\GeneralRadiologyRoom\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralRadiologyRoom\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralRadiologyRoom\\Tests\\": "tests/"
+        }
+    }
+}

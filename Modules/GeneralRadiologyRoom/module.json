@@ -1,0 +1,11 @@
+{
+    "name": "GeneralRadiologyRoom",
+    "alias": "generalradiologyroom",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralRadiologyRoom\\Providers\\GeneralRadiologyRoomServiceProvider"
+    ],
+    "files": []
+}
