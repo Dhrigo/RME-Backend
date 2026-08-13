@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generallabserviceparameter",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralLabServiceParameter\\": "app/",
+            "Modules\\GeneralLabServiceParameter\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralLabServiceParameter\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralLabServiceParameter\\Tests\\": "tests/"
+        }
+    }
+}

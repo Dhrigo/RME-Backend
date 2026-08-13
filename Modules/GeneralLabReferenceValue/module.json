@@ -1,0 +1,11 @@
+{
+    "name": "GeneralLabReferenceValue",
+    "alias": "generallabreferencevalue",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralLabReferenceValue\\Providers\\GeneralLabReferenceValueServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalicdotopography",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralIcdOTopography\\": "app/",
+            "Modules\\GeneralIcdOTopography\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralIcdOTopography\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralIcdOTopography\\Tests\\": "tests/"
+        }
+    }
+}

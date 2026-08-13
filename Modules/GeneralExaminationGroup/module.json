@@ -1,0 +1,11 @@
+{
+    "name": "GeneralExaminationGroup",
+    "alias": "generalexaminationgroup",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralExaminationGroup\\Providers\\GeneralExaminationGroupServiceProvider"
+    ],
+    "files": []
+}

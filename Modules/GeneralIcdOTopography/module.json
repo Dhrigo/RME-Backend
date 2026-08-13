@@ -1,0 +1,11 @@
+{
+    "name": "GeneralIcdOTopography",
+    "alias": "generalicdotopography",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralIcdOTopography\\Providers\\GeneralIcdOTopographyServiceProvider"
+    ],
+    "files": []
+}

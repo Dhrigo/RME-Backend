@@ -1,0 +1,11 @@
+{
+    "name": "GeneralIcdSnomedCtMapping",
+    "alias": "generalicdsnomedctmapping",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralIcdSnomedCtMapping\\Providers\\GeneralIcdSnomedCtMappingServiceProvider"
+    ],
+    "files": []
+}

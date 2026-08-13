@@ -1,0 +1,11 @@
+{
+    "name": "GeneralLabServiceGroup",
+    "alias": "generallabservicegroup",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralLabServiceGroup\\Providers\\GeneralLabServiceGroupServiceProvider"
+    ],
+    "files": []
+}

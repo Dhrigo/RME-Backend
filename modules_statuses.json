@@ -58,5 +58,14 @@
     "GeneralBankAccount": true,
     "GeneralPpk": true,
     "GeneralKap": true,
-    "GeneralKip": true
+    "GeneralKip": true,
+    "GeneralLabGroup": true,
+    "GeneralLabServiceGroup": true,
+    "GeneralExaminationGroup": true,
+    "GeneralRoomClassReferenceGroup": true,
+    "GeneralLabServiceParameter": true,
+    "GeneralLabReferenceValue": true,
+    "GeneralIcdSnomedCtMapping": true,
+    "GeneralIcdOMorphology": true,
+    "GeneralIcdOTopography": true
 }
