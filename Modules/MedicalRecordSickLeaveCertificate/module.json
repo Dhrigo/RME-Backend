@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordSickLeaveCertificate",
+    "alias": "medicalrecordsickleavecertificate",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordSickLeaveCertificate\\Providers\\MedicalRecordSickLeaveCertificateServiceProvider"
+    ],
+    "files": []
+}

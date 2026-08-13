@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBloodTransfusionDetail",
+    "alias": "medicalrecordbloodtransfusiondetail",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBloodTransfusionDetail\\Providers\\MedicalRecordBloodTransfusionDetailServiceProvider"
+    ],
+    "files": []
+}

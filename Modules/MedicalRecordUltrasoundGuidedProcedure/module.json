@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordUltrasoundGuidedProcedure",
+    "alias": "medicalrecordultrasoundguidedprocedure",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordUltrasoundGuidedProcedure\\Providers\\MedicalRecordUltrasoundGuidedProcedureServiceProvider"
+    ],
+    "files": []
+}

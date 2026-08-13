@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordMmpiTest",
+    "alias": "medicalrecordmmpitest",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordMmpiTest\\Providers\\MedicalRecordMmpiTestServiceProvider"
+    ],
+    "files": []
+}

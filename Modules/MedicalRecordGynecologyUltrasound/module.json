@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordGynecologyUltrasound",
+    "alias": "medicalrecordgynecologyultrasound",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordGynecologyUltrasound\\Providers\\MedicalRecordGynecologyUltrasoundServiceProvider"
+    ],
+    "files": []
+}

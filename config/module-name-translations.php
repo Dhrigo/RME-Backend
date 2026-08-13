@@ -277,9 +277,18 @@ return array (
     'PemeriksaanJariTangan' => 'FingerExamination',
     'Resume' => 'DischargeSummary',
     'RiwayatAlergi' => 'Allergy',
+    'StatusPediatric' => 'PediatricStatus',
     'TandaVital' => 'VitalSign',
+    'TindakanAbci' => 'AbciProcedure',
+    'TindakanMMPI' => 'MmpiTest',
     'TransfusiDarah' => 'BloodTransfusion',
+    'TransfusiDarahDetail' => 'BloodTransfusionDetail',
     'Triage' => 'Triage',
+    'UploadDocument' => 'DocumentUpload',
+    'UploadHasilPemeriksaanMata' => 'EyeExamDocumentUpload',
+    'UsgGiknekologi' => 'GynecologyUltrasound',
+    'UsgGuiding' => 'UltrasoundGuidedProcedure',
+    'VerifikasiCPPT' => 'ClinicalNoteVerification',
   ),
   'Pasien' => 
   array (

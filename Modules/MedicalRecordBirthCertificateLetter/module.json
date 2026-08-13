@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBirthCertificateLetter",
+    "alias": "medicalrecordbirthcertificateletter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBirthCertificateLetter\\Providers\\MedicalRecordBirthCertificateLetterServiceProvider"
+    ],
+    "files": []
+}

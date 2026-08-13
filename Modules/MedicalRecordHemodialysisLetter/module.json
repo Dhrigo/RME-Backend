@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordHemodialysisLetter",
+    "alias": "medicalrecordhemodialysisletter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordHemodialysisLetter\\Providers\\MedicalRecordHemodialysisLetterServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordEyeExamDocumentUpload",
+    "alias": "medicalrecordeyeexamdocumentupload",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordEyeExamDocumentUpload\\Providers\\MedicalRecordEyeExamDocumentUploadServiceProvider"
+    ],
+    "files": []
+}

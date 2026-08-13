@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordDocumentUpload",
+    "alias": "medicalrecorddocumentupload",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordDocumentUpload\\Providers\\MedicalRecordDocumentUploadServiceProvider"
+    ],
+    "files": []
+}

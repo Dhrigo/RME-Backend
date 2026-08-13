@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordClinicalNoteVerification",
+    "alias": "medicalrecordclinicalnoteverification",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordClinicalNoteVerification\\Providers\\MedicalRecordClinicalNoteVerificationServiceProvider"
+    ],
+    "files": []
+}

@@ -335,5 +335,19 @@
     "MedicalRecordDentalExamination": true,
     "MedicalRecordNoseExamination": true,
     "MedicalRecordToeExamination": true,
-    "MedicalRecordFingerExamination": true
+    "MedicalRecordFingerExamination": true,
+    "MedicalRecordPediatricStatus": true,
+    "MedicalRecordHemodialysisLetter": true,
+    "MedicalRecordBirthCertificateLetter": true,
+    "MedicalRecordHospitalizationCertificate": true,
+    "MedicalRecordSickLeaveCertificate": true,
+    "MedicalRecordHealthCertificate": true,
+    "MedicalRecordAbciProcedure": true,
+    "MedicalRecordMmpiTest": true,
+    "MedicalRecordBloodTransfusionDetail": true,
+    "MedicalRecordDocumentUpload": true,
+    "MedicalRecordEyeExamDocumentUpload": true,
+    "MedicalRecordGynecologyUltrasound": true,
+    "MedicalRecordUltrasoundGuidedProcedure": true,
+    "MedicalRecordClinicalNoteVerification": true
 }

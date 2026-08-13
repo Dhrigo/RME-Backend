@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordHospitalizationCertificate",
+    "alias": "medicalrecordhospitalizationcertificate",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordHospitalizationCertificate\\Providers\\MedicalRecordHospitalizationCertificateServiceProvider"
+    ],
+    "files": []
+}

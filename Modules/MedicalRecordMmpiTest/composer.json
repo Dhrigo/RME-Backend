@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordmmpitest",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordMmpiTest\\": "app/",
+            "Modules\\MedicalRecordMmpiTest\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordMmpiTest\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordMmpiTest\\Tests\\": "tests/"
+        }
+    }
+}
