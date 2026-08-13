@@ -1,0 +1,11 @@
+{
+    "name": "PenjaminRSClaimDriver",
+    "alias": "penjaminrsclaimdriver",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PenjaminRSClaimDriver\\Providers\\PenjaminRSClaimDriverServiceProvider"
+    ],
+    "files": []
+}

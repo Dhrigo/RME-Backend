@@ -1,0 +1,11 @@
+{
+    "name": "PembatalanReturnCancellation",
+    "alias": "pembatalanreturncancellation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembatalanReturnCancellation\\Providers\\PembatalanReturnCancellationServiceProvider"
+    ],
+    "files": []
+}

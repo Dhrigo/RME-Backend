@@ -78,5 +78,15 @@
     "PendaftaranReferral": true,
     "PendaftaranRegistration": true,
     "PendaftaranVisit": true,
-    "PenjaminRSDischargeMethod": true
+    "PenjaminRSDischargeMethod": true,
+    "PenjaminRSAttendingPhysician": true,
+    "PenjaminRSClaimDriver": true,
+    "BerkasKlaimClaimFile": true,
+    "BerkasKlaimSupportingDocument": true,
+    "BerkasKlaimClaimCompleteness": true,
+    "BerkasKlaimClaimCompletenessComment": true,
+    "PembatalanFinalResult": true,
+    "PembatalanDocumentCancellation": true,
+    "PembatalanMedicalRecordCancellation": true,
+    "PembatalanReturnCancellation": true
 }

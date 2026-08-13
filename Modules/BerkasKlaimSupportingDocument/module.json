@@ -1,0 +1,11 @@
+{
+    "name": "BerkasKlaimSupportingDocument",
+    "alias": "berkasklaimsupportingdocument",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BerkasKlaimSupportingDocument\\Providers\\BerkasKlaimSupportingDocumentServiceProvider"
+    ],
+    "files": []
+}

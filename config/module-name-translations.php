@@ -1,7 +1,14 @@
 <?php
 
 return array (
-  'General' =>
+  'BerkasKlaim' => 
+  array (
+    'Berkas' => 'ClaimFile',
+    'DokumenPendukung' => 'SupportingDocument',
+    'Kelengkapan' => 'ClaimCompleteness',
+    'KelengkapanKomentar' => 'ClaimCompletenessComment',
+  ),
+  'General' => 
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
@@ -54,18 +61,18 @@ return array (
     'TopographyIcdO' => 'IcdOTopography',
     'Wilayah' => 'Region',
   ),
-  'Inventory' =>
+  'Inventory' => 
   array (
     'Barang' => 'Item',
     'PenerimaanBarang' => 'GoodsReceipt',
     'Penyedia' => 'Supplier',
     'Permintaan' => 'StockRequest',
   ),
-  'Kemkes' =>
+  'Kemkes' => 
   array (
     'GolonganDarah' => 'BloodType',
   ),
-  'Layanan' =>
+  'Layanan' => 
   array (
     'HasilLab' => 'LabResult',
     'OrderDetilResep' => 'PrescriptionItem',
@@ -73,7 +80,7 @@ return array (
     'OrderResep' => 'Prescription',
     'TindakanMedis' => 'MedicalProcedure',
   ),
-  'MedicalRecord' =>
+  'MedicalRecord' => 
   array (
     'CPPT' => 'ClinicalNote',
     'Diagnosa' => 'Diagnosis',
@@ -84,14 +91,21 @@ return array (
     'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
-  'Pembayaran' =>
+  'Pembatalan' => 
+  array (
+    'FinalHasil' => 'FinalResult',
+    'PembatalanDocument' => 'DocumentCancellation',
+    'PembatalanRekamMedis' => 'MedicalRecordCancellation',
+    'PembatalanRetur' => 'ReturnCancellation',
+  ),
+  'Pembayaran' => 
   array (
     'Deposit' => 'Deposit',
     'PembayaranTagihan' => 'Payment',
     'RincianTagihan' => 'InvoiceItem',
     'Tagihan' => 'Invoice',
   ),
-  'Pendaftaran' =>
+  'Pendaftaran' => 
   array (
     'Kunjungan' => 'Visit',
     'Pendaftaran' => 'Registration',
@@ -102,5 +116,7 @@ return array (
   'PenjaminRS' => 
   array (
     'CaraKeluar' => 'DischargeMethod',
+    'Dpjp' => 'AttendingPhysician',
+    'Drivers' => 'ClaimDriver',
   ),
 );

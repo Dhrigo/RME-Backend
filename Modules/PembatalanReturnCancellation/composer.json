@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembatalanreturncancellation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembatalanReturnCancellation\\": "app/",
+            "Modules\\PembatalanReturnCancellation\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembatalanReturnCancellation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembatalanReturnCancellation\\Tests\\": "tests/"
+        }
+    }
+}

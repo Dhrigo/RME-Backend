@@ -1,0 +1,11 @@
+{
+    "name": "BerkasKlaimClaimCompletenessComment",
+    "alias": "berkasklaimclaimcompletenesscomment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BerkasKlaimClaimCompletenessComment\\Providers\\BerkasKlaimClaimCompletenessCommentServiceProvider"
+    ],
+    "files": []
+}

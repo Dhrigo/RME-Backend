@@ -1,0 +1,11 @@
+{
+    "name": "PembatalanMedicalRecordCancellation",
+    "alias": "pembatalanmedicalrecordcancellation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembatalanMedicalRecordCancellation\\Providers\\PembatalanMedicalRecordCancellationServiceProvider"
+    ],
+    "files": []
+}
