@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranReservation",
+    "alias": "pendaftaranreservation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranReservation\\Providers\\PendaftaranReservationServiceProvider"
+    ],
+    "files": []
+}

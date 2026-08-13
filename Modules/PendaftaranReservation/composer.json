@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranreservation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranReservation\\": "app/",
+            "Modules\\PendaftaranReservation\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranReservation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranReservation\\Tests\\": "tests/"
+        }
+    }
+}

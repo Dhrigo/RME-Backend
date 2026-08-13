@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranVisitDateChange",
+    "alias": "pendaftaranvisitdatechange",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranVisitDateChange\\Providers\\PendaftaranVisitDateChangeServiceProvider"
+    ],
+    "files": []
+}

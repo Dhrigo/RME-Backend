@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranvisitdatechange",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranVisitDateChange\\": "app/",
+            "Modules\\PendaftaranVisitDateChange\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranVisitDateChange\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranVisitDateChange\\Tests\\": "tests/"
+        }
+    }
+}

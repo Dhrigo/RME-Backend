@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranCoManagement",
+    "alias": "pendaftarancomanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranCoManagement\\Providers\\PendaftaranCoManagementServiceProvider"
+    ],
+    "files": []
+}
