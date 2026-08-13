@@ -124,9 +124,19 @@ return array (
   'Pembayaran' => 
   array (
     'Deposit' => 'Deposit',
+    'Diskon' => 'Discount',
+    'DiskonDokter' => 'DoctorDiscount',
+    'Kasir' => 'Cashier',
+    'PelunasanPiutangPasien' => 'PatientReceivableSettlement',
+    'PelunasanPiutangPerusahaan' => 'CorporateReceivableSettlement',
+    'PembatalanTagihan' => 'InvoiceCancellation',
     'PembayaranTagihan' => 'Payment',
+    'PengembalianDeposit' => 'DepositRefund',
+    'PiutangPasien' => 'PatientReceivable',
+    'PiutangPerusahaan' => 'CorporateReceivable',
     'RincianTagihan' => 'InvoiceItem',
     'Tagihan' => 'Invoice',
+    'TransaksiKasir' => 'CashierTransaction',
   ),
   'Pendaftaran' => 
   array (

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayaranpatientreceivablesettlement",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranPatientReceivableSettlement\\": "app/",
+            "Modules\\PembayaranPatientReceivableSettlement\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranPatientReceivableSettlement\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranPatientReceivableSettlement\\Tests\\": "tests/"
+        }
+    }
+}

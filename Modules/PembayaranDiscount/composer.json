@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayarandiscount",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranDiscount\\": "app/",
+            "Modules\\PembayaranDiscount\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranDiscount\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranDiscount\\Tests\\": "tests/"
+        }
+    }
+}

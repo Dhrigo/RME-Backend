@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranPatientReceivable",
+    "alias": "pembayaranpatientreceivable",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranPatientReceivable\\Providers\\PembayaranPatientReceivableServiceProvider"
+    ],
+    "files": []
+}

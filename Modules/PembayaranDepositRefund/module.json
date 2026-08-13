@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranDepositRefund",
+    "alias": "pembayarandepositrefund",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranDepositRefund\\Providers\\PembayaranDepositRefundServiceProvider"
+    ],
+    "files": []
+}

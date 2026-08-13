@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranCashierTransaction",
+    "alias": "pembayarancashiertransaction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranCashierTransaction\\Providers\\PembayaranCashierTransactionServiceProvider"
+    ],
+    "files": []
+}

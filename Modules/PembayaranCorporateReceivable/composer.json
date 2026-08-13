@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayarancorporatereceivable",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranCorporateReceivable\\": "app/",
+            "Modules\\PembayaranCorporateReceivable\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranCorporateReceivable\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranCorporateReceivable\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranInvoiceCancellation",
+    "alias": "pembayaraninvoicecancellation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranInvoiceCancellation\\Providers\\PembayaranInvoiceCancellationServiceProvider"
+    ],
+    "files": []
+}

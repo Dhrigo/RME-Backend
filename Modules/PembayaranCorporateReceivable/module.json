@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranCorporateReceivable",
+    "alias": "pembayarancorporatereceivable",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranCorporateReceivable\\Providers\\PembayaranCorporateReceivableServiceProvider"
+    ],
+    "files": []
+}
