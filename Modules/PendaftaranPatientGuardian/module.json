@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranPatientGuardian",
+    "alias": "pendaftaranpatientguardian",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranPatientGuardian\\Providers\\PendaftaranPatientGuardianServiceProvider"
+    ],
+    "files": []
+}

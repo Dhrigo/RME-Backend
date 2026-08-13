@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranServiceHandover",
+    "alias": "pendaftaranservicehandover",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranServiceHandover\\Providers\\PendaftaranServiceHandoverServiceProvider"
+    ],
+    "files": []
+}

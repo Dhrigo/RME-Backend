@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranservicehandover",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranServiceHandover\\": "app/",
+            "Modules\\PendaftaranServiceHandover\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranServiceHandover\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranServiceHandover\\Tests\\": "tests/"
+        }
+    }
+}

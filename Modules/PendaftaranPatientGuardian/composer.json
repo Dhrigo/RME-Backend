@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranpatientguardian",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranPatientGuardian\\": "app/",
+            "Modules\\PendaftaranPatientGuardian\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranPatientGuardian\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranPatientGuardian\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranpatientescortcontact",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranPatientEscortContact\\": "app/",
+            "Modules\\PendaftaranPatientEscortContact\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranPatientEscortContact\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranPatientEscortContact\\Tests\\": "tests/"
+        }
+    }
+}
