@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananantimicrobialstewardshipformitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananAntimicrobialStewardshipFormItem\\": "app/",
+            "Modules\\LayananAntimicrobialStewardshipFormItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananAntimicrobialStewardshipFormItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananAntimicrobialStewardshipFormItem\\Tests\\": "tests/"
+        }
+    }
+}

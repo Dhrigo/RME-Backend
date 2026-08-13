@@ -1,0 +1,11 @@
+{
+    "name": "LayananPharmacyOutpatientQueue",
+    "alias": "layananpharmacyoutpatientqueue",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPharmacyOutpatientQueue\\Providers\\LayananPharmacyOutpatientQueueServiceProvider"
+    ],
+    "files": []
+}

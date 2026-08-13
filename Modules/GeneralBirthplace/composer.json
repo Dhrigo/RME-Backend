@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalbirthplace",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralBirthplace\\": "app/",
+            "Modules\\GeneralBirthplace\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralBirthplace\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralBirthplace\\Tests\\": "tests/"
+        }
+    }
+}

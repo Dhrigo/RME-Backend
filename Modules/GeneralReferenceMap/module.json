@@ -1,0 +1,11 @@
+{
+    "name": "GeneralReferenceMap",
+    "alias": "generalreferencemap",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralReferenceMap\\Providers\\GeneralReferenceMapServiceProvider"
+    ],
+    "files": []
+}

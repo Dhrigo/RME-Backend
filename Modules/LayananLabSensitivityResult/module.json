@@ -1,0 +1,11 @@
+{
+    "name": "LayananLabSensitivityResult",
+    "alias": "layananlabsensitivityresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananLabSensitivityResult\\Providers\\LayananLabSensitivityResultServiceProvider"
+    ],
+    "files": []
+}

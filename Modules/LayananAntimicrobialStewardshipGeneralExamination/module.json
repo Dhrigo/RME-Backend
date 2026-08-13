@@ -1,0 +1,11 @@
+{
+    "name": "LayananAntimicrobialStewardshipGeneralExamination",
+    "alias": "layananantimicrobialstewardshipgeneralexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananAntimicrobialStewardshipGeneralExamination\\Providers\\LayananAntimicrobialStewardshipGeneralExaminationServiceProvider"
+    ],
+    "files": []
+}

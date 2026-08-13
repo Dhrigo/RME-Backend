@@ -1,0 +1,11 @@
+{
+    "name": "LayananPharmacyDispense",
+    "alias": "layananpharmacydispense",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPharmacyDispense\\Providers\\LayananPharmacyDispenseServiceProvider"
+    ],
+    "files": []
+}

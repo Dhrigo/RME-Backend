@@ -1,0 +1,11 @@
+{
+    "name": "LayananAntimicrobialStewardshipForm",
+    "alias": "layananantimicrobialstewardshipform",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananAntimicrobialStewardshipForm\\Providers\\LayananAntimicrobialStewardshipFormServiceProvider"
+    ],
+    "files": []
+}

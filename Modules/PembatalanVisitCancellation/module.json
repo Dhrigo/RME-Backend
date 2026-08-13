@@ -1,0 +1,11 @@
+{
+    "name": "PembatalanVisitCancellation",
+    "alias": "pembatalanvisitcancellation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembatalanVisitCancellation\\Providers\\PembatalanVisitCancellationServiceProvider"
+    ],
+    "files": []
+}

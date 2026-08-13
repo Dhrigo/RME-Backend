@@ -1,0 +1,11 @@
+{
+    "name": "LayananOxygenUsage",
+    "alias": "layananoxygenusage",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananOxygenUsage\\Providers\\LayananOxygenUsageServiceProvider"
+    ],
+    "files": []
+}

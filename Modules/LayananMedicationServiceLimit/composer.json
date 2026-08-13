@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananmedicationservicelimit",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananMedicationServiceLimit\\": "app/",
+            "Modules\\LayananMedicationServiceLimit\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananMedicationServiceLimit\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananMedicationServiceLimit\\Tests\\": "tests/"
+        }
+    }
+}

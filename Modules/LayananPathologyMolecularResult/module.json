@@ -1,0 +1,11 @@
+{
+    "name": "LayananPathologyMolecularResult",
+    "alias": "layananpathologymolecularresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPathologyMolecularResult\\Providers\\LayananPathologyMolecularResultServiceProvider"
+    ],
+    "files": []
+}

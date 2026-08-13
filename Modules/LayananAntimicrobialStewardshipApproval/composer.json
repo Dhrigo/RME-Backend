@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananantimicrobialstewardshipapproval",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananAntimicrobialStewardshipApproval\\": "app/",
+            "Modules\\LayananAntimicrobialStewardshipApproval\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananAntimicrobialStewardshipApproval\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananAntimicrobialStewardshipApproval\\Tests\\": "tests/"
+        }
+    }
+}

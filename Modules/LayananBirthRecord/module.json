@@ -1,0 +1,11 @@
+{
+    "name": "LayananBirthRecord",
+    "alias": "layananbirthrecord",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananBirthRecord\\Providers\\LayananBirthRecordServiceProvider"
+    ],
+    "files": []
+}

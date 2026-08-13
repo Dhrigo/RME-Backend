@@ -1,0 +1,11 @@
+{
+    "name": "LayananCriticalLabValue",
+    "alias": "layanancriticallabvalue",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananCriticalLabValue\\Providers\\LayananCriticalLabValueServiceProvider"
+    ],
+    "files": []
+}

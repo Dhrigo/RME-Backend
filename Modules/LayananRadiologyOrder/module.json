@@ -1,0 +1,11 @@
+{
+    "name": "LayananRadiologyOrder",
+    "alias": "layananradiologyorder",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananRadiologyOrder\\Providers\\LayananRadiologyOrderServiceProvider"
+    ],
+    "files": []
+}

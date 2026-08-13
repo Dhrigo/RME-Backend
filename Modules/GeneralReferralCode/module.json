@@ -1,0 +1,11 @@
+{
+    "name": "GeneralReferralCode",
+    "alias": "generalreferralcode",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralReferralCode\\Providers\\GeneralReferralCodeServiceProvider"
+    ],
+    "files": []
+}

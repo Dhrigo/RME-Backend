@@ -1,0 +1,11 @@
+{
+    "name": "LayananMedicalSupplyUsageItem",
+    "alias": "layananmedicalsupplyusageitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananMedicalSupplyUsageItem\\Providers\\LayananMedicalSupplyUsageItemServiceProvider"
+    ],
+    "files": []
+}

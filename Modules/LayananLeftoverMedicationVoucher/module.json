@@ -1,0 +1,11 @@
+{
+    "name": "LayananLeftoverMedicationVoucher",
+    "alias": "layananleftovermedicationvoucher",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananLeftoverMedicationVoucher\\Providers\\LayananLeftoverMedicationVoucherServiceProvider"
+    ],
+    "files": []
+}

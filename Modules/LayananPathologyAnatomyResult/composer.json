@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananpathologyanatomyresult",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananPathologyAnatomyResult\\": "app/",
+            "Modules\\LayananPathologyAnatomyResult\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananPathologyAnatomyResult\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananPathologyAnatomyResult\\Tests\\": "tests/"
+        }
+    }
+}

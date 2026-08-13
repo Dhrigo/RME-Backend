@@ -1,0 +1,11 @@
+{
+    "name": "LayananAntimicrobialStewardshipRadiologyResult",
+    "alias": "layananantimicrobialstewardshipradiologyresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananAntimicrobialStewardshipRadiologyResult\\Providers\\LayananAntimicrobialStewardshipRadiologyResultServiceProvider"
+    ],
+    "files": []
+}

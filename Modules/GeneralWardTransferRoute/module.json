@@ -1,0 +1,11 @@
+{
+    "name": "GeneralWardTransferRoute",
+    "alias": "generalwardtransferroute",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralWardTransferRoute\\Providers\\GeneralWardTransferRouteServiceProvider"
+    ],
+    "files": []
+}

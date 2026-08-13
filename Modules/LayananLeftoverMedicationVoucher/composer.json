@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananleftovermedicationvoucher",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananLeftoverMedicationVoucher\\": "app/",
+            "Modules\\LayananLeftoverMedicationVoucher\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananLeftoverMedicationVoucher\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananLeftoverMedicationVoucher\\Tests\\": "tests/"
+        }
+    }
+}

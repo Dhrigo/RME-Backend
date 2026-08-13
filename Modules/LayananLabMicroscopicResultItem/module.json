@@ -1,0 +1,11 @@
+{
+    "name": "LayananLabMicroscopicResultItem",
+    "alias": "layananlabmicroscopicresultitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananLabMicroscopicResultItem\\Providers\\LayananLabMicroscopicResultItemServiceProvider"
+    ],
+    "files": []
+}

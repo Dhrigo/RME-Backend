@@ -1,0 +1,11 @@
+{
+    "name": "LayananSurgicalSafetyEvaluationResult",
+    "alias": "layanansurgicalsafetyevaluationresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananSurgicalSafetyEvaluationResult\\Providers\\LayananSurgicalSafetyEvaluationResultServiceProvider"
+    ],
+    "files": []
+}

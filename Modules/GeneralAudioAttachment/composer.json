@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalaudioattachment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralAudioAttachment\\": "app/",
+            "Modules\\GeneralAudioAttachment\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralAudioAttachment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralAudioAttachment\\Tests\\": "tests/"
+        }
+    }
+}

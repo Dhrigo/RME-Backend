@@ -1,0 +1,11 @@
+{
+    "name": "LayananLabResultNote",
+    "alias": "layananlabresultnote",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananLabResultNote\\Providers\\LayananLabResultNoteServiceProvider"
+    ],
+    "files": []
+}

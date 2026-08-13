@@ -1,0 +1,11 @@
+{
+    "name": "GeneralVideoAttachment",
+    "alias": "generalvideoattachment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralVideoAttachment\\Providers\\GeneralVideoAttachmentServiceProvider"
+    ],
+    "files": []
+}

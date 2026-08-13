@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananlabmicroscopicresultitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananLabMicroscopicResultItem\\": "app/",
+            "Modules\\LayananLabMicroscopicResultItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananLabMicroscopicResultItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananLabMicroscopicResultItem\\Tests\\": "tests/"
+        }
+    }
+}

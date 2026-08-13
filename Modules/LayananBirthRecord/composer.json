@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananbirthrecord",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananBirthRecord\\": "app/",
+            "Modules\\LayananBirthRecord\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananBirthRecord\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananBirthRecord\\Tests\\": "tests/"
+        }
+    }
+}

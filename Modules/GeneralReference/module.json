@@ -1,0 +1,11 @@
+{
+    "name": "GeneralReference",
+    "alias": "generalreference",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralReference\\Providers\\GeneralReferenceServiceProvider"
+    ],
+    "files": []
+}

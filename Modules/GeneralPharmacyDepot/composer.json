@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalpharmacydepot",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPharmacyDepot\\": "app/",
+            "Modules\\GeneralPharmacyDepot\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPharmacyDepot\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralPharmacyDepot\\Tests\\": "tests/"
+        }
+    }
+}

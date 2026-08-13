@@ -1,0 +1,11 @@
+{
+    "name": "LayananPatientDischargeRecord",
+    "alias": "layananpatientdischargerecord",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPatientDischargeRecord\\Providers\\LayananPatientDischargeRecordServiceProvider"
+    ],
+    "files": []
+}

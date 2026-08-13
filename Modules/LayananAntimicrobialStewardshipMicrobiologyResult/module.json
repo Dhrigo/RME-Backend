@@ -1,0 +1,11 @@
+{
+    "name": "LayananAntimicrobialStewardshipMicrobiologyResult",
+    "alias": "layananantimicrobialstewardshipmicrobiologyresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananAntimicrobialStewardshipMicrobiologyResult\\Providers\\LayananAntimicrobialStewardshipMicrobiologyResultServiceProvider"
+    ],
+    "files": []
+}

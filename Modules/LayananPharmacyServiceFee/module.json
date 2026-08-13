@@ -1,0 +1,11 @@
+{
+    "name": "LayananPharmacyServiceFee",
+    "alias": "layananpharmacyservicefee",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPharmacyServiceFee\\Providers\\LayananPharmacyServiceFeeServiceProvider"
+    ],
+    "files": []
+}

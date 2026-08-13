@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pasienpatientportalaccount",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PasienPatientPortalAccount\\": "app/",
+            "Modules\\PasienPatientPortalAccount\\Database\\Factories\\": "database/factories/",
+            "Modules\\PasienPatientPortalAccount\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PasienPatientPortalAccount\\Tests\\": "tests/"
+        }
+    }
+}

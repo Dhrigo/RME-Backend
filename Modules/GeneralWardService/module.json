@@ -1,0 +1,11 @@
+{
+    "name": "GeneralWardService",
+    "alias": "generalwardservice",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralWardService\\Providers\\GeneralWardServiceServiceProvider"
+    ],
+    "files": []
+}

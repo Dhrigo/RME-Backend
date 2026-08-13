@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPrescriptionOriginUnitRestriction",
+    "alias": "generalprescriptionoriginunitrestriction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPrescriptionOriginUnitRestriction\\Providers\\GeneralPrescriptionOriginUnitRestrictionServiceProvider"
+    ],
+    "files": []
+}

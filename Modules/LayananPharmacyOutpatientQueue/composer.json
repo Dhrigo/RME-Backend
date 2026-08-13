@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananpharmacyoutpatientqueue",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananPharmacyOutpatientQueue\\": "app/",
+            "Modules\\LayananPharmacyOutpatientQueue\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananPharmacyOutpatientQueue\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananPharmacyOutpatientQueue\\Tests\\": "tests/"
+        }
+    }
+}

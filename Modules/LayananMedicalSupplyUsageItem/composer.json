@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananmedicalsupplyusageitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananMedicalSupplyUsageItem\\": "app/",
+            "Modules\\LayananMedicalSupplyUsageItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananMedicalSupplyUsageItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananMedicalSupplyUsageItem\\Tests\\": "tests/"
+        }
+    }
+}

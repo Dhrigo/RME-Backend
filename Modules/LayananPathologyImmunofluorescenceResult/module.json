@@ -1,0 +1,11 @@
+{
+    "name": "LayananPathologyImmunofluorescenceResult",
+    "alias": "layananpathologyimmunofluorescenceresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPathologyImmunofluorescenceResult\\Providers\\LayananPathologyImmunofluorescenceResultServiceProvider"
+    ],
+    "files": []
+}

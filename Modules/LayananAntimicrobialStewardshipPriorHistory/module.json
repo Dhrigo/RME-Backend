@@ -1,0 +1,11 @@
+{
+    "name": "LayananAntimicrobialStewardshipPriorHistory",
+    "alias": "layananantimicrobialstewardshippriorhistory",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananAntimicrobialStewardshipPriorHistory\\Providers\\LayananAntimicrobialStewardshipPriorHistoryServiceProvider"
+    ],
+    "files": []
+}

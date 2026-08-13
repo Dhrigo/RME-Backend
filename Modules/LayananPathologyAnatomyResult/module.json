@@ -1,0 +1,11 @@
+{
+    "name": "LayananPathologyAnatomyResult",
+    "alias": "layananpathologyanatomyresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananPathologyAnatomyResult\\Providers\\LayananPathologyAnatomyResultServiceProvider"
+    ],
+    "files": []
+}

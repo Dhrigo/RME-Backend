@@ -1,0 +1,11 @@
+{
+    "name": "GeneralAudioAttachment",
+    "alias": "generalaudioattachment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralAudioAttachment\\Providers\\GeneralAudioAttachmentServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananoxygenusage",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananOxygenUsage\\": "app/",
+            "Modules\\LayananOxygenUsage\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananOxygenUsage\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananOxygenUsage\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "LayananRadiologyResult",
+    "alias": "layananradiologyresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananRadiologyResult\\Providers\\LayananRadiologyResultServiceProvider"
+    ],
+    "files": []
+}

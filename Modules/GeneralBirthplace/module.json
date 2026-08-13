@@ -1,0 +1,11 @@
+{
+    "name": "GeneralBirthplace",
+    "alias": "generalbirthplace",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralBirthplace\\Providers\\GeneralBirthplaceServiceProvider"
+    ],
+    "files": []
+}

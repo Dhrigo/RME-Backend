@@ -1,0 +1,11 @@
+{
+    "name": "LayananAntimicrobialStewardshipApproval",
+    "alias": "layananantimicrobialstewardshipapproval",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananAntimicrobialStewardshipApproval\\Providers\\LayananAntimicrobialStewardshipApprovalServiceProvider"
+    ],
+    "files": []
+}

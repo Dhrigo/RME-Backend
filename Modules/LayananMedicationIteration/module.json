@@ -1,0 +1,11 @@
+{
+    "name": "LayananMedicationIteration",
+    "alias": "layananmedicationiteration",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananMedicationIteration\\Providers\\LayananMedicationIterationServiceProvider"
+    ],
+    "files": []
+}

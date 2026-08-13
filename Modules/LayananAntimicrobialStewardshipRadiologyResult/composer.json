@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananantimicrobialstewardshipradiologyresult",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananAntimicrobialStewardshipRadiologyResult\\": "app/",
+            "Modules\\LayananAntimicrobialStewardshipRadiologyResult\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananAntimicrobialStewardshipRadiologyResult\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananAntimicrobialStewardshipRadiologyResult\\Tests\\": "tests/"
+        }
+    }
+}

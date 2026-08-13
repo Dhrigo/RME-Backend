@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananlabexaminationresult",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananLabExaminationResult\\": "app/",
+            "Modules\\LayananLabExaminationResult\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananLabExaminationResult\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananLabExaminationResult\\Tests\\": "tests/"
+        }
+    }
+}

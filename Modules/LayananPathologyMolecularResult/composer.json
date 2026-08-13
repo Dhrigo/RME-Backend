@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananpathologymolecularresult",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananPathologyMolecularResult\\": "app/",
+            "Modules\\LayananPathologyMolecularResult\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananPathologyMolecularResult\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananPathologyMolecularResult\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "LayananMedicationServiceLimit",
+    "alias": "layananmedicationservicelimit",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananMedicationServiceLimit\\Providers\\LayananMedicationServiceLimitServiceProvider"
+    ],
+    "files": []
+}

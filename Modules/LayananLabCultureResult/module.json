@@ -1,0 +1,11 @@
+{
+    "name": "LayananLabCultureResult",
+    "alias": "layananlabcultureresult",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananLabCultureResult\\Providers\\LayananLabCultureResultServiceProvider"
+    ],
+    "files": []
+}

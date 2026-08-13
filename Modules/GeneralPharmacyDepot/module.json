@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPharmacyDepot",
+    "alias": "generalpharmacydepot",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPharmacyDepot\\Providers\\GeneralPharmacyDepotServiceProvider"
+    ],
+    "files": []
+}
