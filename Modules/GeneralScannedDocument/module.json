@@ -1,0 +1,11 @@
+{
+    "name": "GeneralScannedDocument",
+    "alias": "generalscanneddocument",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralScannedDocument\\Providers\\GeneralScannedDocumentServiceProvider"
+    ],
+    "files": []
+}

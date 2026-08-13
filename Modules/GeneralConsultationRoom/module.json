@@ -1,0 +1,11 @@
+{
+    "name": "GeneralConsultationRoom",
+    "alias": "generalconsultationroom",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralConsultationRoom\\Providers\\GeneralConsultationRoomServiceProvider"
+    ],
+    "files": []
+}

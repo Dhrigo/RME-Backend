@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalemployeephoto",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralEmployeePhoto\\": "app/",
+            "Modules\\GeneralEmployeePhoto\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralEmployeePhoto\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralEmployeePhoto\\Tests\\": "tests/"
+        }
+    }
+}

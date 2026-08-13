@@ -1,0 +1,11 @@
+{
+    "name": "GeneralWardClassAssignment",
+    "alias": "generalwardclassassignment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralWardClassAssignment\\Providers\\GeneralWardClassAssignmentServiceProvider"
+    ],
+    "files": []
+}
