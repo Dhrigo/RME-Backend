@@ -1,14 +1,14 @@
 <?php
 
 return array (
-  'BerkasKlaim' =>
+  'BerkasKlaim' => 
   array (
     'Berkas' => 'ClaimFile',
     'DokumenPendukung' => 'SupportingDocument',
     'Kelengkapan' => 'ClaimCompleteness',
     'KelengkapanKomentar' => 'ClaimCompletenessComment',
   ),
-  'General' =>
+  'General' => 
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
@@ -100,25 +100,35 @@ return array (
     'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
-  'Pegawai' =>
+  'Pegawai' => 
   array (
     'KartuIdentitas' => 'EmployeeIdentityCard',
     'KontakPegawai' => 'EmployeeContact',
     'StrSip' => 'PracticeLicense',
   ),
-  'Pembatalan' =>
+  'Pembatalan' => 
   array (
     'FinalHasil' => 'FinalResult',
     'PembatalanDocument' => 'DocumentCancellation',
     'PembatalanRekamMedis' => 'MedicalRecordCancellation',
     'PembatalanRetur' => 'ReturnCancellation',
   ),
-  'Pembayaran' =>
+  'Pembayaran' => 
   array (
     'Deposit' => 'Deposit',
+    'Diskon' => 'Discount',
+    'DiskonDokter' => 'DoctorDiscount',
+    'Kasir' => 'Cashier',
+    'PelunasanPiutangPasien' => 'PatientReceivableSettlement',
+    'PelunasanPiutangPerusahaan' => 'CorporateReceivableSettlement',
+    'PembatalanTagihan' => 'InvoiceCancellation',
     'PembayaranTagihan' => 'Payment',
+    'PengembalianDeposit' => 'DepositRefund',
+    'PiutangPasien' => 'PatientReceivable',
+    'PiutangPerusahaan' => 'CorporateReceivable',
     'RincianTagihan' => 'InvoiceItem',
     'Tagihan' => 'Invoice',
+    'TransaksiKasir' => 'CashierTransaction',
   ),
   'Pendaftaran' => 
   array (

@@ -115,5 +115,15 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "PembayaranCashier": true,
+    "PembayaranCashierTransaction": true,
+    "PembayaranDiscount": true,
+    "PembayaranDoctorDiscount": true,
+    "PembayaranPatientReceivable": true,
+    "PembayaranCorporateReceivable": true,
+    "PembayaranPatientReceivableSettlement": true,
+    "PembayaranCorporateReceivableSettlement": true,
+    "PembayaranInvoiceCancellation": true,
+    "PembayaranDepositRefund": true
 }

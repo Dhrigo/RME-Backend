@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayarancashiertransaction",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranCashierTransaction\\": "app/",
+            "Modules\\PembayaranCashierTransaction\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranCashierTransaction\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranCashierTransaction\\Tests\\": "tests/"
+        }
+    }
+}

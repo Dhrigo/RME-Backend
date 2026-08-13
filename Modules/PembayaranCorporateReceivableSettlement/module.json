@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranCorporateReceivableSettlement",
+    "alias": "pembayarancorporatereceivablesettlement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranCorporateReceivableSettlement\\Providers\\PembayaranCorporateReceivableSettlementServiceProvider"
+    ],
+    "files": []
+}

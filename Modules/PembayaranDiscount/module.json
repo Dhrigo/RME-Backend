@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranDiscount",
+    "alias": "pembayarandiscount",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranDiscount\\Providers\\PembayaranDiscountServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayarandepositrefund",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranDepositRefund\\": "app/",
+            "Modules\\PembayaranDepositRefund\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranDepositRefund\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranDepositRefund\\Tests\\": "tests/"
+        }
+    }
+}

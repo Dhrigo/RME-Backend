@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranDoctorDiscount",
+    "alias": "pembayarandoctordiscount",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranDoctorDiscount\\Providers\\PembayaranDoctorDiscountServiceProvider"
+    ],
+    "files": []
+}

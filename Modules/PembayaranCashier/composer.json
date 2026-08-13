@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayarancashier",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranCashier\\": "app/",
+            "Modules\\PembayaranCashier\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranCashier\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranCashier\\Tests\\": "tests/"
+        }
+    }
+}
