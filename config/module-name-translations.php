@@ -99,4 +99,8 @@ return array (
     'RujukanKeluar' => 'Referral',
     'TujuanPasien' => 'PatientPurpose',
   ),
+  'PenjaminRS' => 
+  array (
+    'CaraKeluar' => 'DischargeMethod',
+  ),
 );
