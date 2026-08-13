@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordFingerExamination",
+    "alias": "medicalrecordfingerexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordFingerExamination\\Providers\\MedicalRecordFingerExaminationServiceProvider"
+    ],
+    "files": []
+}

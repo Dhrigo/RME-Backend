@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordchestexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordChestExamination\\": "app/",
+            "Modules\\MedicalRecordChestExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordChestExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordChestExamination\\Tests\\": "tests/"
+        }
+    }
+}

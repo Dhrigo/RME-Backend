@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPhysicalExamination",
+    "alias": "medicalrecordphysicalexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPhysicalExamination\\Providers\\MedicalRecordPhysicalExaminationServiceProvider"
+    ],
+    "files": []
+}

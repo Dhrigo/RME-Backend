@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordInhalantAllergenExamination",
+    "alias": "medicalrecordinhalantallergenexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordInhalantAllergenExamination\\Providers\\MedicalRecordInhalantAllergenExaminationServiceProvider"
+    ],
+    "files": []
+}

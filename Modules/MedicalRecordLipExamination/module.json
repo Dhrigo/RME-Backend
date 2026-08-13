@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordLipExamination",
+    "alias": "medicalrecordlipexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordLipExamination\\Providers\\MedicalRecordLipExaminationServiceProvider"
+    ],
+    "files": []
+}

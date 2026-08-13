@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordInterventionIndicatorMapping",
+    "alias": "medicalrecordinterventionindicatormapping",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordInterventionIndicatorMapping\\Providers\\MedicalRecordInterventionIndicatorMappingServiceProvider"
+    ],
+    "files": []
+}

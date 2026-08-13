@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordAnalExamination",
+    "alias": "medicalrecordanalexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordAnalExamination\\Providers\\MedicalRecordAnalExaminationServiceProvider"
+    ],
+    "files": []
+}

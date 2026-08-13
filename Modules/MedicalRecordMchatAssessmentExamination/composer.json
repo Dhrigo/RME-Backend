@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordmchatassessmentexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordMchatAssessmentExamination\\": "app/",
+            "Modules\\MedicalRecordMchatAssessmentExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordMchatAssessmentExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordMchatAssessmentExamination\\Tests\\": "tests/"
+        }
+    }
+}

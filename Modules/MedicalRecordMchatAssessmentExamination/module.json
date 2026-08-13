@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordMchatAssessmentExamination",
+    "alias": "medicalrecordmchatassessmentexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordMchatAssessmentExamination\\Providers\\MedicalRecordMchatAssessmentExaminationServiceProvider"
+    ],
+    "files": []
+}

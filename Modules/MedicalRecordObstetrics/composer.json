@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordobstetrics",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordObstetrics\\": "app/",
+            "Modules\\MedicalRecordObstetrics\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordObstetrics\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordObstetrics\\Tests\\": "tests/"
+        }
+    }
+}

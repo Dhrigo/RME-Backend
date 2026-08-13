@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecorddiagnosisindicatormapping",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordDiagnosisIndicatorMapping\\": "app/",
+            "Modules\\MedicalRecordDiagnosisIndicatorMapping\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordDiagnosisIndicatorMapping\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordDiagnosisIndicatorMapping\\Tests\\": "tests/"
+        }
+    }
+}

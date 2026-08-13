@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordinhalantallergenexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordInhalantAllergenExamination\\": "app/",
+            "Modules\\MedicalRecordInhalantAllergenExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordInhalantAllergenExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordInhalantAllergenExamination\\Tests\\": "tests/"
+        }
+    }
+}

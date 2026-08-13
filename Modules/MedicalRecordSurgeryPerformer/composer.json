@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordsurgeryperformer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordSurgeryPerformer\\": "app/",
+            "Modules\\MedicalRecordSurgeryPerformer\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordSurgeryPerformer\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordSurgeryPerformer\\Tests\\": "tests/"
+        }
+    }
+}

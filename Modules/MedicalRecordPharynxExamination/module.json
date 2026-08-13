@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPharynxExamination",
+    "alias": "medicalrecordpharynxexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPharynxExamination\\Providers\\MedicalRecordPharynxExaminationServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordDentalExamination",
+    "alias": "medicalrecorddentalexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordDentalExamination\\Providers\\MedicalRecordDentalExaminationServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordpharynxexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordPharynxExamination\\": "app/",
+            "Modules\\MedicalRecordPharynxExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordPharynxExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordPharynxExamination\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordChestExamination",
+    "alias": "medicalrecordchestexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordChestExamination\\Providers\\MedicalRecordChestExaminationServiceProvider"
+    ],
+    "files": []
+}

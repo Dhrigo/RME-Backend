@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordDiagnosisIndicatorMapping",
+    "alias": "medicalrecorddiagnosisindicatormapping",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordDiagnosisIndicatorMapping\\Providers\\MedicalRecordDiagnosisIndicatorMappingServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordFamilyPlanningObstetrics",
+    "alias": "medicalrecordfamilyplanningobstetrics",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordFamilyPlanningObstetrics\\Providers\\MedicalRecordFamilyPlanningObstetricsServiceProvider"
+    ],
+    "files": []
+}
