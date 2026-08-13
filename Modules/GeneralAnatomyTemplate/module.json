@@ -1,0 +1,13 @@
+{
+    "name": "GeneralAnatomyTemplate",
+    "alias": "generalanatomytemplate",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralAnatomyTemplate\\Providers\\GeneralAnatomyTemplateServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

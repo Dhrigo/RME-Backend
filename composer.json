@@ -3,7 +3,10 @@
     "name": "dhrigos/simgos-backend",
     "type": "project",
     "description": "Modular monolith backend, one Laravel module per source submodule.",
-    "keywords": ["laravel", "framework"],
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -35,7 +38,34 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Modules\\GeneralAdministrationTariff\\": "Modules/GeneralAdministrationTariff/app/",
+            "Modules\\GeneralAdministrationTariff\\Database\\Factories\\": "Modules/GeneralAdministrationTariff/database/factories/",
+            "Modules\\GeneralAdministrationTariff\\Database\\Seeders\\": "Modules/GeneralAdministrationTariff/database/seeders/",
+            "Modules\\GeneralOxygenTariff\\": "Modules/GeneralOxygenTariff/app/",
+            "Modules\\GeneralOxygenTariff\\Database\\Factories\\": "Modules/GeneralOxygenTariff/database/factories/",
+            "Modules\\GeneralOxygenTariff\\Database\\Seeders\\": "Modules/GeneralOxygenTariff/database/seeders/",
+            "Modules\\GeneralWardTariff\\": "Modules/GeneralWardTariff/app/",
+            "Modules\\GeneralWardTariff\\Database\\Factories\\": "Modules/GeneralWardTariff/database/factories/",
+            "Modules\\GeneralWardTariff\\Database\\Seeders\\": "Modules/GeneralWardTariff/database/seeders/",
+            "Modules\\GeneralPharmacyTariffByRoomClass\\": "Modules/GeneralPharmacyTariffByRoomClass/app/",
+            "Modules\\GeneralPharmacyTariffByRoomClass\\Database\\Factories\\": "Modules/GeneralPharmacyTariffByRoomClass/database/factories/",
+            "Modules\\GeneralPharmacyTariffByRoomClass\\Database\\Seeders\\": "Modules/GeneralPharmacyTariffByRoomClass/database/seeders/",
+            "Modules\\GeneralServiceTariffDistribution\\": "Modules/GeneralServiceTariffDistribution/app/",
+            "Modules\\GeneralServiceTariffDistribution\\Database\\Factories\\": "Modules/GeneralServiceTariffDistribution/database/factories/",
+            "Modules\\GeneralServiceTariffDistribution\\Database\\Seeders\\": "Modules/GeneralServiceTariffDistribution/database/seeders/",
+            "Modules\\GeneralPackageService\\": "Modules/GeneralPackageService/app/",
+            "Modules\\GeneralPackageService\\Database\\Factories\\": "Modules/GeneralPackageService/database/factories/",
+            "Modules\\GeneralPackageService\\Database\\Seeders\\": "Modules/GeneralPackageService/database/seeders/",
+            "Modules\\GeneralPackageItem\\": "Modules/GeneralPackageItem/app/",
+            "Modules\\GeneralPackageItem\\Database\\Factories\\": "Modules/GeneralPackageItem/database/factories/",
+            "Modules\\GeneralPackageItem\\Database\\Seeders\\": "Modules/GeneralPackageItem/database/seeders/",
+            "Modules\\GeneralProcedure\\": "Modules/GeneralProcedure/app/",
+            "Modules\\GeneralProcedure\\Database\\Factories\\": "Modules/GeneralProcedure/database/factories/",
+            "Modules\\GeneralProcedure\\Database\\Seeders\\": "Modules/GeneralProcedure/database/seeders/",
+            "Modules\\GeneralAnatomyTemplate\\": "Modules/GeneralAnatomyTemplate/app/",
+            "Modules\\GeneralAnatomyTemplate\\Database\\Factories\\": "Modules/GeneralAnatomyTemplate/database/factories/",
+            "Modules\\GeneralAnatomyTemplate\\Database\\Seeders\\": "Modules/GeneralAnatomyTemplate/database/seeders/"
         }
     },
     "autoload-dev": {

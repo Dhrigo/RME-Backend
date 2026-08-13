@@ -1,0 +1,17 @@
+{
+    "name": "nwidart/generaloxygentariff",
+    "description": "",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralOxygenTariff\\": "app/",
+            "Modules\\GeneralOxygenTariff\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralOxygenTariff\\Database\\Seeders\\": "database/seeders/"
+        }
+    }
+}

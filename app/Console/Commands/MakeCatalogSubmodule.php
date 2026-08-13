@@ -93,7 +93,11 @@ class MakeCatalogSubmodule extends Command
                 'name' => [$name],
                 '--api' => true,
             ]);
-        } catch (ProcessTimedOutException $e) {
+        } catch (\Exception $e) {
+            $this->warn('module:make threw an exception: ' . $e->getMessage());
+            $this->warn('Continuing scaffold anyway...');
+            Process::path(base_path())->timeout(300)->run('composer dump-autoload');
+        }
             // module:make's own internal `composer dump-autoload` call hits the Symfony
             // Process default 60s timeout once there are dozens of module composer.json
             // files for the merge-plugin to scan. The module itself is already fully

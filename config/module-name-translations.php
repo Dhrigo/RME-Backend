@@ -1,11 +1,12 @@
 <?php
 
 return array (
-  'General' => 
+  'General' =>
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
     'Diagnosa' => 'DiagnosisCode',
+    'DistribusiTarifTindakan' => 'ServiceTariffDistribution',
     'GroupLab' => 'LabGroup',
     'GroupPemeriksaan' => 'ExaminationGroup',
     'GroupReferensiKelas' => 'RoomClassReferenceGroup',
@@ -27,12 +28,14 @@ return array (
     'NilaiRujukanLab' => 'LabReferenceValue',
     'PPK' => 'Ppk',
     'Paket' => 'Package',
+    'PaketDetil' => 'PackageItem',
     'ParameterTindakanLab' => 'LabServiceParameter',
     'Pasien' => 'Patient',
     'Pegawai' => 'Employee',
     'Pekerjaan' => 'Occupation',
     'Pendidikan' => 'Education',
     'Profesi' => 'Profession',
+    'Prosedur' => 'Procedure',
     'Rekening' => 'BankAccount',
     'RuangKamar' => 'Room',
     'RuangKamarTidur' => 'Bed',
@@ -40,23 +43,29 @@ return array (
     'Smf' => 'MedicalDepartment',
     'StatusPerkawinan' => 'MaritalStatus',
     'Suku' => 'Ethnicity',
+    'TarifAdministrasi' => 'AdministrationTariff',
+    'TarifFarmasiPerKelas' => 'PharmacyTariffByRoomClass',
+    'TarifO2' => 'OxygenTariff',
+    'TarifRuangRawat' => 'WardTariff',
     'TarifTindakan' => 'ServiceTariff',
+    'TemplateAnatomi' => 'AnatomyTemplate',
     'Tindakan' => 'Service',
+    'TindakanPaket' => 'PackageService',
     'TopographyIcdO' => 'IcdOTopography',
     'Wilayah' => 'Region',
   ),
-  'Inventory' => 
+  'Inventory' =>
   array (
     'Barang' => 'Item',
     'PenerimaanBarang' => 'GoodsReceipt',
     'Penyedia' => 'Supplier',
     'Permintaan' => 'StockRequest',
   ),
-  'Kemkes' => 
+  'Kemkes' =>
   array (
     'GolonganDarah' => 'BloodType',
   ),
-  'Layanan' => 
+  'Layanan' =>
   array (
     'HasilLab' => 'LabResult',
     'OrderDetilResep' => 'PrescriptionItem',
@@ -64,7 +73,7 @@ return array (
     'OrderResep' => 'Prescription',
     'TindakanMedis' => 'MedicalProcedure',
   ),
-  'MedicalRecord' => 
+  'MedicalRecord' =>
   array (
     'CPPT' => 'ClinicalNote',
     'Diagnosa' => 'Diagnosis',
@@ -75,14 +84,14 @@ return array (
     'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
-  'Pembayaran' => 
+  'Pembayaran' =>
   array (
     'Deposit' => 'Deposit',
     'PembayaranTagihan' => 'Payment',
     'RincianTagihan' => 'InvoiceItem',
     'Tagihan' => 'Invoice',
   ),
-  'Pendaftaran' => 
+  'Pendaftaran' =>
   array (
     'Kunjungan' => 'Visit',
     'Pendaftaran' => 'Registration',

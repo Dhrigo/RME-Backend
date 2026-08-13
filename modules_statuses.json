@@ -67,5 +67,14 @@
     "GeneralLabReferenceValue": true,
     "GeneralIcdSnomedCtMapping": true,
     "GeneralIcdOMorphology": true,
-    "GeneralIcdOTopography": true
+    "GeneralIcdOTopography": true,
+    "GeneralAdministrationTariff": true,
+    "GeneralAnatomyTemplate": true,
+    "GeneralOxygenTariff": true,
+    "GeneralPackageItem": true,
+    "GeneralPackageService": true,
+    "GeneralPharmacyTariffByRoomClass": true,
+    "GeneralProcedure": true,
+    "GeneralServiceTariffDistribution": true,
+    "GeneralWardTariff": true
 }

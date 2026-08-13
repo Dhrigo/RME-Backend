@@ -1,0 +1,13 @@
+{
+    "name": "GeneralProcedure",
+    "alias": "generalprocedure",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralProcedure\\Providers\\GeneralProcedureServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}
