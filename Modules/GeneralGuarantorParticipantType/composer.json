@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalguarantorparticipanttype",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralGuarantorParticipantType\\": "app/",
+            "Modules\\GeneralGuarantorParticipantType\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralGuarantorParticipantType\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralGuarantorParticipantType\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generaladmissiondiagnosis",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralAdmissionDiagnosis\\": "app/",
+            "Modules\\GeneralAdmissionDiagnosis\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralAdmissionDiagnosis\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralAdmissionDiagnosis\\Tests\\": "tests/"
+        }
+    }
+}

@@ -152,5 +152,15 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "BerkasKlaimPharmacyClaim": true,
+    "BerkasKlaimPharmacyClaimItem": true,
+    "BerkasKlaimPathologyClaim": true,
+    "BerkasKlaimPathologyClaimItem": true,
+    "GeneralAdministration": true,
+    "GeneralAntibioticBacteriaMapping": true,
+    "GeneralAdmissionDiagnosis": true,
+    "GeneralGuarantorParticipantType": true,
+    "GeneralPatientContact": true,
+    "GeneralReportTypeItem": true
 }

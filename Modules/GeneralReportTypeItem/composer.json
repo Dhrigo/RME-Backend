@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalreporttypeitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralReportTypeItem\\": "app/",
+            "Modules\\GeneralReportTypeItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralReportTypeItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralReportTypeItem\\Tests\\": "tests/"
+        }
+    }
+}

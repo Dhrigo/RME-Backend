@@ -1,0 +1,11 @@
+{
+    "name": "BerkasKlaimPathologyClaim",
+    "alias": "berkasklaimpathologyclaim",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BerkasKlaimPathologyClaim\\Providers\\BerkasKlaimPathologyClaimServiceProvider"
+    ],
+    "files": []
+}

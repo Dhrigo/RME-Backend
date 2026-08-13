@@ -1,0 +1,11 @@
+{
+    "name": "GeneralGuarantorParticipantType",
+    "alias": "generalguarantorparticipanttype",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralGuarantorParticipantType\\Providers\\GeneralGuarantorParticipantTypeServiceProvider"
+    ],
+    "files": []
+}
