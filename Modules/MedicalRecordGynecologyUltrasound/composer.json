@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordgynecologyultrasound",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordGynecologyUltrasound\\": "app/",
+            "Modules\\MedicalRecordGynecologyUltrasound\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordGynecologyUltrasound\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordGynecologyUltrasound\\Tests\\": "tests/"
+        }
+    }
+}

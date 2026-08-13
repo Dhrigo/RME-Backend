@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordhemodialysisletter",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordHemodialysisLetter\\": "app/",
+            "Modules\\MedicalRecordHemodialysisLetter\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordHemodialysisLetter\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordHemodialysisLetter\\Tests\\": "tests/"
+        }
+    }
+}

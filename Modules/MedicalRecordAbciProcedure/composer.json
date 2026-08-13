@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordabciprocedure",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordAbciProcedure\\": "app/",
+            "Modules\\MedicalRecordAbciProcedure\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordAbciProcedure\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordAbciProcedure\\Tests\\": "tests/"
+        }
+    }
+}

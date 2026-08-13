@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordAbciProcedure",
+    "alias": "medicalrecordabciprocedure",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordAbciProcedure\\Providers\\MedicalRecordAbciProcedureServiceProvider"
+    ],
+    "files": []
+}

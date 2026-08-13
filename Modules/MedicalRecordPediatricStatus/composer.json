@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordpediatricstatus",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordPediatricStatus\\": "app/",
+            "Modules\\MedicalRecordPediatricStatus\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordPediatricStatus\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordPediatricStatus\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPediatricStatus",
+    "alias": "medicalrecordpediatricstatus",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPediatricStatus\\Providers\\MedicalRecordPediatricStatusServiceProvider"
+    ],
+    "files": []
+}

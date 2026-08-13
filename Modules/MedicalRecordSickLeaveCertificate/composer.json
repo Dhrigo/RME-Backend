@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordsickleavecertificate",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordSickLeaveCertificate\\": "app/",
+            "Modules\\MedicalRecordSickLeaveCertificate\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordSickLeaveCertificate\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordSickLeaveCertificate\\Tests\\": "tests/"
+        }
+    }
+}

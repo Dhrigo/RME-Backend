@@ -377,9 +377,18 @@ return array (
     'RiwayatTindakanPembedahan' => 'SurgicalProcedureHistory',
     'SkriningRiwayatKesehatanOrangTua' => 'ParentalHealthHistoryScreening',
     'StatusFungsional' => 'FunctionalStatusAssessment',
+    'StatusPediatric' => 'PediatricStatus',
     'TandaVital' => 'VitalSign',
+    'TindakanAbci' => 'AbciProcedure',
+    'TindakanMMPI' => 'MmpiTest',
     'TransfusiDarah' => 'BloodTransfusion',
+    'TransfusiDarahDetail' => 'BloodTransfusionDetail',
     'Triage' => 'Triage',
+    'UploadDocument' => 'DocumentUpload',
+    'UploadHasilPemeriksaanMata' => 'EyeExamDocumentUpload',
+    'UsgGiknekologi' => 'GynecologyUltrasound',
+    'UsgGuiding' => 'UltrasoundGuidedProcedure',
+    'VerifikasiCPPT' => 'ClinicalNoteVerification',
   ),
   'Pasien' => 
   array (
