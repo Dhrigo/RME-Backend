@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPharmacyWard",
+    "alias": "generalpharmacyward",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPharmacyWard\\Providers\\GeneralPharmacyWardServiceProvider"
+    ],
+    "files": []
+}

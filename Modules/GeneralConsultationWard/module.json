@@ -1,0 +1,11 @@
+{
+    "name": "GeneralConsultationWard",
+    "alias": "generalconsultationward",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralConsultationWard\\Providers\\GeneralConsultationWardServiceProvider"
+    ],
+    "files": []
+}

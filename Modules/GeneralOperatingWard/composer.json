@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generaloperatingward",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralOperatingWard\\": "app/",
+            "Modules\\GeneralOperatingWard\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralOperatingWard\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralOperatingWard\\Tests\\": "tests/"
+        }
+    }
+}

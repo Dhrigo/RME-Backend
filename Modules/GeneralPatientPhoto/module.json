@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPatientPhoto",
+    "alias": "generalpatientphoto",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPatientPhoto\\Providers\\GeneralPatientPhotoServiceProvider"
+    ],
+    "files": []
+}

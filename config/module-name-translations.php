@@ -1,19 +1,23 @@
 <?php
 
 return array (
-  'BerkasKlaim' =>
+  'BerkasKlaim' => 
   array (
     'Berkas' => 'ClaimFile',
     'DokumenPendukung' => 'SupportingDocument',
     'Kelengkapan' => 'ClaimCompleteness',
     'KelengkapanKomentar' => 'ClaimCompletenessComment',
   ),
-  'General' =>
+  'General' => 
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
     'Diagnosa' => 'DiagnosisCode',
     'DistribusiTarifTindakan' => 'ServiceTariffDistribution',
+    'Dokter' => 'Doctor',
+    'DokterRuangan' => 'DoctorWardAssignment',
+    'DokterSMF' => 'DoctorMedicalDepartment',
+    'DokumenScan' => 'ScannedDocument',
     'GroupLab' => 'LabGroup',
     'GroupPemeriksaan' => 'ExaminationGroup',
     'GroupReferensiKelas' => 'RoomClassReferenceGroup',
@@ -29,7 +33,10 @@ return array (
     'JenisWilayah' => 'RegionType',
     'KAP' => 'Kap',
     'KIP' => 'Kip',
+    'KartuIdentitasKeluarga' => 'PatientFamilyIdentityCard',
     'Kelas' => 'RoomClass',
+    'KeluargaPasien' => 'PatientFamily',
+    'KontakKeluargaPasien' => 'PatientFamilyContact',
     'MorphologyIcdO' => 'IcdOMorphology',
     'Negara' => 'Country',
     'NilaiRujukanLab' => 'LabReferenceValue',
@@ -41,13 +48,25 @@ return array (
     'Pegawai' => 'Employee',
     'Pekerjaan' => 'Occupation',
     'Pendidikan' => 'Education',
+    'Perawat' => 'Nurse',
+    'PerawatRuangan' => 'NurseWardAssignment',
+    'PhotoPegawai' => 'EmployeePhoto',
+    'Photopasien' => 'PatientPhoto',
     'Profesi' => 'Profession',
     'Prosedur' => 'Procedure',
     'Rekening' => 'BankAccount',
     'RuangKamar' => 'Room',
     'RuangKamarTidur' => 'Bed',
     'Ruangan' => 'Ward',
+    'RuanganFarmasi' => 'PharmacyWard',
+    'RuanganKelas' => 'WardClass',
+    'RuanganKonsul' => 'ConsultationWard',
+    'RuanganLaboratorium' => 'LaboratoryWard',
+    'RuanganOperasi' => 'OperatingWard',
+    'RuanganRadiologi' => 'RadiologyWard',
     'Smf' => 'MedicalDepartment',
+    'Staff' => 'StaffMember',
+    'StaffRuangan' => 'StaffWardAssignment',
     'StatusPerkawinan' => 'MaritalStatus',
     'Suku' => 'Ethnicity',
     'TarifAdministrasi' => 'AdministrationTariff',
@@ -100,20 +119,20 @@ return array (
     'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
-  'Pegawai' =>
+  'Pegawai' => 
   array (
     'KartuIdentitas' => 'EmployeeIdentityCard',
     'KontakPegawai' => 'EmployeeContact',
     'StrSip' => 'PracticeLicense',
   ),
-  'Pembatalan' =>
+  'Pembatalan' => 
   array (
     'FinalHasil' => 'FinalResult',
     'PembatalanDocument' => 'DocumentCancellation',
     'PembatalanRekamMedis' => 'MedicalRecordCancellation',
     'PembatalanRetur' => 'ReturnCancellation',
   ),
-  'Pembayaran' =>
+  'Pembayaran' => 
   array (
     'Deposit' => 'Deposit',
     'PembayaranTagihan' => 'Payment',

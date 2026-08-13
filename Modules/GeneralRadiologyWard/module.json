@@ -1,0 +1,11 @@
+{
+    "name": "GeneralRadiologyWard",
+    "alias": "generalradiologyward",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralRadiologyWard\\Providers\\GeneralRadiologyWardServiceProvider"
+    ],
+    "files": []
+}

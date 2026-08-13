@@ -1,0 +1,11 @@
+{
+    "name": "GeneralLaboratoryWard",
+    "alias": "generallaboratoryward",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralLaboratoryWard\\Providers\\GeneralLaboratoryWardServiceProvider"
+    ],
+    "files": []
+}
