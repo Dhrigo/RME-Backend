@@ -1,0 +1,11 @@
+{
+    "name": "InventoryMinimumStockLevel",
+    "alias": "inventoryminimumstocklevel",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryMinimumStockLevel\\Providers\\InventoryMinimumStockLevelServiceProvider"
+    ],
+    "files": []
+}

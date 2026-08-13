@@ -78,5 +78,14 @@
     "PendaftaranReferral": true,
     "PendaftaranRegistration": true,
     "PendaftaranVisit": true,
-    "PenjaminRSDischargeMethod": true
+    "PenjaminRSDischargeMethod": true,
+    "InventoryItemCategory": true,
+    "InventoryUnitOfMeasure": true,
+    "InventoryItemClassification": true,
+    "InventoryMinimumStockLevel": true,
+    "InventoryItemPrice": true,
+    "InventoryWardItemStock": true,
+    "InventoryItemSerialNumber": true,
+    "InventoryStockOpname": true,
+    "InventoryStockOpnameItem": true
 }

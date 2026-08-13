@@ -1,0 +1,11 @@
+{
+    "name": "InventoryUnitOfMeasure",
+    "alias": "inventoryunitofmeasure",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryUnitOfMeasure\\Providers\\InventoryUnitOfMeasureServiceProvider"
+    ],
+    "files": []
+}

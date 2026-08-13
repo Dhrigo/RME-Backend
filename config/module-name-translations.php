@@ -1,7 +1,7 @@
 <?php
 
 return array (
-  'General' =>
+  'General' => 
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
@@ -54,18 +54,27 @@ return array (
     'TopographyIcdO' => 'IcdOTopography',
     'Wilayah' => 'Region',
   ),
-  'Inventory' =>
+  'Inventory' => 
   array (
     'Barang' => 'Item',
+    'BarangRuangan' => 'WardItemStock',
+    'HargaBarang' => 'ItemPrice',
+    'Kategori' => 'ItemCategory',
+    'NoSeriBarangRuangan' => 'ItemSerialNumber',
     'PenerimaanBarang' => 'GoodsReceipt',
+    'PenggolonganBarang' => 'ItemClassification',
     'Penyedia' => 'Supplier',
     'Permintaan' => 'StockRequest',
+    'Satuan' => 'UnitOfMeasure',
+    'StokBarangMinimum' => 'MinimumStockLevel',
+    'StokOpname' => 'StockOpname',
+    'StokOpnameDetil' => 'StockOpnameItem',
   ),
-  'Kemkes' =>
+  'Kemkes' => 
   array (
     'GolonganDarah' => 'BloodType',
   ),
-  'Layanan' =>
+  'Layanan' => 
   array (
     'HasilLab' => 'LabResult',
     'OrderDetilResep' => 'PrescriptionItem',
@@ -73,7 +82,7 @@ return array (
     'OrderResep' => 'Prescription',
     'TindakanMedis' => 'MedicalProcedure',
   ),
-  'MedicalRecord' =>
+  'MedicalRecord' => 
   array (
     'CPPT' => 'ClinicalNote',
     'Diagnosa' => 'Diagnosis',
@@ -84,14 +93,14 @@ return array (
     'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
-  'Pembayaran' =>
+  'Pembayaran' => 
   array (
     'Deposit' => 'Deposit',
     'PembayaranTagihan' => 'Payment',
     'RincianTagihan' => 'InvoiceItem',
     'Tagihan' => 'Invoice',
   ),
-  'Pendaftaran' =>
+  'Pendaftaran' => 
   array (
     'Kunjungan' => 'Visit',
     'Pendaftaran' => 'Registration',

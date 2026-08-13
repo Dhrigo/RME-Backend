@@ -1,0 +1,11 @@
+{
+    "name": "InventoryItemClassification",
+    "alias": "inventoryitemclassification",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryItemClassification\\Providers\\InventoryItemClassificationServiceProvider"
+    ],
+    "files": []
+}

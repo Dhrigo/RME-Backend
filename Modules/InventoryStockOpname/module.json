@@ -1,0 +1,11 @@
+{
+    "name": "InventoryStockOpname",
+    "alias": "inventorystockopname",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryStockOpname\\Providers\\InventoryStockOpnameServiceProvider"
+    ],
+    "files": []
+}

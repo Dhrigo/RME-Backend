@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventoryitemserialnumber",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryItemSerialNumber\\": "app/",
+            "Modules\\InventoryItemSerialNumber\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryItemSerialNumber\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryItemSerialNumber\\Tests\\": "tests/"
+        }
+    }
+}

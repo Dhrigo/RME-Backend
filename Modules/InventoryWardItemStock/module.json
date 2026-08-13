@@ -1,0 +1,11 @@
+{
+    "name": "InventoryWardItemStock",
+    "alias": "inventorywarditemstock",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryWardItemStock\\Providers\\InventoryWardItemStockServiceProvider"
+    ],
+    "files": []
+}

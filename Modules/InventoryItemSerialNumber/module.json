@@ -1,0 +1,11 @@
+{
+    "name": "InventoryItemSerialNumber",
+    "alias": "inventoryitemserialnumber",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryItemSerialNumber\\Providers\\InventoryItemSerialNumberServiceProvider"
+    ],
+    "files": []
+}
