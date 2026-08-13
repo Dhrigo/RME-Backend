@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventorystockopnameitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryStockOpnameItem\\": "app/",
+            "Modules\\InventoryStockOpnameItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryStockOpnameItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryStockOpnameItem\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventoryitemclassification",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryItemClassification\\": "app/",
+            "Modules\\InventoryItemClassification\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryItemClassification\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryItemClassification\\Tests\\": "tests/"
+        }
+    }
+}

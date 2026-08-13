@@ -1,0 +1,11 @@
+{
+    "name": "InventoryItemCategory",
+    "alias": "inventoryitemcategory",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryItemCategory\\Providers\\InventoryItemCategoryServiceProvider"
+    ],
+    "files": []
+}

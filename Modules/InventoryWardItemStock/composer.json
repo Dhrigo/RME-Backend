@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventorywarditemstock",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryWardItemStock\\": "app/",
+            "Modules\\InventoryWardItemStock\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryWardItemStock\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryWardItemStock\\Tests\\": "tests/"
+        }
+    }
+}

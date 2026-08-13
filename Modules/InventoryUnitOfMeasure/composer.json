@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventoryunitofmeasure",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryUnitOfMeasure\\": "app/",
+            "Modules\\InventoryUnitOfMeasure\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryUnitOfMeasure\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryUnitOfMeasure\\Tests\\": "tests/"
+        }
+    }
+}
