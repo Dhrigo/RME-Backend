@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranQueueCall",
+    "alias": "pendaftaranqueuecall",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranQueueCall\\Providers\\PendaftaranQueueCallServiceProvider"
+    ],
+    "files": []
+}

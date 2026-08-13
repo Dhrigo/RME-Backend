@@ -1,0 +1,11 @@
+{
+    "name": "PegawaiEmployeeIdentityCard",
+    "alias": "pegawaiemployeeidentitycard",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PegawaiEmployeeIdentityCard\\Providers\\PegawaiEmployeeIdentityCardServiceProvider"
+    ],
+    "files": []
+}

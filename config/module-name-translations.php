@@ -93,7 +93,13 @@ return array (
     'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
-  'Pembayaran' => 
+  'Pegawai' =>
+  array (
+    'KartuIdentitas' => 'EmployeeIdentityCard',
+    'KontakPegawai' => 'EmployeeContact',
+    'StrSip' => 'PracticeLicense',
+  ),
+  'Pembayaran' =>
   array (
     'Deposit' => 'Deposit',
     'PembayaranTagihan' => 'Payment',
@@ -102,7 +108,10 @@ return array (
   ),
   'Pendaftaran' => 
   array (
+    'AntrianRuangan' => 'WardQueue',
+    'AntrianTempatTidur' => 'BedQueue',
     'Kunjungan' => 'Visit',
+    'PanggilanAntrianRuangan' => 'QueueCall',
     'Pendaftaran' => 'Registration',
     'Penjamin' => 'Guarantor',
     'RujukanKeluar' => 'Referral',
@@ -111,5 +120,11 @@ return array (
   'PenjaminRS' => 
   array (
     'CaraKeluar' => 'DischargeMethod',
+  ),
+  'Penjualan' => 
+  array (
+    'Penjualan' => 'Sale',
+    'PenjualanDetil' => 'SaleItem',
+    'ReturPenjualan' => 'SaleReturn',
   ),
 );

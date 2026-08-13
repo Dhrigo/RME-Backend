@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranqueuecall",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranQueueCall\\": "app/",
+            "Modules\\PendaftaranQueueCall\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranQueueCall\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranQueueCall\\Tests\\": "tests/"
+        }
+    }
+}

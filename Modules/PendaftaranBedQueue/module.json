@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranBedQueue",
+    "alias": "pendaftaranbedqueue",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranBedQueue\\Providers\\PendaftaranBedQueueServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pegawaiemployeeidentitycard",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PegawaiEmployeeIdentityCard\\": "app/",
+            "Modules\\PegawaiEmployeeIdentityCard\\Database\\Factories\\": "database/factories/",
+            "Modules\\PegawaiEmployeeIdentityCard\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PegawaiEmployeeIdentityCard\\Tests\\": "tests/"
+        }
+    }
+}

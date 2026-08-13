@@ -1,0 +1,11 @@
+{
+    "name": "PegawaiEmployeeContact",
+    "alias": "pegawaiemployeecontact",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PegawaiEmployeeContact\\Providers\\PegawaiEmployeeContactServiceProvider"
+    ],
+    "files": []
+}
