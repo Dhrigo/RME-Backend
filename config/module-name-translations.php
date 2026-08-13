@@ -72,4 +72,10 @@ return array (
     'Penjamin' => 'Guarantor',
     'RujukanKeluar' => 'Referral',
   ),
+  'PenjaminRS' => 
+  array (
+    'CaraKeluar' => 'DischargeMethod',
+    'Dpjp' => 'AttendingPhysician',
+    'Drivers' => 'Drivers',
+  ),
 );

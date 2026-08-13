@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/penjaminrsdischargemethod",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PenjaminRSDischargeMethod\\": "app/",
+            "Modules\\PenjaminRSDischargeMethod\\Database\\Factories\\": "database/factories/",
+            "Modules\\PenjaminRSDischargeMethod\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PenjaminRSDischargeMethod\\Tests\\": "tests/"
+        }
+    }
+}

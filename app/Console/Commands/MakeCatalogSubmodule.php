@@ -89,6 +89,14 @@ class MakeCatalogSubmodule extends Command
         $name = Str::studly($module).$englishName;
 
         try {
+            // CachedFileRepository serves the module list from bootstrap/cache/module-manifest.php,
+            // so a stale manifest would keep module:make's sub-generators from seeing the brand-new
+            // module folder (they re-resolve it via findOrFail right after scaffolding it). Drop the
+            // cached manifest + in-memory memo first so the repository falls back to scanning disk,
+            // then module:manifest-cache at the end re-warms it.
+            $this->call('module:manifest-cache', ['--clear' => true]);
+            app('modules')->resetModules();
+
             $this->call('module:make', [
                 'name' => [$name],
                 '--api' => true,
@@ -104,6 +112,18 @@ class MakeCatalogSubmodule extends Command
 
         $this->stripUnusedScaffold($name);
         $this->saveTranslation($module, $submodule, $englishName);
+
+        // module:make never touches composer's autoload map (no Modules\ PSR-4 in the root
+        // composer.json), so without this the fresh module's namespaces aren't loadable and
+        // module-provider compilation dies with "Class ...ServiceProvider not found". Dump here,
+        // after the scaffolds, so scan picks up the new module folder.
+        $dump = Process::path(base_path())->timeout(300)->run('composer dump-autoload --no-interaction');
+
+        if (! $dump->successful()) {
+            $this->error('composer dump-autoload gagal setelah scaffold: '.$dump->errorOutput());
+
+            return self::FAILURE;
+        }
 
         $this->call('module:manifest-cache');
 

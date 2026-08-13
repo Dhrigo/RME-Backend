@@ -1,0 +1,11 @@
+{
+    "name": "PenjaminRSDischargeMethod",
+    "alias": "penjaminrsdischargemethod",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PenjaminRSDischargeMethod\\Providers\\PenjaminRSDischargeMethodServiceProvider"
+    ],
+    "files": []
+}

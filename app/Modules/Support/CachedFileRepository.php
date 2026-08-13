@@ -23,12 +23,43 @@ class CachedFileRepository extends LaravelFileRepository
     private ?array $moduleCache = null;
 
     /**
+     * Set by resetModules() when something in this process (e.g. ModuleGenerator creating a
+     * new module) explicitly signals the on-disk module list changed. Once set, scan() must
+     * not trust the (now stale-by-definition) file cache anymore for the rest of the process -
+     * only a live glob reflects the change.
+     */
+    private bool $forceLiveScan = false;
+
+    /**
+     * nwidart's module:make generator drops freshly created module folders into the
+     * repository via resetModules() before its sub-generators re-resolve the module.
+     * The parent implementation only clears its own static cache, which CachedFileRepository
+     * bypasses - so without this override a just-scaffolded module keeps being invisible to
+     * findOrFail() (the manifest file is still stale at that point) and module:make fails.
+     * Clearing moduleCache alone isn't enough either - the next scan() would just reload the
+     * same stale on-disk manifest cache file - so this also flips forceLiveScan to bypass that
+     * file for the remainder of the process.
+     */
+    public function resetModules(): static
+    {
+        parent::resetModules();
+        $this->moduleCache = null;
+        $this->forceLiveScan = true;
+
+        return $this;
+    }
+
+    /**
      * {@inheritdoc}
      */
     public function scan(): array
     {
         if ($this->moduleCache !== null) {
             return $this->moduleCache;
+        }
+
+        if ($this->forceLiveScan) {
+            return $this->moduleCache = parent::scan();
         }
 
         $cache = ModuleManifestCachePath::read();

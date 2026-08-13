@@ -1,0 +1,11 @@
+{
+    "name": "PenjaminRSDrivers",
+    "alias": "penjaminrsdrivers",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PenjaminRSDrivers\\Providers\\PenjaminRSDriversServiceProvider"
+    ],
+    "files": []
+}
