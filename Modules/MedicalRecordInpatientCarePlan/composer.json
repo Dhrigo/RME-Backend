@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordinpatientcareplan",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordInpatientCarePlan\\": "app/",
+            "Modules\\MedicalRecordInpatientCarePlan\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordInpatientCarePlan\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordInpatientCarePlan\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordObstetricHistory",
+    "alias": "medicalrecordobstetrichistory",
+    "description": "ObstetricHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordObstetricHistory\\Providers\\MedicalRecordObstetricHistoryServiceProvider"
+    ],
+    "files": []
+}

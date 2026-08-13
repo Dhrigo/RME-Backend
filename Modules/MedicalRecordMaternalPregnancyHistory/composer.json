@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordmaternalpregnancyhistory",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordMaternalPregnancyHistory\\": "app/",
+            "Modules\\MedicalRecordMaternalPregnancyHistory\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordMaternalPregnancyHistory\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordMaternalPregnancyHistory\\Tests\\": "tests/"
+        }
+    }
+}

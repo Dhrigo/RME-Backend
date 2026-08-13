@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbaepstimulationprotocoldetail",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepStimulationProtocolDetail\\": "app/",
+            "Modules\\MedicalRecordBaepStimulationProtocolDetail\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBaepStimulationProtocolDetail\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepStimulationProtocolDetail\\Tests\\": "tests/"
+        }
+    }
+}

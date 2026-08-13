@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordTransferMedicationReconciliationItem",
+    "alias": "medicalrecordtransfermedicationreconciliationitem",
+    "description": "TransferMedicationReconciliationItem records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordTransferMedicationReconciliationItem\\Providers\\MedicalRecordTransferMedicationReconciliationItemServiceProvider"
+    ],
+    "files": []
+}

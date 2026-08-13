@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordTbDiseaseHistory",
+    "alias": "medicalrecordtbdiseasehistory",
+    "description": "TbDiseaseHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordTbDiseaseHistory\\Providers\\MedicalRecordTbDiseaseHistoryServiceProvider"
+    ],
+    "files": []
+}

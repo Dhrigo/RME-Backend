@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordKillipClassAssessment",
+    "alias": "medicalrecordkillipclassassessment",
+    "description": "KillipClassAssessment records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordKillipClassAssessment\\Providers\\MedicalRecordKillipClassAssessmentServiceProvider"
+    ],
+    "files": []
+}

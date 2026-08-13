@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordhumptydumptyfallscaleassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordHumptyDumptyFallScaleAssessment\\": "app/",
+            "Modules\\MedicalRecordHumptyDumptyFallScaleAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordHumptyDumptyFallScaleAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordHumptyDumptyFallScaleAssessment\\Tests\\": "tests/"
+        }
+    }
+}

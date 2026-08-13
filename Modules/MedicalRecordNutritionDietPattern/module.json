@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordNutritionDietPattern",
+    "alias": "medicalrecordnutritiondietpattern",
+    "description": "NutritionDietPattern records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordNutritionDietPattern\\Providers\\MedicalRecordNutritionDietPatternServiceProvider"
+    ],
+    "files": []
+}

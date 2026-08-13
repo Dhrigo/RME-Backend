@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordParentalHealthHistoryScreening",
+    "alias": "medicalrecordparentalhealthhistoryscreening",
+    "description": "ParentalHealthHistoryScreening records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordParentalHealthHistoryScreening\\Providers\\MedicalRecordParentalHealthHistoryScreeningServiceProvider"
+    ],
+    "files": []
+}

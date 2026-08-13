@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordlabresultsummary",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordLabResultSummary\\": "app/",
+            "Modules\\MedicalRecordLabResultSummary\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordLabResultSummary\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordLabResultSummary\\Tests\\": "tests/"
+        }
+    }
+}

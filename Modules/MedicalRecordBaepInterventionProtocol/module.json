@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBaepInterventionProtocol",
+    "alias": "medicalrecordbaepinterventionprotocol",
+    "description": "BaepInterventionProtocol records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBaepInterventionProtocol\\Providers\\MedicalRecordBaepInterventionProtocolServiceProvider"
+    ],
+    "files": []
+}

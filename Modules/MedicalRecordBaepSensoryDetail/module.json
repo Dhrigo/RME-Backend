@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBaepSensoryDetail",
+    "alias": "medicalrecordbaepsensorydetail",
+    "description": "BaepSensoryDetail records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBaepSensoryDetail\\Providers\\MedicalRecordBaepSensoryDetailServiceProvider"
+    ],
+    "files": []
+}

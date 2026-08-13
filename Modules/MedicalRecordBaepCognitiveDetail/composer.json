@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbaepcognitivedetail",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepCognitiveDetail\\": "app/",
+            "Modules\\MedicalRecordBaepCognitiveDetail\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBaepCognitiveDetail\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepCognitiveDetail\\Tests\\": "tests/"
+        }
+    }
+}

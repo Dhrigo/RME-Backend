@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBaepDysphagiaDetail",
+    "alias": "medicalrecordbaepdysphagiadetail",
+    "description": "BaepDysphagiaDetail records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBaepDysphagiaDetail\\Providers\\MedicalRecordBaepDysphagiaDetailServiceProvider"
+    ],
+    "files": []
+}

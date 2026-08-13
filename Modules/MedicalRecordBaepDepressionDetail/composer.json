@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbaepdepressiondetail",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepDepressionDetail\\": "app/",
+            "Modules\\MedicalRecordBaepDepressionDetail\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBaepDepressionDetail\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepDepressionDetail\\Tests\\": "tests/"
+        }
+    }
+}

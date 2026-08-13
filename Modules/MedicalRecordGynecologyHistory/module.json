@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordGynecologyHistory",
+    "alias": "medicalrecordgynecologyhistory",
+    "description": "GynecologyHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordGynecologyHistory\\Providers\\MedicalRecordGynecologyHistoryServiceProvider"
+    ],
+    "files": []
+}

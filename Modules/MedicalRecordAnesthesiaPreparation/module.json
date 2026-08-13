@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordAnesthesiaPreparation",
+    "alias": "medicalrecordanesthesiapreparation",
+    "description": "AnesthesiaPreparation records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordAnesthesiaPreparation\\Providers\\MedicalRecordAnesthesiaPreparationServiceProvider"
+    ],
+    "files": []
+}

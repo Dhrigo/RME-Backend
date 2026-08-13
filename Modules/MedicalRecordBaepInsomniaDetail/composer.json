@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbaepinsomniadetail",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepInsomniaDetail\\": "app/",
+            "Modules\\MedicalRecordBaepInsomniaDetail\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBaepInsomniaDetail\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBaepInsomniaDetail\\Tests\\": "tests/"
+        }
+    }
+}

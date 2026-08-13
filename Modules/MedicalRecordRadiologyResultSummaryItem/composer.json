@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordradiologyresultsummaryitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordRadiologyResultSummaryItem\\": "app/",
+            "Modules\\MedicalRecordRadiologyResultSummaryItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordRadiologyResultSummaryItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordRadiologyResultSummaryItem\\Tests\\": "tests/"
+        }
+    }
+}

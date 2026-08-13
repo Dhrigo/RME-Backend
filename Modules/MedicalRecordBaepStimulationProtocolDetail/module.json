@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBaepStimulationProtocolDetail",
+    "alias": "medicalrecordbaepstimulationprotocoldetail",
+    "description": "BaepStimulationProtocolDetail records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBaepStimulationProtocolDetail\\Providers\\MedicalRecordBaepStimulationProtocolDetailServiceProvider"
+    ],
+    "files": []
+}

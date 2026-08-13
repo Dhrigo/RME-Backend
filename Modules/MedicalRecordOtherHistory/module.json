@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordOtherHistory",
+    "alias": "medicalrecordotherhistory",
+    "description": "OtherHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordOtherHistory\\Providers\\MedicalRecordOtherHistoryServiceProvider"
+    ],
+    "files": []
+}

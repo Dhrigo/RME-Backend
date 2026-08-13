@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordIllnessProgressionHistory",
+    "alias": "medicalrecordillnessprogressionhistory",
+    "description": "IllnessProgressionHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordIllnessProgressionHistory\\Providers\\MedicalRecordIllnessProgressionHistoryServiceProvider"
+    ],
+    "files": []
+}

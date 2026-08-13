@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordLabResultSummaryItem",
+    "alias": "medicalrecordlabresultsummaryitem",
+    "description": "LabResultSummaryItem records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordLabResultSummaryItem\\Providers\\MedicalRecordLabResultSummaryItemServiceProvider"
+    ],
+    "files": []
+}

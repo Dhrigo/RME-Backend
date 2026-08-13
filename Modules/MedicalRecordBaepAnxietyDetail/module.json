@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBaepAnxietyDetail",
+    "alias": "medicalrecordbaepanxietydetail",
+    "description": "BaepAnxietyDetail records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBaepAnxietyDetail\\Providers\\MedicalRecordBaepAnxietyDetailServiceProvider"
+    ],
+    "files": []
+}

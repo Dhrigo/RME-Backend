@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPatientNutritionProblem",
+    "alias": "medicalrecordpatientnutritionproblem",
+    "description": "PatientNutritionProblem records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPatientNutritionProblem\\Providers\\MedicalRecordPatientNutritionProblemServiceProvider"
+    ],
+    "files": []
+}

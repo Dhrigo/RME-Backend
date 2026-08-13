@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordInpatientCarePlan",
+    "alias": "medicalrecordinpatientcareplan",
+    "description": "InpatientCarePlan records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordInpatientCarePlan\\Providers\\MedicalRecordInpatientCarePlanServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordMaternalPregnancyHistory",
+    "alias": "medicalrecordmaternalpregnancyhistory",
+    "description": "MaternalPregnancyHistory records for MedicalRecord.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordMaternalPregnancyHistory\\Providers\\MedicalRecordMaternalPregnancyHistoryServiceProvider"
+    ],
+    "files": []
+}
