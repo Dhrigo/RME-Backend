@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalguarantoritemcategorymapping",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralGuarantorItemCategoryMapping\\": "app/",
+            "Modules\\GeneralGuarantorItemCategoryMapping\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralGuarantorItemCategoryMapping\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralGuarantorItemCategoryMapping\\Tests\\": "tests/"
+        }
+    }
+}

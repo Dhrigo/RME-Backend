@@ -1,0 +1,11 @@
+{
+    "name": "GeneralQuantityRestriction",
+    "alias": "generalquantityrestriction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralQuantityRestriction\\Providers\\GeneralQuantityRestrictionServiceProvider"
+    ],
+    "files": []
+}

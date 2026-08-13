@@ -1,0 +1,11 @@
+{
+    "name": "GeneralDiagnosisRestriction",
+    "alias": "generaldiagnosisrestriction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralDiagnosisRestriction\\Providers\\GeneralDiagnosisRestrictionServiceProvider"
+    ],
+    "files": []
+}

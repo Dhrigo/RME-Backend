@@ -1,0 +1,11 @@
+{
+    "name": "GeneralFormularyRestriction",
+    "alias": "generalformularyrestriction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralFormularyRestriction\\Providers\\GeneralFormularyRestrictionServiceProvider"
+    ],
+    "files": []
+}

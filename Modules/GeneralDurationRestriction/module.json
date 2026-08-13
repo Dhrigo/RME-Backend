@@ -1,0 +1,11 @@
+{
+    "name": "GeneralDurationRestriction",
+    "alias": "generaldurationrestriction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralDurationRestriction\\Providers\\GeneralDurationRestrictionServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPhysicianRestriction",
+    "alias": "generalphysicianrestriction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPhysicianRestriction\\Providers\\GeneralPhysicianRestrictionServiceProvider"
+    ],
+    "files": []
+}

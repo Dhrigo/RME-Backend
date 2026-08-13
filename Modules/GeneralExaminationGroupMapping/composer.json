@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalexaminationgroupmapping",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralExaminationGroupMapping\\": "app/",
+            "Modules\\GeneralExaminationGroupMapping\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralExaminationGroupMapping\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralExaminationGroupMapping\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generaldiagnosisrestriction",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralDiagnosisRestriction\\": "app/",
+            "Modules\\GeneralDiagnosisRestriction\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralDiagnosisRestriction\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralDiagnosisRestriction\\Tests\\": "tests/"
+        }
+    }
+}

@@ -190,5 +190,15 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "GeneralPrescriptionFrequencyRule": true,
+    "GeneralPrescriptionFrequencyRuleCategory": true,
+    "GeneralGuarantorItemCategoryMapping": true,
+    "GeneralExaminationGroupMapping": true,
+    "GeneralAntibioticRestriction": true,
+    "GeneralDiagnosisRestriction": true,
+    "GeneralPhysicianRestriction": true,
+    "GeneralFormularyRestriction": true,
+    "GeneralDurationRestriction": true,
+    "GeneralQuantityRestriction": true
 }
