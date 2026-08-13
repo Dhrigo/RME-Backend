@@ -24,6 +24,15 @@
     </source>
     <php>
         <!--
+            paratest workers spawn fresh PHP processes that don't inherit a parent `-d
+            memory_limit=...` CLI override - each worker boots the app (144+ module service
+            providers) under the plain php.ini default of 128M, which isn't enough once the
+            module count grows past ~140. <ini> here IS applied per-worker since each worker
+            runs PHPUnit itself, which reads this file. Bumped generously so this doesn't
+            need revisiting again as the catalog grows toward 687 modules.
+        -->
+        <ini name="memory_limit" value="1G"/>
+        <!--
             Laravel's Application::inferBasePath() derives the base path from Composer
             ClassLoader::getRegisteredLoaders() keys. vendor/ here is a symlink shared across
             multiple git worktrees (to avoid N copies of installed deps) - PHP resolves that
