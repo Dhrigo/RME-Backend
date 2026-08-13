@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranEdc",
+    "alias": "pembayaranedc",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranEdc\\Providers\\PembayaranEdcServiceProvider"
+    ],
+    "files": []
+}

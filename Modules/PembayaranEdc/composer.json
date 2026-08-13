@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayaranedc",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranEdc\\": "app/",
+            "Modules\\PembayaranEdc\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranEdc\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranEdc\\Tests\\": "tests/"
+        }
+    }
+}

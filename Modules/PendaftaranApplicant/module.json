@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranApplicant",
+    "alias": "pendaftaranapplicant",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranApplicant\\Providers\\PendaftaranApplicantServiceProvider"
+    ],
+    "files": []
+}

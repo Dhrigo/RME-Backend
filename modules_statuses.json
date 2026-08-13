@@ -172,5 +172,15 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "PendaftaranPatientEscort": true,
+    "PendaftaranPatientGuardian": true,
+    "PendaftaranPatientGuardianIdentityCard": true,
+    "PendaftaranPatientEscortIdentityCard": true,
+    "PendaftaranPatientGuardianContact": true,
+    "PendaftaranPatientEscortContact": true,
+    "PendaftaranApplicant": true,
+    "PendaftaranServiceHandover": true,
+    "PembayaranEdc": true,
+    "PembayaranTransfer": true
 }

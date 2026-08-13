@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranPatientEscort",
+    "alias": "pendaftaranpatientescort",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranPatientEscort\\Providers\\PendaftaranPatientEscortServiceProvider"
+    ],
+    "files": []
+}

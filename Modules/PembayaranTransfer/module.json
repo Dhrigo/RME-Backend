@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranTransfer",
+    "alias": "pembayarantransfer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranTransfer\\Providers\\PembayaranTransferServiceProvider"
+    ],
+    "files": []
+}
