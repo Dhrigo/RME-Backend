@@ -1,0 +1,11 @@
+{
+    "name": "BerkasKlaimClinicalLabClaim",
+    "alias": "berkasklaimclinicallabclaim",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BerkasKlaimClinicalLabClaim\\Providers\\BerkasKlaimClinicalLabClaimServiceProvider"
+    ],
+    "files": []
+}

@@ -33,7 +33,7 @@
             checkout, but any module that exists ONLY in this worktree becomes untestable
             (its migrations/routes never load). Pinning APP_BASE_PATH bypasses the inference.
         -->
-        <env name="APP_BASE_PATH" value="G:\New folder\simgos-backend"/>
+        <env name="APP_BASE_PATH" value="G:\New folder\simgos-backend-wt-l"/>
         <env name="APP_ENV" value="testing"/>
         <env name="APP_MAINTENANCE_DRIVER" value="file"/>
         <env name="BCRYPT_ROUNDS" value="4"/>

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventoryshipmentitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryShipmentItem\\": "app/",
+            "Modules\\InventoryShipmentItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryShipmentItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryShipmentItem\\Tests\\": "tests/"
+        }
+    }
+}

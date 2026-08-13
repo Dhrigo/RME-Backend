@@ -1,0 +1,11 @@
+{
+    "name": "InventoryReceivingItem",
+    "alias": "inventoryreceivingitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryReceivingItem\\Providers\\InventoryReceivingItemServiceProvider"
+    ],
+    "files": []
+}
