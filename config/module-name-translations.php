@@ -75,7 +75,5 @@ return array (
   'PenjaminRS' => 
   array (
     'CaraKeluar' => 'DischargeMethod',
-    'Dpjp' => 'AttendingPhysician',
-    'Drivers' => 'Drivers',
   ),
 );

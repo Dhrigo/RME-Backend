@@ -51,7 +51,5 @@
     "InventoryGoodsReceipt": true,
     "InventoryStockRequest": true,
     "PembayaranDeposit": true,
-    "PenjaminRSDischargeMethod": true,
-    "PenjaminRSAttendingPhysician": true,
-    "PenjaminRSDrivers": true
+    "PenjaminRSDischargeMethod": true
 }
