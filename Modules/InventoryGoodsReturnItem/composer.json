@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventorygoodsreturnitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryGoodsReturnItem\\": "app/",
+            "Modules\\InventoryGoodsReturnItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryGoodsReturnItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryGoodsReturnItem\\Tests\\": "tests/"
+        }
+    }
+}

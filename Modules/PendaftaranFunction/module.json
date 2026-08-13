@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranFunction",
+    "alias": "pendaftaranfunction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranFunction\\Providers\\PendaftaranFunctionServiceProvider"
+    ],
+    "files": []
+}

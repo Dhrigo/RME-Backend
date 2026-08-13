@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventorywardstocktransaction",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryWardStockTransaction\\": "app/",
+            "Modules\\InventoryWardStockTransaction\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryWardStockTransaction\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryWardStockTransaction\\Tests\\": "tests/"
+        }
+    }
+}

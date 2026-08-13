@@ -1,0 +1,28 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('pharmacy_packages', function (Blueprint $table) {
+            $table->id();
+            $table->string('package_code')->unique();
+            $table->string('name');
+            $table->foreignId('pharmacy_service_room_id')->nullable()->constrained('pharmacy_service_rooms')->nullOnDelete();
+            $table->string('category')->default('obat');
+            $table->decimal('price', 15, 2)->default(0);
+            $table->text('description')->nullable();
+            $table->boolean('is_active')->default(true);
+            $table->timestamps();
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('pharmacy_packages');
+    }
+};

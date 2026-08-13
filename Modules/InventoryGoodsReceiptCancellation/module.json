@@ -1,0 +1,11 @@
+{
+    "name": "InventoryGoodsReceiptCancellation",
+    "alias": "inventorygoodsreceiptcancellation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryGoodsReceiptCancellation\\Providers\\InventoryGoodsReceiptCancellationServiceProvider"
+    ],
+    "files": []
+}

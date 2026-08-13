@@ -1,0 +1,11 @@
+{
+    "name": "InventoryWardStockTransaction",
+    "alias": "inventorywardstocktransaction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryWardStockTransaction\\Providers\\InventoryWardStockTransactionServiceProvider"
+    ],
+    "files": []
+}
