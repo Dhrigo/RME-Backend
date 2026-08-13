@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pegawaiemployeecontact",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PegawaiEmployeeContact\\": "app/",
+            "Modules\\PegawaiEmployeeContact\\Database\\Factories\\": "database/factories/",
+            "Modules\\PegawaiEmployeeContact\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PegawaiEmployeeContact\\Tests\\": "tests/"
+        }
+    }
+}

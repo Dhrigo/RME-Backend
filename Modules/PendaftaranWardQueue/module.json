@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranWardQueue",
+    "alias": "pendaftaranwardqueue",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranWardQueue\\Providers\\PendaftaranWardQueueServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/penjualansalereturn",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PenjualanSaleReturn\\": "app/",
+            "Modules\\PenjualanSaleReturn\\Database\\Factories\\": "database/factories/",
+            "Modules\\PenjualanSaleReturn\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PenjualanSaleReturn\\Tests\\": "tests/"
+        }
+    }
+}

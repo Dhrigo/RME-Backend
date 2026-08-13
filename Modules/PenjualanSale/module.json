@@ -1,0 +1,11 @@
+{
+    "name": "PenjualanSale",
+    "alias": "penjualansale",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PenjualanSale\\Providers\\PenjualanSaleServiceProvider"
+    ],
+    "files": []
+}

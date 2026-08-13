@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranwardqueue",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranWardQueue\\": "app/",
+            "Modules\\PendaftaranWardQueue\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranWardQueue\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranWardQueue\\Tests\\": "tests/"
+        }
+    }
+}

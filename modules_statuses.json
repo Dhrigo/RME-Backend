@@ -78,5 +78,14 @@
     "PendaftaranReferral": true,
     "PendaftaranRegistration": true,
     "PendaftaranVisit": true,
-    "PenjaminRSDischargeMethod": true
+    "PenjaminRSDischargeMethod": true,
+    "PegawaiEmployeeIdentityCard": true,
+    "PegawaiEmployeeContact": true,
+    "PegawaiPracticeLicense": true,
+    "PenjualanSale": true,
+    "PenjualanSaleItem": true,
+    "PenjualanSaleReturn": true,
+    "PendaftaranWardQueue": true,
+    "PendaftaranBedQueue": true,
+    "PendaftaranQueueCall": true
 }

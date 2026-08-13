@@ -1,0 +1,11 @@
+{
+    "name": "PenjualanSaleReturn",
+    "alias": "penjualansalereturn",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PenjualanSaleReturn\\Providers\\PenjualanSaleReturnServiceProvider"
+    ],
+    "files": []
+}
