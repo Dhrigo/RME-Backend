@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPrescriptionFrequencyRule",
+    "alias": "generalprescriptionfrequencyrule",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPrescriptionFrequencyRule\\Providers\\GeneralPrescriptionFrequencyRuleServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "GeneralExaminationGroupMapping",
+    "alias": "generalexaminationgroupmapping",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralExaminationGroupMapping\\Providers\\GeneralExaminationGroupMappingServiceProvider"
+    ],
+    "files": []
+}

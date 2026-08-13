@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generaldurationrestriction",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralDurationRestriction\\": "app/",
+            "Modules\\GeneralDurationRestriction\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralDurationRestriction\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralDurationRestriction\\Tests\\": "tests/"
+        }
+    }
+}

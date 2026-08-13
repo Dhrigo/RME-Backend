@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalphysicianrestriction",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPhysicianRestriction\\": "app/",
+            "Modules\\GeneralPhysicianRestriction\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPhysicianRestriction\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralPhysicianRestriction\\Tests\\": "tests/"
+        }
+    }
+}

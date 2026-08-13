@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalprescriptionfrequencyrule",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPrescriptionFrequencyRule\\": "app/",
+            "Modules\\GeneralPrescriptionFrequencyRule\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPrescriptionFrequencyRule\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralPrescriptionFrequencyRule\\Tests\\": "tests/"
+        }
+    }
+}

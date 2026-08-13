@@ -1,0 +1,11 @@
+{
+    "name": "GeneralGuarantorItemCategoryMapping",
+    "alias": "generalguarantoritemcategorymapping",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralGuarantorItemCategoryMapping\\Providers\\GeneralGuarantorItemCategoryMappingServiceProvider"
+    ],
+    "files": []
+}

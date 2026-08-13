@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalantibioticrestriction",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralAntibioticRestriction\\": "app/",
+            "Modules\\GeneralAntibioticRestriction\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralAntibioticRestriction\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralAntibioticRestriction\\Tests\\": "tests/"
+        }
+    }
+}

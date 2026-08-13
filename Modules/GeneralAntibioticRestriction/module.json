@@ -1,0 +1,11 @@
+{
+    "name": "GeneralAntibioticRestriction",
+    "alias": "generalantibioticrestriction",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralAntibioticRestriction\\Providers\\GeneralAntibioticRestrictionServiceProvider"
+    ],
+    "files": []
+}
