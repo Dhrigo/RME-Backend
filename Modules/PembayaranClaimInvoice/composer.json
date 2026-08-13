@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayaranclaiminvoice",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranClaimInvoice\\": "app/",
+            "Modules\\PembayaranClaimInvoice\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranClaimInvoice\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranClaimInvoice\\Tests\\": "tests/"
+        }
+    }
+}

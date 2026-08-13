@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayaranproviderservice",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranProviderService\\": "app/",
+            "Modules\\PembayaranProviderService\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranProviderService\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranProviderService\\Tests\\": "tests/"
+        }
+    }
+}

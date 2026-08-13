@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranInvoiceGuarantor",
+    "alias": "pembayaraninvoiceguarantor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranInvoiceGuarantor\\Providers\\PembayaranInvoiceGuarantorServiceProvider"
+    ],
+    "files": []
+}

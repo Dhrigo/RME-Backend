@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranRegistrationInvoice",
+    "alias": "pembayaranregistrationinvoice",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranRegistrationInvoice\\Providers\\PembayaranRegistrationInvoiceServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "PembayaranInvoiceMerge",
+    "alias": "pembayaraninvoicemerge",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PembayaranInvoiceMerge\\Providers\\PembayaranInvoiceMergeServiceProvider"
+    ],
+    "files": []
+}

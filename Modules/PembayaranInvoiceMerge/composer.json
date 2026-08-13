@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pembayaraninvoicemerge",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PembayaranInvoiceMerge\\": "app/",
+            "Modules\\PembayaranInvoiceMerge\\Database\\Factories\\": "database/factories/",
+            "Modules\\PembayaranInvoiceMerge\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PembayaranInvoiceMerge\\Tests\\": "tests/"
+        }
+    }
+}
