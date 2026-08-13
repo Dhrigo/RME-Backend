@@ -1,0 +1,11 @@
+{
+    "name": "GeneralSalesTax",
+    "alias": "generalsalestax",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralSalesTax\\Providers\\GeneralSalesTaxServiceProvider"
+    ],
+    "files": []
+}

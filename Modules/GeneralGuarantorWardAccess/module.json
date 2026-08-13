@@ -1,0 +1,11 @@
+{
+    "name": "GeneralGuarantorWardAccess",
+    "alias": "generalguarantorwardaccess",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralGuarantorWardAccess\\Providers\\GeneralGuarantorWardAccessServiceProvider"
+    ],
+    "files": []
+}

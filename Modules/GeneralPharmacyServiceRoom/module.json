@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPharmacyServiceRoom",
+    "alias": "generalpharmacyserviceroom",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPharmacyServiceRoom\\Providers\\GeneralPharmacyServiceRoomServiceProvider"
+    ],
+    "files": []
+}

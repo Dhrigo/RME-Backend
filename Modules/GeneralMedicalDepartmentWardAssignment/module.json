@@ -1,0 +1,11 @@
+{
+    "name": "GeneralMedicalDepartmentWardAssignment",
+    "alias": "generalmedicaldepartmentwardassignment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralMedicalDepartmentWardAssignment\\Providers\\GeneralMedicalDepartmentWardAssignmentServiceProvider"
+    ],
+    "files": []
+}

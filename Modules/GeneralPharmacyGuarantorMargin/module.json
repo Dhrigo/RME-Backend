@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPharmacyGuarantorMargin",
+    "alias": "generalpharmacyguarantormargin",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPharmacyGuarantorMargin\\Providers\\GeneralPharmacyGuarantorMarginServiceProvider"
+    ],
+    "files": []
+}

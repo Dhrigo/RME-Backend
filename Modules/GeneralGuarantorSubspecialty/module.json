@@ -1,0 +1,11 @@
+{
+    "name": "GeneralGuarantorSubspecialty",
+    "alias": "generalguarantorsubspecialty",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralGuarantorSubspecialty\\Providers\\GeneralGuarantorSubspecialtyServiceProvider"
+    ],
+    "files": []
+}

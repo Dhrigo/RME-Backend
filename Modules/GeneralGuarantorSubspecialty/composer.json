@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalguarantorsubspecialty",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralGuarantorSubspecialty\\": "app/",
+            "Modules\\GeneralGuarantorSubspecialty\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralGuarantorSubspecialty\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralGuarantorSubspecialty\\Tests\\": "tests/"
+        }
+    }
+}
