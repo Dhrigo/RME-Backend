@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordrehabilitationprocedureexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordRehabilitationProcedureExamination\\": "app/",
+            "Modules\\MedicalRecordRehabilitationProcedureExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordRehabilitationProcedureExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordRehabilitationProcedureExamination\\Tests\\": "tests/"
+        }
+    }
+}

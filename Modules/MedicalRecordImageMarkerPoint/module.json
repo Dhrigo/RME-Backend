@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordImageMarkerPoint",
+    "alias": "medicalrecordimagemarkerpoint",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordImageMarkerPoint\\Providers\\MedicalRecordImageMarkerPointServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordGeneralExamination",
+    "alias": "medicalrecordgeneralexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordGeneralExamination\\Providers\\MedicalRecordGeneralExaminationServiceProvider"
+    ],
+    "files": []
+}

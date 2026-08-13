@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordLegJointExamination",
+    "alias": "medicalrecordlegjointexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordLegJointExamination\\Providers\\MedicalRecordLegJointExaminationServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordCaseManagerAssessment",
+    "alias": "medicalrecordcasemanagerassessment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordCaseManagerAssessment\\Providers\\MedicalRecordCaseManagerAssessmentServiceProvider"
+    ],
+    "files": []
+}

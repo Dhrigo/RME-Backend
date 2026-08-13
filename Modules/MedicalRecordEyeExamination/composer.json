@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordeyeexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordEyeExamination\\": "app/",
+            "Modules\\MedicalRecordEyeExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordEyeExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordEyeExamination\\Tests\\": "tests/"
+        }
+    }
+}

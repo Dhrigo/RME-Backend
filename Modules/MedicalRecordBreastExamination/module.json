@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBreastExamination",
+    "alias": "medicalrecordbreastexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBreastExamination\\Providers\\MedicalRecordBreastExaminationServiceProvider"
+    ],
+    "files": []
+}

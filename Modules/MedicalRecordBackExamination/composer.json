@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbackexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBackExamination\\": "app/",
+            "Modules\\MedicalRecordBackExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBackExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBackExamination\\Tests\\": "tests/"
+        }
+    }
+}

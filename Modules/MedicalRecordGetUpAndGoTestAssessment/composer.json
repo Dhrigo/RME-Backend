@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordgetupandgotestassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordGetUpAndGoTestAssessment\\": "app/",
+            "Modules\\MedicalRecordGetUpAndGoTestAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordGetUpAndGoTestAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordGetUpAndGoTestAssessment\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbreastexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBreastExamination\\": "app/",
+            "Modules\\MedicalRecordBreastExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBreastExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBreastExamination\\Tests\\": "tests/"
+        }
+    }
+}

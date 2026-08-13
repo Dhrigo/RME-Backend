@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordUpperArmExamination",
+    "alias": "medicalrecordupperarmexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordUpperArmExamination\\Providers\\MedicalRecordUpperArmExaminationServiceProvider"
+    ],
+    "files": []
+}

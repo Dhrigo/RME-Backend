@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordfluidbalanceassessmentdetail",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordFluidBalanceAssessmentDetail\\": "app/",
+            "Modules\\MedicalRecordFluidBalanceAssessmentDetail\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordFluidBalanceAssessmentDetail\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordFluidBalanceAssessmentDetail\\Tests\\": "tests/"
+        }
+    }
+}

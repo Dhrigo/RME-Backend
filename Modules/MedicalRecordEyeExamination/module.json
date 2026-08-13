@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordEyeExamination",
+    "alias": "medicalrecordeyeexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordEyeExamination\\Providers\\MedicalRecordEyeExaminationServiceProvider"
+    ],
+    "files": []
+}

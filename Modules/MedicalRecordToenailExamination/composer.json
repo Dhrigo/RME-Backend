@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordtoenailexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordToenailExamination\\": "app/",
+            "Modules\\MedicalRecordToenailExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordToenailExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordToenailExamination\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBloodTransfusionObservation",
+    "alias": "medicalrecordbloodtransfusionobservation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBloodTransfusionObservation\\Providers\\MedicalRecordBloodTransfusionObservationServiceProvider"
+    ],
+    "files": []
+}

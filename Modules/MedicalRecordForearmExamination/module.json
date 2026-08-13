@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordForearmExamination",
+    "alias": "medicalrecordforearmexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordForearmExamination\\Providers\\MedicalRecordForearmExaminationServiceProvider"
+    ],
+    "files": []
+}

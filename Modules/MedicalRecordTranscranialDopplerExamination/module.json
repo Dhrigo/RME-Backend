@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordTranscranialDopplerExamination",
+    "alias": "medicalrecordtranscranialdopplerexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordTranscranialDopplerExamination\\Providers\\MedicalRecordTranscranialDopplerExaminationServiceProvider"
+    ],
+    "files": []
+}

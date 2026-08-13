@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordHeadExamination",
+    "alias": "medicalrecordheadexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordHeadExamination\\Providers\\MedicalRecordHeadExaminationServiceProvider"
+    ],
+    "files": []
+}

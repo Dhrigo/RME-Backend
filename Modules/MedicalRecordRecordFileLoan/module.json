@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordRecordFileLoan",
+    "alias": "medicalrecordrecordfileloan",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordRecordFileLoan\\Providers\\MedicalRecordRecordFileLoanServiceProvider"
+    ],
+    "files": []
+}

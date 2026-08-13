@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordThroatExamination",
+    "alias": "medicalrecordthroatexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordThroatExamination\\Providers\\MedicalRecordThroatExaminationServiceProvider"
+    ],
+    "files": []
+}

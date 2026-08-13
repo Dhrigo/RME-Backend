@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordlegjointexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordLegJointExamination\\": "app/",
+            "Modules\\MedicalRecordLegJointExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordLegJointExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordLegJointExamination\\Tests\\": "tests/"
+        }
+    }
+}

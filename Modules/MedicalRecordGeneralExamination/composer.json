@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordgeneralexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordGeneralExamination\\": "app/",
+            "Modules\\MedicalRecordGeneralExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordGeneralExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordGeneralExamination\\Tests\\": "tests/"
+        }
+    }
+}

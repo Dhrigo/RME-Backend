@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordpressureulcerriskassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordPressureUlcerRiskAssessment\\": "app/",
+            "Modules\\MedicalRecordPressureUlcerRiskAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordPressureUlcerRiskAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordPressureUlcerRiskAssessment\\Tests\\": "tests/"
+        }
+    }
+}

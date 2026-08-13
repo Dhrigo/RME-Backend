@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordraventestexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordRavenTestExamination\\": "app/",
+            "Modules\\MedicalRecordRavenTestExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordRavenTestExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordRavenTestExamination\\Tests\\": "tests/"
+        }
+    }
+}

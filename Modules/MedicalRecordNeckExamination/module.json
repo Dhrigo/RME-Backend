@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordNeckExamination",
+    "alias": "medicalrecordneckexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordNeckExamination\\Providers\\MedicalRecordNeckExaminationServiceProvider"
+    ],
+    "files": []
+}

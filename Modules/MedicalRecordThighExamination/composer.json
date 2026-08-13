@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordthighexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordThighExamination\\": "app/",
+            "Modules\\MedicalRecordThighExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordThighExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordThighExamination\\Tests\\": "tests/"
+        }
+    }
+}

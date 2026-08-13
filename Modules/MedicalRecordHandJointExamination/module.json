@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordHandJointExamination",
+    "alias": "medicalrecordhandjointexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordHandJointExamination\\Providers\\MedicalRecordHandJointExaminationServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordUpperGiTractExamination",
+    "alias": "medicalrecorduppergitractexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordUpperGiTractExamination\\Providers\\MedicalRecordUpperGiTractExaminationServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordRehabilitationProcedureExaminationItem",
+    "alias": "medicalrecordrehabilitationprocedureexaminationitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordRehabilitationProcedureExaminationItem\\Providers\\MedicalRecordRehabilitationProcedureExaminationItemServiceProvider"
+    ],
+    "files": []
+}

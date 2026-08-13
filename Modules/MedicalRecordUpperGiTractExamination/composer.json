@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecorduppergitractexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordUpperGiTractExamination\\": "app/",
+            "Modules\\MedicalRecordUpperGiTractExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordUpperGiTractExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordUpperGiTractExamination\\Tests\\": "tests/"
+        }
+    }
+}

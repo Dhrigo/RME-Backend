@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordAbdomenExamination",
+    "alias": "medicalrecordabdomenexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordAbdomenExamination\\Providers\\MedicalRecordAbdomenExaminationServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordTranscranialDopplerWindow",
+    "alias": "medicalrecordtranscranialdopplerwindow",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordTranscranialDopplerWindow\\Providers\\MedicalRecordTranscranialDopplerWindowServiceProvider"
+    ],
+    "files": []
+}

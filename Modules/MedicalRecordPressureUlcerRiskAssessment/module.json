@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPressureUlcerRiskAssessment",
+    "alias": "medicalrecordpressureulcerriskassessment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPressureUlcerRiskAssessment\\Providers\\MedicalRecordPressureUlcerRiskAssessmentServiceProvider"
+    ],
+    "files": []
+}

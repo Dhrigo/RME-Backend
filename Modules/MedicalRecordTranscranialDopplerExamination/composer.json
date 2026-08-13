@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordtranscranialdopplerexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordTranscranialDopplerExamination\\": "app/",
+            "Modules\\MedicalRecordTranscranialDopplerExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordTranscranialDopplerExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordTranscranialDopplerExamination\\Tests\\": "tests/"
+        }
+    }
+}

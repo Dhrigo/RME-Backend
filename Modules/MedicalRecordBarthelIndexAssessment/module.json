@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBarthelIndexAssessment",
+    "alias": "medicalrecordbarthelindexassessment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBarthelIndexAssessment\\Providers\\MedicalRecordBarthelIndexAssessmentServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordEpfraAssessment",
+    "alias": "medicalrecordepfraassessment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordEpfraAssessment\\Providers\\MedicalRecordEpfraAssessmentServiceProvider"
+    ],
+    "files": []
+}

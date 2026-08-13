@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordlowergitractexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordLowerGiTractExamination\\": "app/",
+            "Modules\\MedicalRecordLowerGiTractExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordLowerGiTractExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordLowerGiTractExamination\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordrecordfileloan",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordRecordFileLoan\\": "app/",
+            "Modules\\MedicalRecordRecordFileLoan\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordRecordFileLoan\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordRecordFileLoan\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordRavenTestExamination",
+    "alias": "medicalrecordraventestexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordRavenTestExamination\\Providers\\MedicalRecordRavenTestExaminationServiceProvider"
+    ],
+    "files": []
+}

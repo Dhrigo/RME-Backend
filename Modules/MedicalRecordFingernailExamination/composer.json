@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordfingernailexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordFingernailExamination\\": "app/",
+            "Modules\\MedicalRecordFingernailExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordFingernailExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordFingernailExamination\\Tests\\": "tests/"
+        }
+    }
+}

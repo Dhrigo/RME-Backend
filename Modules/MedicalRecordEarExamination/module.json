@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordEarExamination",
+    "alias": "medicalrecordearexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordEarExamination\\Providers\\MedicalRecordEarExaminationServiceProvider"
+    ],
+    "files": []
+}

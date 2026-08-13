@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordFluidBalanceAssessment",
+    "alias": "medicalrecordfluidbalanceassessment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordFluidBalanceAssessment\\Providers\\MedicalRecordFluidBalanceAssessmentServiceProvider"
+    ],
+    "files": []
+}

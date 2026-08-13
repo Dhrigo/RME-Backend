@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPalateExamination",
+    "alias": "medicalrecordpalateexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPalateExamination\\Providers\\MedicalRecordPalateExaminationServiceProvider"
+    ],
+    "files": []
+}

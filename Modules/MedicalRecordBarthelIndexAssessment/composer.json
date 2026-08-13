@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordbarthelindexassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordBarthelIndexAssessment\\": "app/",
+            "Modules\\MedicalRecordBarthelIndexAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordBarthelIndexAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordBarthelIndexAssessment\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordSkinPrickTestExamination",
+    "alias": "medicalrecordskinpricktestexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordSkinPrickTestExamination\\Providers\\MedicalRecordSkinPrickTestExaminationServiceProvider"
+    ],
+    "files": []
+}

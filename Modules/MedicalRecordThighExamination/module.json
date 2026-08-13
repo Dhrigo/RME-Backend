@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordThighExamination",
+    "alias": "medicalrecordthighexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordThighExamination\\Providers\\MedicalRecordThighExaminationServiceProvider"
+    ],
+    "files": []
+}

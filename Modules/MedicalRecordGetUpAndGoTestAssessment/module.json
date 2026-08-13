@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordGetUpAndGoTestAssessment",
+    "alias": "medicalrecordgetupandgotestassessment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordGetUpAndGoTestAssessment\\Providers\\MedicalRecordGetUpAndGoTestAssessmentServiceProvider"
+    ],
+    "files": []
+}

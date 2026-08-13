@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordGraceRiskScoreAssessment",
+    "alias": "medicalrecordgraceriskscoreassessment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordGraceRiskScoreAssessment\\Providers\\MedicalRecordGraceRiskScoreAssessmentServiceProvider"
+    ],
+    "files": []
+}

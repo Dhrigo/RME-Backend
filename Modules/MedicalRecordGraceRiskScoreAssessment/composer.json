@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordgraceriskscoreassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordGraceRiskScoreAssessment\\": "app/",
+            "Modules\\MedicalRecordGraceRiskScoreAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordGraceRiskScoreAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordGraceRiskScoreAssessment\\Tests\\": "tests/"
+        }
+    }
+}

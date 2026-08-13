@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordHairExamination",
+    "alias": "medicalrecordhairexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordHairExamination\\Providers\\MedicalRecordHairExaminationServiceProvider"
+    ],
+    "files": []
+}

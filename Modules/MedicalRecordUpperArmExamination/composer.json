@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordupperarmexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordUpperArmExamination\\": "app/",
+            "Modules\\MedicalRecordUpperArmExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordUpperArmExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordUpperArmExamination\\Tests\\": "tests/"
+        }
+    }
+}

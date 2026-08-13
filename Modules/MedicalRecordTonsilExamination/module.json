@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordTonsilExamination",
+    "alias": "medicalrecordtonsilexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordTonsilExamination\\Providers\\MedicalRecordTonsilExaminationServiceProvider"
+    ],
+    "files": []
+}

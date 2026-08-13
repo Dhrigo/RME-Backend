@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordearexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordEarExamination\\": "app/",
+            "Modules\\MedicalRecordEarExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordEarExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordEarExamination\\Tests\\": "tests/"
+        }
+    }
+}

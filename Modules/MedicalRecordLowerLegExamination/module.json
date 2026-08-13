@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordLowerLegExamination",
+    "alias": "medicalrecordlowerlegexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordLowerLegExamination\\Providers\\MedicalRecordLowerLegExaminationServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordlowerlegexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordLowerLegExamination\\": "app/",
+            "Modules\\MedicalRecordLowerLegExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordLowerLegExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordLowerLegExamination\\Tests\\": "tests/"
+        }
+    }
+}

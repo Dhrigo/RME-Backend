@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordskinpricktestexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordSkinPrickTestExamination\\": "app/",
+            "Modules\\MedicalRecordSkinPrickTestExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordSkinPrickTestExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordSkinPrickTestExamination\\Tests\\": "tests/"
+        }
+    }
+}

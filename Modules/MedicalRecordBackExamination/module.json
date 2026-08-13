@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordBackExamination",
+    "alias": "medicalrecordbackexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordBackExamination\\Providers\\MedicalRecordBackExaminationServiceProvider"
+    ],
+    "files": []
+}

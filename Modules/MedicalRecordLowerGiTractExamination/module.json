@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordLowerGiTractExamination",
+    "alias": "medicalrecordlowergitractexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordLowerGiTractExamination\\Providers\\MedicalRecordLowerGiTractExaminationServiceProvider"
+    ],
+    "files": []
+}
