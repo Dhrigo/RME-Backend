@@ -152,5 +152,15 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "GeneralOtherService": true,
+    "GeneralOtherServiceTariff": true,
+    "GeneralPatientAccessLock": true,
+    "GeneralPharmacyGuarantorMargin": true,
+    "GeneralGuarantorWardAccess": true,
+    "GeneralGuarantorSubspecialty": true,
+    "GeneralSalesTax": true,
+    "GeneralPharmacyServiceRoom": true,
+    "GeneralMedicalDepartmentWardAssignment": true,
+    "GeneralMedicalPersonnel": true
 }

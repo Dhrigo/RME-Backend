@@ -1,0 +1,11 @@
+{
+    "name": "GeneralOtherServiceTariff",
+    "alias": "generalotherservicetariff",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralOtherServiceTariff\\Providers\\GeneralOtherServiceTariffServiceProvider"
+    ],
+    "files": []
+}

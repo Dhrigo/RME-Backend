@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPatientAccessLock",
+    "alias": "generalpatientaccesslock",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPatientAccessLock\\Providers\\GeneralPatientAccessLockServiceProvider"
+    ],
+    "files": []
+}

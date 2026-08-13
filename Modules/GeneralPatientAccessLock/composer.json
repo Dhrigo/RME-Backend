@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalpatientaccesslock",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPatientAccessLock\\": "app/",
+            "Modules\\GeneralPatientAccessLock\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPatientAccessLock\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralPatientAccessLock\\Tests\\": "tests/"
+        }
+    }
+}

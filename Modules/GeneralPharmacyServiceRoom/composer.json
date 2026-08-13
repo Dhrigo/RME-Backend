@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalpharmacyserviceroom",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPharmacyServiceRoom\\": "app/",
+            "Modules\\GeneralPharmacyServiceRoom\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPharmacyServiceRoom\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralPharmacyServiceRoom\\Tests\\": "tests/"
+        }
+    }
+}

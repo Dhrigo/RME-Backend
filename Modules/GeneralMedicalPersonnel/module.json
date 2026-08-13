@@ -1,0 +1,11 @@
+{
+    "name": "GeneralMedicalPersonnel",
+    "alias": "generalmedicalpersonnel",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralMedicalPersonnel\\Providers\\GeneralMedicalPersonnelServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalmedicaldepartmentwardassignment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralMedicalDepartmentWardAssignment\\": "app/",
+            "Modules\\GeneralMedicalDepartmentWardAssignment\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralMedicalDepartmentWardAssignment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralMedicalDepartmentWardAssignment\\Tests\\": "tests/"
+        }
+    }
+}

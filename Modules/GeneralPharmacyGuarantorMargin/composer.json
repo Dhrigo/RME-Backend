@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalpharmacyguarantormargin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralPharmacyGuarantorMargin\\": "app/",
+            "Modules\\GeneralPharmacyGuarantorMargin\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralPharmacyGuarantorMargin\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralPharmacyGuarantorMargin\\Tests\\": "tests/"
+        }
+    }
+}
