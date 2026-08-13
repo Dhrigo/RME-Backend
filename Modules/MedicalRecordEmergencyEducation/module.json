@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordEmergencyEducation",
+    "alias": "medicalrecordemergencyeducation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordEmergencyEducation\\Providers\\MedicalRecordEmergencyEducationServiceProvider"
+    ],
+    "files": []
+}

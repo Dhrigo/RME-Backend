@@ -1,0 +1,11 @@
+{
+    "name": "LayananTreatmentProtocol",
+    "alias": "layanantreatmentprotocol",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananTreatmentProtocol\\Providers\\LayananTreatmentProtocolServiceProvider"
+    ],
+    "files": []
+}

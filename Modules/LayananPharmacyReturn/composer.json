@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananpharmacyreturn",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananPharmacyReturn\\": "app/",
+            "Modules\\LayananPharmacyReturn\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananPharmacyReturn\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananPharmacyReturn\\Tests\\": "tests/"
+        }
+    }
+}

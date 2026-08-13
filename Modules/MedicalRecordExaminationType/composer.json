@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordexaminationtype",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordExaminationType\\": "app/",
+            "Modules\\MedicalRecordExaminationType\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordExaminationType\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordExaminationType\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "LayananTreatmentProtocolStepDrug",
+    "alias": "layanantreatmentprotocolstepdrug",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananTreatmentProtocolStepDrug\\Providers\\LayananTreatmentProtocolStepDrugServiceProvider"
+    ],
+    "files": []
+}

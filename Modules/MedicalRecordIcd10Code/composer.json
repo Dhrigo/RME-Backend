@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordicd10code",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordIcd10Code\\": "app/",
+            "Modules\\MedicalRecordIcd10Code\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordIcd10Code\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordIcd10Code\\Tests\\": "tests/"
+        }
+    }
+}

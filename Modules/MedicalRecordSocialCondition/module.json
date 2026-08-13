@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordSocialCondition",
+    "alias": "medicalrecordsocialcondition",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordSocialCondition\\Providers\\MedicalRecordSocialConditionServiceProvider"
+    ],
+    "files": []
+}

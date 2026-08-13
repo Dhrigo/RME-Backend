@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananmedicalprocedurestaff",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananMedicalProcedureStaff\\": "app/",
+            "Modules\\LayananMedicalProcedureStaff\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananMedicalProcedureStaff\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananMedicalProcedureStaff\\Tests\\": "tests/"
+        }
+    }
+}

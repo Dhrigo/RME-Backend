@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordExternalRiskFactor",
+    "alias": "medicalrecordexternalriskfactor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordExternalRiskFactor\\Providers\\MedicalRecordExternalRiskFactorServiceProvider"
+    ],
+    "files": []
+}

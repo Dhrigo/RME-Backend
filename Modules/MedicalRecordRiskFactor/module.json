@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordRiskFactor",
+    "alias": "medicalrecordriskfactor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordRiskFactor\\Providers\\MedicalRecordRiskFactorServiceProvider"
+    ],
+    "files": []
+}

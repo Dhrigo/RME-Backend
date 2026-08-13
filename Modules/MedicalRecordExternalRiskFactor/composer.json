@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordexternalriskfactor",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordExternalRiskFactor\\": "app/",
+            "Modules\\MedicalRecordExternalRiskFactor\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordExternalRiskFactor\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordExternalRiskFactor\\Tests\\": "tests/"
+        }
+    }
+}

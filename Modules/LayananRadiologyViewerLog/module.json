@@ -1,0 +1,11 @@
+{
+    "name": "LayananRadiologyViewerLog",
+    "alias": "layananradiologyviewerlog",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LayananRadiologyViewerLog\\Providers\\LayananRadiologyViewerLogServiceProvider"
+    ],
+    "files": []
+}

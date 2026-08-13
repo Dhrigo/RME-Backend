@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananbloodrequestitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananBloodRequestItem\\": "app/",
+            "Modules\\LayananBloodRequestItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananBloodRequestItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananBloodRequestItem\\Tests\\": "tests/"
+        }
+    }
+}

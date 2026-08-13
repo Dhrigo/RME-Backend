@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordAnamnesis",
+    "alias": "medicalrecordanamnesis",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordAnamnesis\\Providers\\MedicalRecordAnamnesisServiceProvider"
+    ],
+    "files": []
+}

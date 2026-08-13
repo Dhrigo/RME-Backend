@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordNursingDiagnosis",
+    "alias": "medicalrecordnursingdiagnosis",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordNursingDiagnosis\\Providers\\MedicalRecordNursingDiagnosisServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordicd10causeofdeathcode",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordIcd10CauseOfDeathCode\\": "app/",
+            "Modules\\MedicalRecordIcd10CauseOfDeathCode\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordIcd10CauseOfDeathCode\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordIcd10CauseOfDeathCode\\Tests\\": "tests/"
+        }
+    }
+}

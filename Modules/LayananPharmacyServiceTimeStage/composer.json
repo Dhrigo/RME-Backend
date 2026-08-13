@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/layananpharmacyservicetimestage",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\LayananPharmacyServiceTimeStage\\": "app/",
+            "Modules\\LayananPharmacyServiceTimeStage\\Database\\Factories\\": "database/factories/",
+            "Modules\\LayananPharmacyServiceTimeStage\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\LayananPharmacyServiceTimeStage\\Tests\\": "tests/"
+        }
+    }
+}

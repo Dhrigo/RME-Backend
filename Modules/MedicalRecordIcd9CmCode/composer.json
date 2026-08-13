@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordicd9cmcode",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordIcd9CmCode\\": "app/",
+            "Modules\\MedicalRecordIcd9CmCode\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordIcd9CmCode\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordIcd9CmCode\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordClinicalNoteCoManagement",
+    "alias": "medicalrecordclinicalnotecomanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordClinicalNoteCoManagement\\Providers\\MedicalRecordClinicalNoteCoManagementServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,27 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::create('external_risk_factors', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('visit_id')->constrained('visits')->cascadeOnDelete();
+            $table->string('factor_type', 100);
+            $table->text('description')->nullable();
+            $table->string('impact_level', 20)->nullable();
+            $table->foreignId('recorded_by')->constrained('employees')->cascadeOnDelete();
+            $table->dateTime('recorded_at');
+            $table->timestamps();
+        });
+    }
+
+    public function down(): void
+    {
+        Schema::dropIfExists('external_risk_factors');
+    }
+};

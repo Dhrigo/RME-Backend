@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordChiefComplaint",
+    "alias": "medicalrecordchiefcomplaint",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordChiefComplaint\\Providers\\MedicalRecordChiefComplaintServiceProvider"
+    ],
+    "files": []
+}

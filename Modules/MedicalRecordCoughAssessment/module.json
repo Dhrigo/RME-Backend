@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordCoughAssessment",
+    "alias": "medicalrecordcoughassessment",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordCoughAssessment\\Providers\\MedicalRecordCoughAssessmentServiceProvider"
+    ],
+    "files": []
+}

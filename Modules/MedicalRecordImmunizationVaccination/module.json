@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordImmunizationVaccination",
+    "alias": "medicalrecordimmunizationvaccination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordImmunizationVaccination\\Providers\\MedicalRecordImmunizationVaccinationServiceProvider"
+    ],
+    "files": []
+}

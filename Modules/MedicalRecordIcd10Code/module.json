@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordIcd10Code",
+    "alias": "medicalrecordicd10code",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordIcd10Code\\Providers\\MedicalRecordIcd10CodeServiceProvider"
+    ],
+    "files": []
+}

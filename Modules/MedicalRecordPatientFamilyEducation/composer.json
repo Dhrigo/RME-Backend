@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordpatientfamilyeducation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordPatientFamilyEducation\\": "app/",
+            "Modules\\MedicalRecordPatientFamilyEducation\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordPatientFamilyEducation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordPatientFamilyEducation\\Tests\\": "tests/"
+        }
+    }
+}

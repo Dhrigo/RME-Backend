@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordcoughassessment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordCoughAssessment\\": "app/",
+            "Modules\\MedicalRecordCoughAssessment\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordCoughAssessment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordCoughAssessment\\Tests\\": "tests/"
+        }
+    }
+}
