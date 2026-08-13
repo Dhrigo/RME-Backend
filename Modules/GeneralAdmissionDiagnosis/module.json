@@ -1,0 +1,11 @@
+{
+    "name": "GeneralAdmissionDiagnosis",
+    "alias": "generaladmissiondiagnosis",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralAdmissionDiagnosis\\Providers\\GeneralAdmissionDiagnosisServiceProvider"
+    ],
+    "files": []
+}

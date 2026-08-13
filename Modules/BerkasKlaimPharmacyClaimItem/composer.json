@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/berkasklaimpharmacyclaimitem",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BerkasKlaimPharmacyClaimItem\\": "app/",
+            "Modules\\BerkasKlaimPharmacyClaimItem\\Database\\Factories\\": "database/factories/",
+            "Modules\\BerkasKlaimPharmacyClaimItem\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\BerkasKlaimPharmacyClaimItem\\Tests\\": "tests/"
+        }
+    }
+}

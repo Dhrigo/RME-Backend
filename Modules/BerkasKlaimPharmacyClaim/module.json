@@ -1,0 +1,11 @@
+{
+    "name": "BerkasKlaimPharmacyClaim",
+    "alias": "berkasklaimpharmacyclaim",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BerkasKlaimPharmacyClaim\\Providers\\BerkasKlaimPharmacyClaimServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "GeneralAntibioticBacteriaMapping",
+    "alias": "generalantibioticbacteriamapping",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralAntibioticBacteriaMapping\\Providers\\GeneralAntibioticBacteriaMappingServiceProvider"
+    ],
+    "files": []
+}

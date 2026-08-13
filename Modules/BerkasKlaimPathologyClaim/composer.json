@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/berkasklaimpathologyclaim",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BerkasKlaimPathologyClaim\\": "app/",
+            "Modules\\BerkasKlaimPathologyClaim\\Database\\Factories\\": "database/factories/",
+            "Modules\\BerkasKlaimPathologyClaim\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\BerkasKlaimPathologyClaim\\Tests\\": "tests/"
+        }
+    }
+}
