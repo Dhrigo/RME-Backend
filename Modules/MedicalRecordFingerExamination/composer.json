@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordfingerexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordFingerExamination\\": "app/",
+            "Modules\\MedicalRecordFingerExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordFingerExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordFingerExamination\\Tests\\": "tests/"
+        }
+    }
+}

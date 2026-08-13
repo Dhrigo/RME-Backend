@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordcatclamsexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordCatClamsExamination\\": "app/",
+            "Modules\\MedicalRecordCatClamsExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordCatClamsExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordCatClamsExamination\\Tests\\": "tests/"
+        }
+    }
+}

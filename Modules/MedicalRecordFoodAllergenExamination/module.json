@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordFoodAllergenExamination",
+    "alias": "medicalrecordfoodallergenexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordFoodAllergenExamination\\Providers\\MedicalRecordFoodAllergenExaminationServiceProvider"
+    ],
+    "files": []
+}

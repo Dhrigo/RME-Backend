@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordGenitalExamination",
+    "alias": "medicalrecordgenitalexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordGenitalExamination\\Providers\\MedicalRecordGenitalExaminationServiceProvider"
+    ],
+    "files": []
+}

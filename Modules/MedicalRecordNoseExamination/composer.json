@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordnoseexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordNoseExamination\\": "app/",
+            "Modules\\MedicalRecordNoseExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordNoseExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordNoseExamination\\Tests\\": "tests/"
+        }
+    }
+}

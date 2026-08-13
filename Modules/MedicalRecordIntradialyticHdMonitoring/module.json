@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordIntradialyticHdMonitoring",
+    "alias": "medicalrecordintradialytichdmonitoring",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordIntradialyticHdMonitoring\\Providers\\MedicalRecordIntradialyticHdMonitoringServiceProvider"
+    ],
+    "files": []
+}

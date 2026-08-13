@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordCatClamsExamination",
+    "alias": "medicalrecordcatclamsexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordCatClamsExamination\\Providers\\MedicalRecordCatClamsExaminationServiceProvider"
+    ],
+    "files": []
+}

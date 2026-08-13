@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordPatientTransferSheet",
+    "alias": "medicalrecordpatienttransfersheet",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordPatientTransferSheet\\Providers\\MedicalRecordPatientTransferSheetServiceProvider"
+    ],
+    "files": []
+}

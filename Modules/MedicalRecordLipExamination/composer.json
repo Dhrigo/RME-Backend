@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordlipexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordLipExamination\\": "app/",
+            "Modules\\MedicalRecordLipExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordLipExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordLipExamination\\Tests\\": "tests/"
+        }
+    }
+}

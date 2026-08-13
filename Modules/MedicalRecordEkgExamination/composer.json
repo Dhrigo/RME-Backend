@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordekgexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordEkgExamination\\": "app/",
+            "Modules\\MedicalRecordEkgExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordEkgExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordEkgExamination\\Tests\\": "tests/"
+        }
+    }
+}

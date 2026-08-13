@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordEkgExamination",
+    "alias": "medicalrecordekgexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordEkgExamination\\Providers\\MedicalRecordEkgExaminationServiceProvider"
+    ],
+    "files": []
+}

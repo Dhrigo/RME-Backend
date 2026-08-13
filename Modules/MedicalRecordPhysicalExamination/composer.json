@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordphysicalexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordPhysicalExamination\\": "app/",
+            "Modules\\MedicalRecordPhysicalExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordPhysicalExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordPhysicalExamination\\Tests\\": "tests/"
+        }
+    }
+}

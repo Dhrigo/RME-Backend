@@ -1,0 +1,11 @@
+{
+    "name": "MedicalRecordEegExamination",
+    "alias": "medicalrecordeegexamination",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\MedicalRecordEegExamination\\Providers\\MedicalRecordEegExaminationServiceProvider"
+    ],
+    "files": []
+}

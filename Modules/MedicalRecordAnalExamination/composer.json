@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordanalexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordAnalExamination\\": "app/",
+            "Modules\\MedicalRecordAnalExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordAnalExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordAnalExamination\\Tests\\": "tests/"
+        }
+    }
+}

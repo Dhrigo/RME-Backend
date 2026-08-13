@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecordfoodallergenexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordFoodAllergenExamination\\": "app/",
+            "Modules\\MedicalRecordFoodAllergenExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordFoodAllergenExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordFoodAllergenExamination\\Tests\\": "tests/"
+        }
+    }
+}

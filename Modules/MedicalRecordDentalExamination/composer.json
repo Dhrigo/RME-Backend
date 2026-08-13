@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/medicalrecorddentalexamination",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MedicalRecordDentalExamination\\": "app/",
+            "Modules\\MedicalRecordDentalExamination\\Database\\Factories\\": "database/factories/",
+            "Modules\\MedicalRecordDentalExamination\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\MedicalRecordDentalExamination\\Tests\\": "tests/"
+        }
+    }
+}
