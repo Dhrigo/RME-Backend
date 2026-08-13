@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranReferralLetter",
+    "alias": "pendaftaranreferralletter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranReferralLetter\\Providers\\PendaftaranReferralLetterServiceProvider"
+    ],
+    "files": []
+}

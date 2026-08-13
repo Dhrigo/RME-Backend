@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranpatienttransfer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranPatientTransfer\\": "app/",
+            "Modules\\PendaftaranPatientTransfer\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranPatientTransfer\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranPatientTransfer\\Tests\\": "tests/"
+        }
+    }
+}

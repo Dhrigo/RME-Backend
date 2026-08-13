@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranreferralletter",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranReferralLetter\\": "app/",
+            "Modules\\PendaftaranReferralLetter\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranReferralLetter\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranReferralLetter\\Tests\\": "tests/"
+        }
+    }
+}

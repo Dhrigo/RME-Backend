@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranConsultation",
+    "alias": "pendaftaranconsultation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranConsultation\\Providers\\PendaftaranConsultationServiceProvider"
+    ],
+    "files": []
+}

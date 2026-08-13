@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranVisitCancellation",
+    "alias": "pendaftaranvisitcancellation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranVisitCancellation\\Providers\\PendaftaranVisitCancellationServiceProvider"
+    ],
+    "files": []
+}

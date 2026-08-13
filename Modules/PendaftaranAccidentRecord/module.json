@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranAccidentRecord",
+    "alias": "pendaftaranaccidentrecord",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranAccidentRecord\\Providers\\PendaftaranAccidentRecordServiceProvider"
+    ],
+    "files": []
+}

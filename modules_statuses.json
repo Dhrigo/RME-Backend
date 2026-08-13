@@ -78,5 +78,14 @@
     "PendaftaranReferral": true,
     "PendaftaranRegistration": true,
     "PendaftaranVisit": true,
-    "PenjaminRSDischargeMethod": true
+    "PenjaminRSDischargeMethod": true,
+    "PendaftaranReservation": true,
+    "PendaftaranPatientTransfer": true,
+    "PendaftaranVisitDateChange": true,
+    "PendaftaranCoManagement": true,
+    "PendaftaranReferralLetter": true,
+    "PendaftaranVisitCancellation": true,
+    "PendaftaranConsultation": true,
+    "PendaftaranConsultationAnswer": true,
+    "PendaftaranAccidentRecord": true
 }

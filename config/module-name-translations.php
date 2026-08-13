@@ -1,7 +1,7 @@
 <?php
 
 return array (
-  'General' =>
+  'General' => 
   array (
     'Agama' => 'Religion',
     'Bahasa' => 'Language',
@@ -54,18 +54,18 @@ return array (
     'TopographyIcdO' => 'IcdOTopography',
     'Wilayah' => 'Region',
   ),
-  'Inventory' =>
+  'Inventory' => 
   array (
     'Barang' => 'Item',
     'PenerimaanBarang' => 'GoodsReceipt',
     'Penyedia' => 'Supplier',
     'Permintaan' => 'StockRequest',
   ),
-  'Kemkes' =>
+  'Kemkes' => 
   array (
     'GolonganDarah' => 'BloodType',
   ),
-  'Layanan' =>
+  'Layanan' => 
   array (
     'HasilLab' => 'LabResult',
     'OrderDetilResep' => 'PrescriptionItem',
@@ -73,7 +73,7 @@ return array (
     'OrderResep' => 'Prescription',
     'TindakanMedis' => 'MedicalProcedure',
   ),
-  'MedicalRecord' =>
+  'MedicalRecord' => 
   array (
     'CPPT' => 'ClinicalNote',
     'Diagnosa' => 'Diagnosis',
@@ -84,19 +84,28 @@ return array (
     'TransfusiDarah' => 'BloodTransfusion',
     'Triage' => 'Triage',
   ),
-  'Pembayaran' =>
+  'Pembayaran' => 
   array (
     'Deposit' => 'Deposit',
     'PembayaranTagihan' => 'Payment',
     'RincianTagihan' => 'InvoiceItem',
     'Tagihan' => 'Invoice',
   ),
-  'Pendaftaran' =>
+  'Pendaftaran' => 
   array (
+    'JawabanKonsul' => 'ConsultationAnswer',
+    'Kecelakaan' => 'AccidentRecord',
+    'Konsul' => 'Consultation',
     'Kunjungan' => 'Visit',
+    'Mutasi' => 'PatientTransfer',
+    'PembatalanKunjungan' => 'VisitCancellation',
     'Pendaftaran' => 'Registration',
     'Penjamin' => 'Guarantor',
+    'PerubahanTanggalKunjungan' => 'VisitDateChange',
+    'RawatBersama' => 'CoManagement',
+    'Reservasi' => 'Reservation',
     'RujukanKeluar' => 'Referral',
+    'SuratRujukanPasien' => 'ReferralLetter',
     'TujuanPasien' => 'PatientPurpose',
   ),
   'PenjaminRS' => 

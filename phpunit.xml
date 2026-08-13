@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
          bootstrap="vendor/autoload.php"
@@ -33,7 +33,7 @@
             checkout, but any module that exists ONLY in this worktree becomes untestable
             (its migrations/routes never load). Pinning APP_BASE_PATH bypasses the inference.
         -->
-        <env name="APP_BASE_PATH" value="G:\New folder\simgos-backend"/>
+        <env name="APP_BASE_PATH" value="G:\New folder\simgos-backend-wt-i"/>
         <env name="APP_ENV" value="testing"/>
         <env name="APP_MAINTENANCE_DRIVER" value="file"/>
         <env name="BCRYPT_ROUNDS" value="4"/>

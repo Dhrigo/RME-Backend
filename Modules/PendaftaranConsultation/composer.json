@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/pendaftaranconsultation",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\PendaftaranConsultation\\": "app/",
+            "Modules\\PendaftaranConsultation\\Database\\Factories\\": "database/factories/",
+            "Modules\\PendaftaranConsultation\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\PendaftaranConsultation\\Tests\\": "tests/"
+        }
+    }
+}

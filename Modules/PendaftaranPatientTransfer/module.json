@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranPatientTransfer",
+    "alias": "pendaftaranpatienttransfer",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranPatientTransfer\\Providers\\PendaftaranPatientTransferServiceProvider"
+    ],
+    "files": []
+}
