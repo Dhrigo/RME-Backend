@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPatientFamilyContact",
+    "alias": "generalpatientfamilycontact",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPatientFamilyContact\\Providers\\GeneralPatientFamilyContactServiceProvider"
+    ],
+    "files": []
+}

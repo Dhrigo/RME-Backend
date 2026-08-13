@@ -1,0 +1,11 @@
+{
+    "name": "GeneralDoctor",
+    "alias": "generaldoctor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralDoctor\\Providers\\GeneralDoctorServiceProvider"
+    ],
+    "files": []
+}

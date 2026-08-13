@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generaldoctormedicaldepartment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralDoctorMedicalDepartment\\": "app/",
+            "Modules\\GeneralDoctorMedicalDepartment\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralDoctorMedicalDepartment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralDoctorMedicalDepartment\\Tests\\": "tests/"
+        }
+    }
+}

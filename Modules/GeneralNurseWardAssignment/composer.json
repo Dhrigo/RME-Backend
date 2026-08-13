@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalnursewardassignment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralNurseWardAssignment\\": "app/",
+            "Modules\\GeneralNurseWardAssignment\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralNurseWardAssignment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralNurseWardAssignment\\Tests\\": "tests/"
+        }
+    }
+}

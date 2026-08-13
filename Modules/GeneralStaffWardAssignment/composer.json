@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/generalstaffwardassignment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeneralStaffWardAssignment\\": "app/",
+            "Modules\\GeneralStaffWardAssignment\\Database\\Factories\\": "database/factories/",
+            "Modules\\GeneralStaffWardAssignment\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\GeneralStaffWardAssignment\\Tests\\": "tests/"
+        }
+    }
+}
