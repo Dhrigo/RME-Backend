@@ -1,0 +1,11 @@
+{
+    "name": "InventoryStockRequestItem",
+    "alias": "inventorystockrequestitem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryStockRequestItem\\Providers\\InventoryStockRequestItemServiceProvider"
+    ],
+    "files": []
+}

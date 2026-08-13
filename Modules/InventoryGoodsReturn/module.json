@@ -1,0 +1,11 @@
+{
+    "name": "InventoryGoodsReturn",
+    "alias": "inventorygoodsreturn",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryGoodsReturn\\Providers\\InventoryGoodsReturnServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/inventorypharmacypackage",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\InventoryPharmacyPackage\\": "app/",
+            "Modules\\InventoryPharmacyPackage\\Database\\Factories\\": "database/factories/",
+            "Modules\\InventoryPharmacyPackage\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\InventoryPharmacyPackage\\Tests\\": "tests/"
+        }
+    }
+}

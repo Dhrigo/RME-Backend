@@ -172,5 +172,13 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "InventoryPharmacyPackage": true,
+    "InventoryGoodsReceiptCancellation": true,
+    "InventoryGoodsReturn": true,
+    "InventoryGoodsReturnItem": true,
+    "InventoryStockRequestItem": true,
+    "InventoryWardStockTransaction": true,
+    "PendaftaranFunction": true,
+    "PendaftaranHistory": true
 }

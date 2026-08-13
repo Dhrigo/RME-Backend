@@ -1,0 +1,11 @@
+{
+    "name": "PendaftaranHistory",
+    "alias": "pendaftaranhistory",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PendaftaranHistory\\Providers\\PendaftaranHistoryServiceProvider"
+    ],
+    "files": []
+}

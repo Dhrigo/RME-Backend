@@ -1,0 +1,11 @@
+{
+    "name": "InventoryPharmacyPackage",
+    "alias": "inventorypharmacypackage",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\InventoryPharmacyPackage\\Providers\\InventoryPharmacyPackageServiceProvider"
+    ],
+    "files": []
+}
