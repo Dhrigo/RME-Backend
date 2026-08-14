@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatKlaim",
+    "alias": "satusehatklaim",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatKlaim\\Providers\\SatuSehatKlaimServiceProvider"
+    ],
+    "files": []
+}
