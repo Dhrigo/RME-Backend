@@ -1,0 +1,11 @@
+{
+    "name": "SirsOnlineBor",
+    "alias": "sirsonlinebor",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SirsOnlineBor\\Providers\\SirsOnlineBorServiceProvider"
+    ],
+    "files": []
+}

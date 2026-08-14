@@ -1,0 +1,11 @@
+{
+    "name": "SisruteResumeMedis",
+    "alias": "sisruteresumemedis",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SisruteResumeMedis\\Providers\\SisruteResumeMedisServiceProvider"
+    ],
+    "files": []
+}

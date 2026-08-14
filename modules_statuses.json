@@ -462,5 +462,14 @@
     "SatuSehatKptl": true,
     "SatuSehatIbuAnak": true,
     "SatuSehatAnak": true,
-    "SatuSehatPtmRegistry": true
+    "SatuSehatPtmRegistry": true,
+    "SatuSehatSpesialistik": true,
+    "SatuSehatPenyakitMenular": true,
+    "SatuSehatKlaim": true,
+    "Sisrute": true,
+    "RsOnline": true,
+    "SisruteResumeMedis": true,
+    "SirsOnlineBor": true,
+    "Sitb": true,
+    "EKlaim": true
 }

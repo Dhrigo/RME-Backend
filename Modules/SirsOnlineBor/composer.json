@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/sirsonlinebor",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SirsOnlineBor\\": "app/",
+            "Modules\\SirsOnlineBor\\Database\\Factories\\": "database/factories/",
+            "Modules\\SirsOnlineBor\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\SirsOnlineBor\\Tests\\": "tests/"
+        }
+    }
+}

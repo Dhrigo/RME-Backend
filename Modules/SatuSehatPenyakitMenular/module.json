@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatPenyakitMenular",
+    "alias": "satusehatpenyakitmenular",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatPenyakitMenular\\Providers\\SatuSehatPenyakitMenularServiceProvider"
+    ],
+    "files": []
+}

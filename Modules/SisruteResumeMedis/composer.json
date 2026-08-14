@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/sisruteresumemedis",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SisruteResumeMedis\\": "app/",
+            "Modules\\SisruteResumeMedis\\Database\\Factories\\": "database/factories/",
+            "Modules\\SisruteResumeMedis\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\SisruteResumeMedis\\Tests\\": "tests/"
+        }
+    }
+}

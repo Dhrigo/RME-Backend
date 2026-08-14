@@ -1,0 +1,11 @@
+{
+    "name": "EKlaim",
+    "alias": "eklaim",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\EKlaim\\Providers\\EKlaimServiceProvider"
+    ],
+    "files": []
+}

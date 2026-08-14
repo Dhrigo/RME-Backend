@@ -1,0 +1,11 @@
+{
+    "name": "Sitb",
+    "alias": "sitb",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Sitb\\Providers\\SitbServiceProvider"
+    ],
+    "files": []
+}

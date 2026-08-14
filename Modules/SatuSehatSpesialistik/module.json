@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatSpesialistik",
+    "alias": "satusehatspesialistik",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatSpesialistik\\Providers\\SatuSehatSpesialistikServiceProvider"
+    ],
+    "files": []
+}
