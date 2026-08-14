@@ -58,6 +58,17 @@ return [
             'secret_key' => env('BPJS_APLICARES_SECRET_KEY'),
             'user_key' => env('BPJS_APLICARES_USER_KEY'),
         ],
+        // SmartClaim (rekammedis/insert): its own consumer credentials, distinct
+        // from icare/rekam_medis above — confirmed via original ZF2 source
+        // (BPJS\SmartClaim\RPCResource reads $config['services']['BPJService']['smartclaim']
+        // as its own config block). Uses BpjsCrypto::encryptGzip/decryptGzip, not
+        // the LZString scheme the other families use.
+        'smartclaim' => [
+            'base_url' => env('BPJS_SMARTCLAIM_BASE_URL'),
+            'cons_id' => env('BPJS_SMARTCLAIM_CONS_ID'),
+            'secret_key' => env('BPJS_SMARTCLAIM_SECRET_KEY'),
+            'user_key' => env('BPJS_SMARTCLAIM_USER_KEY'),
+        ],
     ],
 
     // kode PPK/provider rumah sakit sendiri (dikirim di setiap request ke BPJS)

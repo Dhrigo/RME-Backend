@@ -53,4 +53,19 @@ class BpjsSignatureTest extends TestCase
 
         $this->assertSame('TRI M', $decrypted->response->peserta->nama);
     }
+
+    public function test_gzip_encrypt_decrypt_roundtrips_smartclaim_payload(): void
+    {
+        $consId = '12345';
+        $secretKey = 'supersecret';
+        $kodeBpjs = '0001R001';
+
+        $crypto = new BpjsCrypto;
+        $plaintext = json_encode(['resourceType' => 'Bundle', 'entry' => [['resource' => ['resourceType' => 'Patient', 'id' => 'abc']]]]);
+
+        $encrypted = $crypto->encryptGzip($plaintext, $consId, $secretKey, $kodeBpjs);
+        $decrypted = $crypto->decryptGzip($encrypted, $consId, $secretKey, $kodeBpjs);
+
+        $this->assertSame($plaintext, $decrypted);
+    }
 }
