@@ -452,5 +452,7 @@
     "PenjualanSaleItem": true,
     "PenjualanSaleReturn": true,
     "BpjsAntreanRs": true,
-    "BpjsAntreanFktp": true
+    "BpjsAntreanFktp": true,
+    "SatuSehat": true,
+    "SatuSehatSpesialistik": true
 }
