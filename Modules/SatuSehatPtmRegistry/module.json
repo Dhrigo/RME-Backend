@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatPtmRegistry",
+    "alias": "satusehatptmregistry",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatPtmRegistry\\Providers\\SatuSehatPtmRegistryServiceProvider"
+    ],
+    "files": []
+}

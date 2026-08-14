@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatAnak",
+    "alias": "satusehatanak",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatAnak\\Providers\\SatuSehatAnakServiceProvider"
+    ],
+    "files": []
+}

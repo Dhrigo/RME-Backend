@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatIbuAnak",
+    "alias": "satusehatibuanak",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatIbuAnak\\Providers\\SatuSehatIbuAnakServiceProvider"
+    ],
+    "files": []
+}

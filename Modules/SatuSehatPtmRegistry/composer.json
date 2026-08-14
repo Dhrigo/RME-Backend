@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/satusehatptmregistry",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SatuSehatPtmRegistry\\": "app/",
+            "Modules\\SatuSehatPtmRegistry\\Database\\Factories\\": "database/factories/",
+            "Modules\\SatuSehatPtmRegistry\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\SatuSehatPtmRegistry\\Tests\\": "tests/"
+        }
+    }
+}
