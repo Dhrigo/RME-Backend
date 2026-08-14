@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/satusehatrawatinap",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SatuSehatRawatInap\\": "app/",
+            "Modules\\SatuSehatRawatInap\\Database\\Factories\\": "database/factories/",
+            "Modules\\SatuSehatRawatInap\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\SatuSehatRawatInap\\Tests\\": "tests/"
+        }
+    }
+}

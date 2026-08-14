@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatRawatJalan",
+    "alias": "satusehatrawatjalan",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatRawatJalan\\Providers\\SatuSehatRawatJalanServiceProvider"
+    ],
+    "files": []
+}
