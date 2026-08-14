@@ -1,0 +1,11 @@
+{
+    "name": "BpjsAntreanFktp",
+    "alias": "bpjsantreanfktp",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BpjsAntreanFktp\\Providers\\BpjsAntreanFktpServiceProvider"
+    ],
+    "files": []
+}

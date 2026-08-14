@@ -1,0 +1,11 @@
+{
+    "name": "BpjsAntreanRs",
+    "alias": "bpjsantreanrs",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BpjsAntreanRs\\Providers\\BpjsAntreanRsServiceProvider"
+    ],
+    "files": []
+}
