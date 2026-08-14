@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/satusehatpenyakitmenular",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SatuSehatPenyakitMenular\\": "app/",
+            "Modules\\SatuSehatPenyakitMenular\\Database\\Factories\\": "database/factories/",
+            "Modules\\SatuSehatPenyakitMenular\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\SatuSehatPenyakitMenular\\Tests\\": "tests/"
+        }
+    }
+}

@@ -454,5 +454,6 @@
     "BpjsAntreanRs": true,
     "BpjsAntreanFktp": true,
     "SatuSehat": true,
-    "SatuSehatSpesialistik": true
+    "SatuSehatSpesialistik": true,
+    "SatuSehatPenyakitMenular": true
 }
