@@ -458,5 +458,6 @@
     "SatuSehatPenyakitMenular": true,
     "SatuSehatKlaim": true,
     "Sisrute": true,
-    "RsOnline": true
+    "RsOnline": true,
+    "SisruteResumeMedis": true
 }
