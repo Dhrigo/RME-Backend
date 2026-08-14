@@ -450,5 +450,7 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true
+    "PenjualanSaleReturn": true,
+    "BpjsAntreanRs": true,
+    "BpjsAntreanFktp": true
 }

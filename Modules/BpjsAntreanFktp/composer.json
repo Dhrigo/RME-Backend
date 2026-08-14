@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/bpjsantreanfktp",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BpjsAntreanFktp\\": "app/",
+            "Modules\\BpjsAntreanFktp\\Database\\Factories\\": "database/factories/",
+            "Modules\\BpjsAntreanFktp\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\BpjsAntreanFktp\\Tests\\": "tests/"
+        }
+    }
+}

@@ -21,12 +21,22 @@ return [
             'cons_id' => env('BPJS_ANTREAN_RS_CONS_ID'),
             'secret_key' => env('BPJS_ANTREAN_RS_SECRET_KEY'),
             'user_key' => env('BPJS_ANTREAN_RS_USER_KEY'),
+            // Credentials BPJS issues to THIS hospital for the inbound WS RS API
+            // (Mobile JKN -> hospital). Distinct from cons_id/secret_key above,
+            // which sign OUTBOUND calls this hospital makes to BPJS.
+            'inbound_username' => env('BPJS_ANTREAN_RS_INBOUND_USERNAME'),
+            'inbound_password' => env('BPJS_ANTREAN_RS_INBOUND_PASSWORD'),
         ],
         'antrean_fktp' => [
             'base_url' => env('BPJS_ANTREAN_FKTP_BASE_URL', 'https://apijkn-dev.bpjs-kesehatan.go.id/antreanfktp_dev'),
             'cons_id' => env('BPJS_ANTREAN_FKTP_CONS_ID'),
             'secret_key' => env('BPJS_ANTREAN_FKTP_SECRET_KEY'),
             'user_key' => env('BPJS_ANTREAN_FKTP_USER_KEY'),
+            // Credentials BPJS issues to THIS hospital for the inbound WS FKTP API
+            // (Mobile JKN -> hospital). Distinct from cons_id/secret_key above,
+            // which sign OUTBOUND calls this hospital makes to BPJS.
+            'inbound_username' => env('BPJS_ANTREAN_FKTP_INBOUND_USERNAME'),
+            'inbound_password' => env('BPJS_ANTREAN_FKTP_INBOUND_PASSWORD'),
         ],
         'apotek' => [
             'base_url' => env('BPJS_APOTEK_BASE_URL', 'https://apijkn-dev.bpjs-kesehatan.go.id/apotek-rest-dev'),
