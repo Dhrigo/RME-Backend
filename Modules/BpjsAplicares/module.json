@@ -1,0 +1,11 @@
+{
+    "name": "BpjsAplicares",
+    "alias": "bpjsaplicares",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BpjsAplicares\\Providers\\BpjsAplicaresServiceProvider"
+    ],
+    "files": []
+}

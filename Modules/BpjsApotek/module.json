@@ -1,0 +1,11 @@
+{
+    "name": "BpjsApotek",
+    "alias": "bpjsapotek",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BpjsApotek\\Providers\\BpjsApotekServiceProvider"
+    ],
+    "files": []
+}

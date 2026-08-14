@@ -13,6 +13,10 @@
     "BerkasKlaimRadiologyClaim": true,
     "BerkasKlaimRadiologyClaimItem": true,
     "BerkasKlaimSupportingDocument": true,
+    "Bpjs": true,
+    "BpjsAplicares": true,
+    "BpjsApotek": true,
+    "BpjsVClaim": true,
     "GeneralAdministration": true,
     "GeneralAdministrationTariff": true,
     "GeneralAdmissionDiagnosis": true,
@@ -442,7 +446,5 @@
     "PenjaminRSDischargeMethod": true,
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
-    "PenjualanSaleReturn": true,
-    "Bpjs": true,
-    "BpjsVClaim": true
+    "PenjualanSaleReturn": true
 }

@@ -53,7 +53,7 @@ return [
             'user_key' => env('BPJS_REKAM_MEDIS_USER_KEY'),
         ],
         'aplicares' => [
-            'base_url' => env('BPJS_APLICARES_BASE_URL'),
+            'base_url' => env('BPJS_APLICARES_BASE_URL', 'https://apijkn-dev.bpjs-kesehatan.go.id/aplicares_dev'),
             'cons_id' => env('BPJS_APLICARES_CONS_ID'),
             'secret_key' => env('BPJS_APLICARES_SECRET_KEY'),
             'user_key' => env('BPJS_APLICARES_USER_KEY'),
