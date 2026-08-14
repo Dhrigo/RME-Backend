@@ -457,5 +457,6 @@
     "SatuSehatSpesialistik": true,
     "SatuSehatPenyakitMenular": true,
     "SatuSehatKlaim": true,
-    "Sisrute": true
+    "Sisrute": true,
+    "RsOnline": true
 }

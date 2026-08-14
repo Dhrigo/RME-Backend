@@ -1,0 +1,11 @@
+{
+    "name": "RsOnline",
+    "alias": "rsonline",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\RsOnline\\Providers\\RsOnlineServiceProvider"
+    ],
+    "files": []
+}
