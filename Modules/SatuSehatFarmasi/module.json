@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatFarmasi",
+    "alias": "satusehatfarmasi",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatFarmasi\\Providers\\SatuSehatFarmasiServiceProvider"
+    ],
+    "files": []
+}

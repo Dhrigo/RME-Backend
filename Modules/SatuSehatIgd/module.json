@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatIgd",
+    "alias": "satusehatigd",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatIgd\\Providers\\SatuSehatIgdServiceProvider"
+    ],
+    "files": []
+}

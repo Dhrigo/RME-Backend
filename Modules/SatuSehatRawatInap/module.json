@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatRawatInap",
+    "alias": "satusehatrawatinap",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatRawatInap\\Providers\\SatuSehatRawatInapServiceProvider"
+    ],
+    "files": []
+}
