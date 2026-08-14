@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehatMasterData",
+    "alias": "satusehatmasterdata",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehatMasterData\\Providers\\SatuSehatMasterDataServiceProvider"
+    ],
+    "files": []
+}
