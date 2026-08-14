@@ -1,0 +1,11 @@
+{
+    "name": "SatuSehat",
+    "alias": "satusehat",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SatuSehat\\Providers\\SatuSehatServiceProvider"
+    ],
+    "files": []
+}
