@@ -16,6 +16,7 @@
     "Bpjs": true,
     "BpjsAplicares": true,
     "BpjsApotek": true,
+    "BpjsPCare": true,
     "BpjsVClaim": true,
     "GeneralAdministration": true,
     "GeneralAdministrationTariff": true,
