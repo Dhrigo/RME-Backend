@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('leftover_medication_voucher_items', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('leftover_medication_voucher_id')->constrained('leftover_medication_vouchers');
+            $table->foreignId('leftover_medication_voucher_id')->constrained('leftover_medication_vouchers', indexName: 'fk_lmvi_voucher_id');
             $table->foreignId('item_id')->constrained('items');
             $table->integer('quantity');
             $table->string('unit')->nullable();

@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('medical_department_ward_assignments', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('medical_department_id')->constrained('medical_departments')->cascadeOnDelete();
+            $table->foreignId('medical_department_id')->constrained('medical_departments', indexName: 'fk_mdwa_dept_id')->cascadeOnDelete();
             $table->foreignId('ward_id')->constrained('wards')->cascadeOnDelete();
             $table->boolean('is_primary')->default(false);
             $table->date('assigned_at')->nullable();

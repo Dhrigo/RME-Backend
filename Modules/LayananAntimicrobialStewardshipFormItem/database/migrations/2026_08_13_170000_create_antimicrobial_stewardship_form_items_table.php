@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('antimicrobial_stewardship_form_items', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('antimicrobial_stewardship_form_id')->constrained('antimicrobial_stewardship_forms');
+            $table->foreignId('antimicrobial_stewardship_form_id')->constrained('antimicrobial_stewardship_forms', indexName: 'fk_asfi_form_id');
             $table->foreignId('item_id')->nullable()->constrained('items');
             $table->string('dose');
             $table->string('route');

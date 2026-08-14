@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('region_code', 10)->nullable();
             $table->timestamps();
 
-            $table->unique(['patient_guardian_id', 'card_type']);
+            $table->unique(['patient_guardian_id', 'card_type'], 'pgic_guardian_card_type_unique');
         });
     }
 

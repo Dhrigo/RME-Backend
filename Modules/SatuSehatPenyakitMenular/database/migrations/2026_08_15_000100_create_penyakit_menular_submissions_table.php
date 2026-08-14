@@ -15,7 +15,7 @@ return new class extends Migration
             $table->string('resource_type'); // FHIR resourceType/Bundle submitted
             $table->json('payload');
             $table->foreignId('satu_sehat_staging_submission_id')->nullable()
-                ->constrained('satu_sehat_staging_submissions')->nullOnDelete();
+                ->constrained('satu_sehat_staging_submissions', indexName: 'fk_pms_staging_id')->nullOnDelete();
             $table->string('status')->default('pending'); // pending/sent/failed
             $table->text('error_message')->nullable();
             $table->timestamps();

@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('fluid_balance_assessment_details', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('fluid_balance_assessment_id')->constrained('fluid_balance_assessments')->cascadeOnDelete();
+            $table->foreignId('fluid_balance_assessment_id')->constrained('fluid_balance_assessments', indexName: 'fk_fbad_assessment_id')->cascadeOnDelete();
             $table->string('type', 10);
             $table->string('category', 50);
             $table->decimal('amount_ml', 7, 2);

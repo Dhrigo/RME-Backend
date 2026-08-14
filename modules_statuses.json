@@ -471,5 +471,6 @@
     "SisruteResumeMedis": true,
     "SirsOnlineBor": true,
     "Sitb": true,
-    "EKlaim": true
+    "EKlaim": true,
+    "SystemLicenseGuard": true
 }

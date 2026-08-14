@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('antimicrobial_stewardship_general_examinations', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('antimicrobial_stewardship_form_id')->constrained('antimicrobial_stewardship_forms');
+            $table->foreignId('antimicrobial_stewardship_form_id')->constrained('antimicrobial_stewardship_forms', indexName: 'fk_asge_form_id');
             $table->decimal('temperature', 4, 1)->nullable();
             $table->integer('pulse')->nullable();
             $table->integer('respiration_rate')->nullable();

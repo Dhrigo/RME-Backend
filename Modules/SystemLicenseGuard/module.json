@@ -1,0 +1,11 @@
+{
+    "name": "SystemLicenseGuard",
+    "alias": "systemlicenseguard",
+    "description": "Cryptographically secure, anti-tamper B2B SaaS licensing agent and hardware node-locking guard",
+    "keywords": ["license", "saas", "protection", "anti-crack", "node-lock"],
+    "priority": 0,
+    "providers": [
+        "Modules\\SystemLicenseGuard\\Providers\\SystemLicenseGuardServiceProvider"
+    ],
+    "files": []
+}

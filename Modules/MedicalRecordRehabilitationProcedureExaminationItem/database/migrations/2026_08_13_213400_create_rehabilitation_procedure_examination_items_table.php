@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('rehabilitation_procedure_examination_items', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('rehabilitation_procedure_examination_id')->constrained('rehabilitation_procedure_examinations')->cascadeOnDelete();
+            $table->foreignId('rehabilitation_procedure_examination_id')->constrained('rehabilitation_procedure_examinations', indexName: 'fk_rpei_examination_id')->cascadeOnDelete();
             $table->string('step_name', 150);
             $table->unsignedSmallInteger('duration_minutes')->nullable();
             $table->string('result', 100)->nullable();

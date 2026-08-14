@@ -18,7 +18,7 @@ return new class extends Migration
             $table->boolean('is_active')->default(true);
             $table->timestamps();
 
-            $table->unique(['antibiotic_name', 'bacteria_name']);
+            $table->unique(['antibiotic_name', 'bacteria_name'], 'abm_antibiotic_bacteria_unique');
         });
     }
 

@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('transcranial_doppler_windows', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('transcranial_doppler_examination_id')->constrained('transcranial_doppler_examinations')->cascadeOnDelete();
+            $table->foreignId('transcranial_doppler_examination_id')->constrained('transcranial_doppler_examinations', indexName: 'fk_tdw_examination_id')->cascadeOnDelete();
             $table->string('window_site', 30);
             $table->string('signal_quality', 20)->nullable();
             $table->unsignedSmallInteger('depth_mm')->nullable();

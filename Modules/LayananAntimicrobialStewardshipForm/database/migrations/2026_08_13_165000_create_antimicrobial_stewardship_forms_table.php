@@ -13,7 +13,7 @@ return new class extends Migration
             $table->foreignId('visit_id')->constrained('visits');
             $table->foreignId('patient_id')->constrained('patients');
             $table->foreignId('requesting_doctor_id')->nullable()->constrained('employees');
-            $table->foreignId('antibiotic_restriction_id')->nullable()->constrained('antibiotic_restrictions');
+            $table->foreignId('antibiotic_restriction_id')->nullable()->constrained('antibiotic_restrictions', indexName: 'fk_asf_restr_id');
             $table->text('indication');
             $table->string('status')->default('draft');
             $table->dateTime('submitted_at')->nullable();

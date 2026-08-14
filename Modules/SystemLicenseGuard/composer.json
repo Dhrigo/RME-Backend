@@ -1,0 +1,16 @@
+{
+    "name": "simgos/system-license-guard",
+    "description": "System License Guard Module for simgos-backend",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SystemLicenseGuard\\Providers\\SystemLicenseGuardServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SystemLicenseGuard\\": "app/"
+        }
+    }
+}

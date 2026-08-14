@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('discharge_medication_reconciliation_items', function (Blueprint $table) {
         $table->id();
-        $table->foreignId('reconciliation_id')->constrained('discharge_medication_reconciliations')->cascadeOnDelete();
+        $table->foreignId('reconciliation_id')->constrained('discharge_medication_reconciliations', indexName: 'fk_dmri_reconciliation_id')->cascadeOnDelete();
         $table->string('drug_name');
         $table->string('dose', 50)->nullable();
         $table->string('frequency', 50)->nullable();

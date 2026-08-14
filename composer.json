@@ -97,7 +97,8 @@
                                    "Modules\\PembatalanMedicalRecordCancellation\\Database\\Seeders\\":  "Modules/PembatalanMedicalRecordCancellation/database/seeders/",
                                    "Modules\\PembatalanReturnCancellation\\":  "Modules/PembatalanReturnCancellation/app/",
                                    "Modules\\PembatalanReturnCancellation\\Database\\Factories\\":  "Modules/PembatalanReturnCancellation/database/factories/",
-                                   "Modules\\PembatalanReturnCancellation\\Database\\Seeders\\":  "Modules/PembatalanReturnCancellation/database/seeders/"
+                                   "Modules\\PembatalanReturnCancellation\\Database\\Seeders\\":  "Modules/PembatalanReturnCancellation/database/seeders/",
+                                   "Modules\\SystemLicenseGuard\\":  "Modules/SystemLicenseGuard/app/"
                                }
                  },
     "autoload-dev":  {

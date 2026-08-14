@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('antimicrobial_stewardship_lab_results', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('antimicrobial_stewardship_form_id')->constrained('antimicrobial_stewardship_forms');
+            $table->foreignId('antimicrobial_stewardship_form_id')->constrained('antimicrobial_stewardship_forms', indexName: 'fk_aslr_form_id');
             $table->foreignId('lab_result_id')->nullable()->constrained('lab_results');
             $table->string('examination_name');
             $table->string('result_value');

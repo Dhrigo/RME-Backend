@@ -18,7 +18,7 @@ return new class extends Migration
             $table->text('notes')->nullable();
             $table->timestamps();
 
-            $table->unique(['guarantor_id', 'item_category_id']);
+            $table->unique(['guarantor_id', 'item_category_id'], 'gicm_guarantor_item_category_unique');
         });
     }
 

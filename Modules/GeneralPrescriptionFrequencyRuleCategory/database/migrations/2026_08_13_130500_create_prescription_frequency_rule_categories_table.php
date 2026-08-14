@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('prescription_frequency_rule_categories', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('prescription_frequency_rule_id')->constrained('prescription_frequency_rules')->cascadeOnDelete();
+            $table->foreignId('prescription_frequency_rule_id')->constrained('prescription_frequency_rules', indexName: 'fk_pfrc_rule_id')->cascadeOnDelete();
             // Pengelompokan cara pemberian, mis. "Oral", "Injeksi", "Rutin", "Jika Perlu (PRN)".
             $table->string('category_name');
             $table->unsignedInteger('sort_order')->default(0);

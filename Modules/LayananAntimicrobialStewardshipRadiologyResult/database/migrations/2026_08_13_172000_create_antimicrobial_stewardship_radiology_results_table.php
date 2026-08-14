@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('antimicrobial_stewardship_radiology_results', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('antimicrobial_stewardship_form_id')->constrained('antimicrobial_stewardship_forms');
+            $table->foreignId('antimicrobial_stewardship_form_id')->constrained('antimicrobial_stewardship_forms', indexName: 'fk_asrr_form_id');
             $table->string('examination_name');
             $table->text('findings');
             $table->dateTime('examined_at');

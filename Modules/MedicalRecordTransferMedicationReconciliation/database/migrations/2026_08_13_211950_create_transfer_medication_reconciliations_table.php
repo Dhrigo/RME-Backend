@@ -13,7 +13,7 @@ return new class extends Migration
         $table->foreignId('visit_id')->constrained('visits')->cascadeOnDelete();
         $table->foreignId('reconciled_by')->constrained('employees')->cascadeOnDelete();
         $table->foreignId('created_by')->nullable()->constrained('users')->nullOnDelete();
-        $table->foreignId('transferred_to_ward_id')->constrained('wards')->cascadeOnDelete();
+        $table->foreignId('transferred_to_ward_id')->constrained('wards', indexName: 'fk_tmr_ward_id')->cascadeOnDelete();
         $table->string('source_of_medication_list')->nullable();
         $table->text('notes')->nullable();
         $table->string('status', 20)->default('draft');

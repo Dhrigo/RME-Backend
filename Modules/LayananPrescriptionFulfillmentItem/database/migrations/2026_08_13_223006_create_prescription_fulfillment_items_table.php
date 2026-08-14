@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('prescription_fulfillment_items', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('prescription_fulfillment_id')->constrained('prescription_fulfillments')->cascadeOnDelete();
+            $table->foreignId('prescription_fulfillment_id')->constrained('prescription_fulfillments', indexName: 'fk_pfi_fulfillment_id')->cascadeOnDelete();
             $table->foreignId('prescription_item_id')->constrained('prescription_items')->cascadeOnDelete();
             $table->unsignedInteger('quantity_served');
             $table->boolean('is_substituted')->default(false);

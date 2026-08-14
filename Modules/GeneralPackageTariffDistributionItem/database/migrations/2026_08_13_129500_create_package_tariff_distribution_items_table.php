@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('package_tariff_distribution_items', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('package_tariff_distribution_id')->constrained('package_tariff_distributions')->cascadeOnDelete();
+            $table->foreignId('package_tariff_distribution_id')->constrained('package_tariff_distributions', indexName: 'fk_ptdi_dist_id')->cascadeOnDelete();
             $table->string('recipient_type'); // dokter, perawat, rumah_sakit, farmasi
             // recipient_id points at whichever table recipient_type designates (doctors, nurses, ...).
             // Left as a loose-end FK: no single target table applies across all recipient types.
