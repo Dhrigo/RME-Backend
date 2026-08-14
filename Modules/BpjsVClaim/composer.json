@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/bpjsvclaim",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BpjsVClaim\\": "app/",
+            "Modules\\BpjsVClaim\\Database\\Factories\\": "database/factories/",
+            "Modules\\BpjsVClaim\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\BpjsVClaim\\Tests\\": "tests/"
+        }
+    }
+}

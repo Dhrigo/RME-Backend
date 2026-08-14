@@ -1,0 +1,11 @@
+{
+    "name": "BpjsVClaim",
+    "alias": "bpjsvclaim",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BpjsVClaim\\Providers\\BpjsVClaimServiceProvider"
+    ],
+    "files": []
+}
