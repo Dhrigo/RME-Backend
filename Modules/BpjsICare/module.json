@@ -1,0 +1,15 @@
+{
+    "name": "BpjsICare",
+    "alias": "bpjsicare",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BpjsICare\\Providers\\BpjsICareServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": [
+        "Bpjs"
+    ]
+}

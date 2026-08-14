@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/bpjsrekammedis",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BpjsRekamMedis\\": "app/",
+            "Modules\\BpjsRekamMedis\\Database\\Factories\\": "database/factories/",
+            "Modules\\BpjsRekamMedis\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\BpjsRekamMedis\\Tests\\": "tests/"
+        }
+    }
+}

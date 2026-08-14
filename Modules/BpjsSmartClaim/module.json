@@ -1,0 +1,13 @@
+{
+    "name": "BpjsSmartClaim",
+    "alias": "bpjssmartclaim",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BpjsSmartClaim\\Providers\\BpjsSmartClaimServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

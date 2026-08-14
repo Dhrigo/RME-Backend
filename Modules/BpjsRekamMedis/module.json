@@ -1,0 +1,16 @@
+{
+    "name": "BpjsRekamMedis",
+    "alias": "bpjsrekammedis",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BpjsRekamMedis\\Providers\\BpjsRekamMedisServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": [
+        "Bpjs",
+        "BpjsSmartClaim"
+    ]
+}
