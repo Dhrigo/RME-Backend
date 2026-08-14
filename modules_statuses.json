@@ -456,5 +456,6 @@
     "SatuSehat": true,
     "SatuSehatSpesialistik": true,
     "SatuSehatPenyakitMenular": true,
-    "SatuSehatKlaim": true
+    "SatuSehatKlaim": true,
+    "Sisrute": true
 }

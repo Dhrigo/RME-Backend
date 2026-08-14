@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/sisrute",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Sisrute\\": "app/",
+            "Modules\\Sisrute\\Database\\Factories\\": "database/factories/",
+            "Modules\\Sisrute\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Sisrute\\Tests\\": "tests/"
+        }
+    }
+}
