@@ -443,5 +443,7 @@
     "PenjualanSale": true,
     "PenjualanSaleItem": true,
     "PenjualanSaleReturn": true,
-    "Bpjs": true
+    "Bpjs": true,
+    "BpjsApotek": true,
+    "BpjsAplicares": true
 }

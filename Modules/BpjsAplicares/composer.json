@@ -1,0 +1,30 @@
+{
+    "name": "dhrigos/bpjsaplicares",
+    "description": "",
+    "authors": [
+        {
+            "name": "Deva Indrayana Rahmat",
+            "email": "dhrigos@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BpjsAplicares\\": "app/",
+            "Modules\\BpjsAplicares\\Database\\Factories\\": "database/factories/",
+            "Modules\\BpjsAplicares\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\BpjsAplicares\\Tests\\": "tests/"
+        }
+    }
+}
