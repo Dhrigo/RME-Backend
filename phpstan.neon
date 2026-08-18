@@ -1,0 +1,20 @@
+includes:
+    - vendor/nunomaduro/larastan/extension.neon
+    - phpstan-baseline.neon
+
+parameters:
+    level: 5
+
+    paths:
+        - app
+        - Modules
+
+    excludePaths:
+        - vendor
+        - database
+        - tests
+        - storage
+        - bootstrap
+        - Modules/*/tests
+
+    tmpDir: storage/framework/cache/phpstan

@@ -17,6 +17,7 @@ class UpdateStaffWardAssignmentRequest extends FormRequest
             'staff_member_id' => ['sometimes', 'exists:staff_members,id'],
             'ward_id' => ['sometimes', 'exists:wards,id'],
             'assigned_at' => ['nullable', 'date'],
+            'is_active' => ['sometimes', 'boolean'],
         ];
     }
 }

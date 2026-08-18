@@ -15,6 +15,10 @@ class WardServiceController extends Controller
     {
         $query = WardService::query();
 
+        if ($request->filled('ward_id')) {
+            $query->where('ward_id', $request->integer('ward_id'));
+        }
+
         return WardServiceResource::collection($query->orderBy('id')->paginate($request->integer('per_page', 15)));
     }
 

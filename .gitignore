@@ -27,3 +27,4 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 AGENT_REPORT.md
+/storage/framework/cache/phpstan

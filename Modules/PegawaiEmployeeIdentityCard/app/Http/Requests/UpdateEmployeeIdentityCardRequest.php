@@ -14,7 +14,7 @@ class UpdateEmployeeIdentityCardRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'id_type' => ['sometimes', 'string', 'in:KTP,SIM,Paspor'],
+            'id_type' => ['sometimes', 'string', 'in:KTP,SIM,Kartu Pelajar,Passport,KITAS,KITAP,KTP WNA'],
             'id_number' => ['sometimes', 'string', 'max:50'],
             'issued_at' => ['nullable', 'date'],
         ];

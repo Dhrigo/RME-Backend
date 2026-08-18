@@ -17,10 +17,12 @@ class DoctorWardAssignment extends Model
         'ward_id',
         'assigned_at',
         'schedule_day',
+        'is_active',
     ];
 
     protected $casts = [
         'assigned_at' => 'datetime',
+        'is_active' => 'boolean',
     ];
 
     protected static function newFactory(): DoctorWardAssignmentFactory

@@ -1,0 +1,11 @@
+{
+    "name": "GeneralPatientIdentityCard",
+    "alias": "generalpatientidentitycard",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\GeneralPatientIdentityCard\\Providers\\GeneralPatientIdentityCardServiceProvider"
+    ],
+    "files": []
+}

@@ -12,7 +12,7 @@ class EmployeeContactFactory extends Factory
 
     public function definition(): array
     {
-        $type = fake()->randomElement(['phone', 'email', 'emergency']);
+        $type = fake()->randomElement(['telepon_rumah', 'telepon_kantor', 'telepon_seluler', 'faks_rumah', 'faks_kantor', 'email', 'situs_web', 'media_sosial']);
 
         return [
             'employee_id' => Employee::factory(),

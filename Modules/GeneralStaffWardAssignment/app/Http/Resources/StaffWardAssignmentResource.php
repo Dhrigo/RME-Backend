@@ -13,6 +13,7 @@ class StaffWardAssignmentResource extends JsonResource
             'staff_member_id' => $this->staff_member_id,
             'ward_id' => $this->ward_id,
             'assigned_at' => $this->assigned_at,
+            'is_active' => $this->is_active,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
         ];

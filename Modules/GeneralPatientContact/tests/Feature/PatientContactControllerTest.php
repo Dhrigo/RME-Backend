@@ -27,7 +27,7 @@ class PatientContactControllerTest extends TestCase
 
         $response = $this->postJson('/api/v1/patient-contacts', [
             'patient_id' => $patient->id,
-            'contact_type' => 'mobile_phone',
+            'contact_type' => 'telepon_seluler',
             'contact_value' => '081234567890',
             'is_primary' => true,
         ]);

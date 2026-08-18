@@ -12,7 +12,7 @@ class PatientContact extends Model
 {
     use HasFactory;
 
-    public const CONTACT_TYPES = ['mobile_phone', 'home_phone', 'email', 'whatsapp'];
+    public const CONTACT_TYPES = ['telepon_rumah', 'telepon_kantor', 'telepon_seluler', 'faks_rumah', 'faks_kantor', 'email', 'situs_web', 'media_sosial'];
 
     protected $fillable = [
         'patient_id',

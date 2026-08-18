@@ -17,6 +17,7 @@ class MedicalDepartmentWardAssignment extends Model
         'medical_department_id',
         'ward_id',
         'is_primary',
+        'is_active',
         'assigned_at',
     ];
 
@@ -24,6 +25,7 @@ class MedicalDepartmentWardAssignment extends Model
     {
         return [
             'is_primary' => 'boolean',
+            'is_active' => 'boolean',
             'assigned_at' => 'date',
         ];
     }

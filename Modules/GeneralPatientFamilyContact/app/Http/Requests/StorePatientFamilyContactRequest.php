@@ -6,19 +6,18 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class StorePatientFamilyContactRequest extends FormRequest
 {
-    /**
-     * Get the validation rules that apply to the request.
-     */
-    public function rules(): array
-    {
-        return [];
-    }
-
-    /**
-     * Determine if the user is authorized to make this request.
-     */
     public function authorize(): bool
     {
         return true;
+    }
+
+    public function rules(): array
+    {
+        return [
+            'patient_family_id' => ['required', 'integer', 'exists:patient_families,id'],
+            'contact_type' => ['required', 'string', 'max:255'],
+            'contact_value' => ['required', 'string', 'max:255'],
+            'is_active' => ['sometimes', 'boolean'],
+        ];
     }
 }

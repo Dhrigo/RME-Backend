@@ -17,6 +17,7 @@ class StoreStaffWardAssignmentRequest extends FormRequest
             'staff_member_id' => ['required', 'exists:staff_members,id'],
             'ward_id' => ['required', 'exists:wards,id'],
             'assigned_at' => ['nullable', 'date'],
+            'is_active' => ['sometimes', 'boolean'],
         ];
     }
 }

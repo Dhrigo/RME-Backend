@@ -17,6 +17,7 @@ class StoreMedicalDepartmentWardAssignmentRequest extends FormRequest
             'medical_department_id' => ['required', 'integer', 'exists:medical_departments,id'],
             'ward_id' => ['required', 'integer', 'exists:wards,id'],
             'is_primary' => ['sometimes', 'boolean'],
+            'is_active' => ['sometimes', 'boolean'],
             'assigned_at' => ['nullable', 'date'],
         ];
     }

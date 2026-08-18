@@ -85,6 +85,7 @@
     "GeneralPatientFamily": true,
     "GeneralPatientFamilyContact": true,
     "GeneralPatientFamilyIdentityCard": true,
+    "GeneralPatientIdentityCard": true,
     "GeneralPatientPhoto": true,
     "GeneralPharmacyDepot": true,
     "GeneralPharmacyGuarantorMargin": true,

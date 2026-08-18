@@ -15,7 +15,7 @@ class StoreEmployeeIdentityCardRequest extends FormRequest
     {
         return [
             'employee_id' => ['required', 'integer', 'exists:employees,id'],
-            'id_type' => ['required', 'string', 'in:KTP,SIM,Paspor'],
+            'id_type' => ['required', 'string', 'in:KTP,SIM,Kartu Pelajar,Passport,KITAS,KITAP,KTP WNA'],
             'id_number' => ['required', 'string', 'max:50'],
             'issued_at' => ['nullable', 'date'],
         ];

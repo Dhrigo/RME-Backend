@@ -27,12 +27,12 @@ class EmployeeContactControllerTest extends TestCase
 
         $response = $this->postJson('/api/v1/employee-contacts', [
             'employee_id' => $employee->id,
-            'contact_type' => 'phone',
+            'contact_type' => 'telepon_seluler',
             'value' => '081234567890',
         ]);
 
         $response->assertCreated();
-        $response->assertJsonPath('data.contact_type', 'phone');
+        $response->assertJsonPath('data.contact_type', 'telepon_seluler');
     }
 
     public function test_it_rejects_invalid_contact_type(): void
@@ -64,7 +64,7 @@ class EmployeeContactControllerTest extends TestCase
     public function test_it_updates_a_contact(): void
     {
         $this->actingUser();
-        $contact = EmployeeContact::factory()->create(['contact_type' => 'phone']);
+        $contact = EmployeeContact::factory()->create(['contact_type' => 'telepon_seluler']);
 
         $response = $this->putJson("/api/v1/employee-contacts/{$contact->id}", ['contact_type' => 'email', 'value' => 'a@b.com']);
 

@@ -6,19 +6,18 @@ use Illuminate\Foundation\Http\FormRequest;
 
 class UpdatePatientFamilyIdentityCardRequest extends FormRequest
 {
-    /**
-     * Get the validation rules that apply to the request.
-     */
-    public function rules(): array
-    {
-        return [];
-    }
-
-    /**
-     * Determine if the user is authorized to make this request.
-     */
     public function authorize(): bool
     {
         return true;
+    }
+
+    public function rules(): array
+    {
+        return [
+            'patient_family_id' => ['sometimes', 'integer', 'exists:patient_families,id'],
+            'identity_type' => ['sometimes', 'string', 'max:255'],
+            'identity_number' => ['sometimes', 'string', 'max:255'],
+            'is_active' => ['sometimes', 'boolean'],
+        ];
     }
 }

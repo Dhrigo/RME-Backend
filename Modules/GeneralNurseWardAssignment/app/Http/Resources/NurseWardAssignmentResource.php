@@ -14,6 +14,7 @@ class NurseWardAssignmentResource extends JsonResource
             'ward_id' => $this->ward_id,
             'shift' => $this->shift,
             'assigned_at' => $this->assigned_at,
+            'is_active' => $this->is_active,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
         ];

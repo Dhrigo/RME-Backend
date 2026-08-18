@@ -14,7 +14,7 @@ class NurseController extends Controller
 {
     public function index(): AnonymousResourceCollection
     {
-        return NurseResource::collection(Nurse::all());
+        return NurseResource::collection(Nurse::with('employee')->get());
     }
 
     public function store(StoreNurseRequest $request): NurseResource

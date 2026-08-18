@@ -3,6 +3,7 @@
 namespace Modules\GeneralGender\Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Modules\GeneralGender\Models\Gender;
 
 class GeneralGenderDatabaseSeeder extends Seeder
 {
@@ -11,6 +12,16 @@ class GeneralGenderDatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // $this->call([]);
+        $items = [
+            ['name' => 'Laki-laki', 'code' => 'L'],
+            ['name' => 'Perempuan', 'code' => 'P'],
+        ];
+
+        foreach ($items as $item) {
+            Gender::firstOrCreate(
+                ['name' => $item['name']],
+                ['code' => $item['code'], 'is_active' => true]
+            );
+        }
     }
 }

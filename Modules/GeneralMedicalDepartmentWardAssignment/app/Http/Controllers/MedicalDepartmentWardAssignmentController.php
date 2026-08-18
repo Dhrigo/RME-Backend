@@ -19,6 +19,10 @@ class MedicalDepartmentWardAssignmentController extends Controller
             $query->where('medical_department_id', $request->integer('medical_department_id'));
         }
 
+        if ($request->filled('ward_id')) {
+            $query->where('ward_id', $request->integer('ward_id'));
+        }
+
         return MedicalDepartmentWardAssignmentResource::collection($query->latest()->paginate($request->integer('per_page', 15)));
     }
 

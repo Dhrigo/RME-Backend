@@ -15,7 +15,7 @@ class StoreEmployeeContactRequest extends FormRequest
     {
         return [
             'employee_id' => ['required', 'integer', 'exists:employees,id'],
-            'contact_type' => ['required', 'string', 'in:phone,email,emergency'],
+            'contact_type' => ['required', 'string', 'in:telepon_rumah,telepon_kantor,telepon_seluler,faks_rumah,faks_kantor,email,situs_web,media_sosial'],
             'value' => ['required', 'string', 'max:255'],
         ];
     }

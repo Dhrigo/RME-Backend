@@ -3,18 +3,24 @@
 namespace Modules\GeneralStaffWardAssignment\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 use Modules\GeneralStaffWardAssignment\Models\StaffWardAssignment;
 use Modules\GeneralStaffWardAssignment\Http\Requests\StoreStaffWardAssignmentRequest;
 use Modules\GeneralStaffWardAssignment\Http\Requests\UpdateStaffWardAssignmentRequest;
 use Modules\GeneralStaffWardAssignment\Http\Resources\StaffWardAssignmentResource;
-use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Response;
 
 class StaffWardAssignmentController extends Controller
 {
-    public function index(): AnonymousResourceCollection
+    public function index(Request $request)
     {
-        return StaffWardAssignmentResource::collection(StaffWardAssignment::all());
+        $query = StaffWardAssignment::query();
+
+        if ($request->filled('ward_id')) {
+            $query->where('ward_id', $request->integer('ward_id'));
+        }
+
+        return StaffWardAssignmentResource::collection($query->paginate($request->integer('per_page', 15)));
     }
 
     public function store(StoreStaffWardAssignmentRequest $request): StaffWardAssignmentResource

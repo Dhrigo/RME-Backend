@@ -18,6 +18,7 @@ class UpdateDoctorWardAssignmentRequest extends FormRequest
             'ward_id' => ['sometimes', 'exists:wards,id'],
             'assigned_at' => ['nullable', 'date'],
             'schedule_day' => ['nullable', 'string', 'max:50'],
+            'is_active' => ['sometimes', 'boolean'],
         ];
     }
 }

@@ -14,6 +14,7 @@ class MedicalDepartmentWardAssignmentResource extends JsonResource
             'medical_department_id' => $this->medical_department_id,
             'ward_id' => $this->ward_id,
             'is_primary' => $this->is_primary,
+            'is_active' => $this->is_active,
             'assigned_at' => $this->assigned_at?->toDateString(),
             'created_at' => $this->created_at?->toIso8601String(),
         ];

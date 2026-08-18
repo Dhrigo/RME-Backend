@@ -14,7 +14,7 @@ class StaffMemberController extends Controller
 {
     public function index(): AnonymousResourceCollection
     {
-        return StaffMemberResource::collection(StaffMember::all());
+        return StaffMemberResource::collection(StaffMember::with('employee')->get());
     }
 
     public function store(StoreStaffMemberRequest $request): StaffMemberResource
